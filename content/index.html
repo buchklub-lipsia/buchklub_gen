@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Leipzig, Buchklub, Literatur, Literaturklub, Uni Leipzig, Universität Leipzig, lesen, Bücher">
+        <meta name="description" content="Ein kleiner Buchklub in Leipzig, der Anfang 2024 gegründet wurde und Mitglieder sucht!">
+        <meta name="author" content="Malte Dostal">
+        <title>{{global.name}}</title>
+        <link rel="stylesheet" href="global.css">
+    </head>
+
+    <body>
+        {{{global.header}}}
+        <div class="main">
+            <h1>Willkommen beim {{global.name}}!</h1>
+            <div class="main-content">
+                <p>Unser kleiner Buchklub besteht derzeit aus <a href="members.html">{{(len members)}} Mitgliedern</a> und ist <a href="contact.html"><i>auf der Suche nach Neuzugängen!</i></a></p>
+                <div id="currently-reading">
+                {{#each books}}
+                {{#if done}}
+                {{else}}
+                <p><i>Wir lesen gerade</i>: 
+                {{name}} ({{author}},&nbsp;{{year}})
+                </p>
+                    <p class="blue-text">Vorgeschlagen von: {{lookup (lookup ../members originator) "name"}}, {{proposal-date}}</p>
+                {{/if}}
+                {{/each}}
+                </div>
+                {{#each books}}
+                {{#if (eq @index 1)}}
+                    <h2>Letzte Lektüre: {{name}} ({{author}},&nbsp;{{year}})</h2>
+                {{> book}}
+                {{/if}}
+                {{/each}}
+                <p><a href="books.html#not-first-book">Alle Lektüren ...</a></p>
+            </div>
+        </div>
+        {{{global.footer}}}
+    </body>
+</html>
+

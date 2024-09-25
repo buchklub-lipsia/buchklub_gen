@@ -1,0 +1,253 @@
+:root {
+    --content-width: 50em;
+    --beige: #e8e6e3;
+    --theme: #6a93b0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+.navbar {
+    position: relative;
+    text-align: center;
+    padding: 2em;
+    padding-bottom: 1.5em;
+    background-color: var(--theme);
+}
+
+.navlinks {
+    display: none;
+}
+
+.navlogo {
+    display: block;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+.navlogo img {
+    max-width: 5em;
+}
+
+.navitem {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-top: .3em;
+}
+
+.hamburger {
+    display: block;
+    position: absolute;
+    top: .5em;
+    right: 1em;
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+    font-size: 1.5em;
+}
+
+.main {
+    max-width: var(--content-width);
+    min-height: 80vh;
+    margin: 0 auto;
+    padding: .5em;
+    text-align: center;
+}
+
+.main-content {
+    text-align: left;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+#currently-reading {
+    padding: .5em;
+    border: 2px solid black;
+    border-radius: .35em;
+}
+
+.blue-text {
+    color: var(--theme);
+    font-style: italic;
+    font-weight: bold;
+    font-size: .85em;
+    margin-top: -1em;
+}
+
+.comment-author-text {
+    font-size: 1em;
+}
+
+.comment-author {
+    margin-top: 0em;
+}
+
+.comment-author-pic {
+    width: 2em;
+    height: 2em;
+    margin-left: 1em;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    color: var(--theme);
+    background-color: var(--beige);
+}
+
+blockquote {
+    font-style: italic;
+    background-color: var(--beige);
+    padding: 1em;
+    border-radius: .75em;
+    line-height: 1.5;
+    margin-left: 0;
+}
+
+blockquote a {
+    text-decoration: none;
+    color: var(--theme);
+}
+
+blockquote p {
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td {
+    text-align: left;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+.member img {
+    display: block;
+    top: 0;
+    right: 0;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.member h2 {
+    margin-bottom: 0em;
+}
+
+.member-short-info {
+    color: var(--theme);
+    font-variant: small-caps;
+    font-style: italic;
+}
+
+.member-long-info {
+    text-align: left;
+}
+
+#statute {
+    text-align: left;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.collapser {
+    cursor: pointer;
+}
+
+.more, .less {
+    font-style: italic;
+    cursor: pointer;
+    color: gray;
+    font-variant: small-caps;
+}
+
+.p-arab-p {
+    counter-reset: arab;
+}
+
+.alpha-p {
+    counter-reset: alpha;
+}
+
+li {
+    list-style: none;
+    text-indent: -1em;
+}
+
+.p-arab-p > li:before {
+    display: inline-block;
+    counter-increment: arab;
+    content: "(" counter(arab) ")";
+    margin-right: 0.75em;
+}
+
+.alpha-p > li:before {
+    display: inline-block;
+    counter-increment: alpha;
+    content: counter(alpha, lower-alpha) ")";
+    margin-right: 1em;
+}
+
+.footer {
+    max-width: var(--content-width);
+    margin: 0 auto;
+    text-align: center;
+    font-size: .75em;
+}
+
+@media (min-width:800px)  {
+    .hamburger {
+        display: none;
+    }
+
+    .navbar {
+        display: block;
+        padding-top: 0em;
+        padding-bottom: .75em;
+    }
+
+    .navlinks {
+        display: inline;
+    }
+
+    .navitem {
+        display: inline;
+        padding: 1em;
+    }
+
+    .navitem:hover, .navlogo:hover {
+        color: white;
+    }
+
+    .navlogo {
+        position: relative;
+        margin-bottom: 2em;
+    }
+}

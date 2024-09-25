@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{global.name}}: Bücher</title>
+        <link rel="stylesheet" href="global.css">
+        <script src="sorttable.js"></script>
+    </head>
+
+    <body>
+        {{{global.header}}}
+        <div class="main">
+            <h1>Gelesene Bücher</h1>
+            <h2 class="collapser">Tabelle</h2>
+            <table class="sortable">
+                <thead>
+                    <tr>
+                        <th scope="col">Autor</th>
+                        <th scope="col">Titel</th>
+                        <th scope="col">Erscheinungsjahr</th>
+                        <th scope="col">Vorschlagsdatum</th>
+                        <th scope="col">Vorschläger</th>
+                        <th scope="col">Ø Fazit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each books}}
+                    {{#if done}}
+                    <tr>
+                        <td>{{author}}</td>
+                        <td>{{name}}</td>
+                        <td>{{year}}</td>
+                        <td>{{proposal-date}}</td>
+                        <td>{{#if (lookup (lookup ../members originator) "name")}}
+                            {{lookup (lookup ../members originator) "name"}}{{else}}ehemaliges Mitglied
+                            {{/if}}</td>
+                        <td>{{average-rating}}</td>
+                    </tr>
+                    {{/if}}
+                    {{/each}}
+                </tbody>
+            </table>
+            <div class="main-content">
+                {{#each books}}
+                {{#if done}}
+                <h2 {{#if (eq @index 2)}}id="not-first-book"{{/if}}>{{author}}: {{name}}&nbsp;({{year}})</h2>
+                {{> book}}
+                <hr>
+                {{/if}}
+                {{/each}}
+            </div>
+        </div>
+        {{{global.footer}}}
+        <script>
+        window.addEventListener('load', () => {
+            const hash = window.location.hash;
+            if (hash) {
+                const targetElement = document.querySelector(hash);
+                if (targetElement) {
+                    window.scrollTo(0, 0);
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+        });
+        </script>
+    </body>
+</html>
+

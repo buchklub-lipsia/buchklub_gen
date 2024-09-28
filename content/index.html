@@ -6,34 +6,59 @@
         <meta name="keywords" content="Leipzig, Buchklub, Literatur, Literaturklub, Uni Leipzig, Universität Leipzig, lesen, Bücher">
         <meta name="description" content="Ein kleiner Buchklub in Leipzig, der Anfang 2024 gegründet wurde und Mitglieder sucht!">
         <meta name="author" content="Malte Dostal">
-        <title>{{global.name}}</title>
+        <title>{{global.name}} in Leipzig</title>
         <link rel="stylesheet" href="global.css">
     </head>
 
     <body>
         {{{global.header}}}
         <div class="main">
-            <h1>Willkommen beim {{global.name}}!</h1>
+            <h1>Willkommen beim {{global.name}} in Leipzig!</h1>
             <div class="main-content">
-                <p>Unser kleiner Buchklub besteht derzeit aus <a href="members.html">{{(len members)}} Mitgliedern</a> und ist <a href="contact.html"><i>auf der Suche nach Neuzugängen!</i></a></p>
-                <div id="currently-reading">
-                {{#each books}}
-                {{#if done}}
-                {{else}}
-                <p><i>Wir lesen gerade</i>: 
-                {{name}} ({{author}},&nbsp;{{year}})
+                <p>Unser kleiner Buchklub besteht derzeit aus
+                    <a href="members.html">{{(len members)}} Mitgliedern</a> und
+                    ist <a href="contact.html"><i>auf der Suche nach Neuzugängen!</i></a>
                 </p>
-                    <p class="blue-text">Vorgeschlagen von: {{lookup (lookup ../members originator) "name"}}, {{proposal-date}}</p>
-                {{/if}}
-                {{/each}}
-                </div>
-                {{#each books}}
-                {{#if (eq @index 1)}}
-                    <h2>Letzte Lektüre: {{name}} ({{author}},&nbsp;{{year}})</h2>
-                {{> book}}
-                {{/if}}
-                {{/each}}
-                <p><a href="books.html#not-first-book">Alle Lektüren ...</a></p>
+
+                <h2 class="centre-align">Aktuelle Lektüre</h2>
+                <p>
+                    {{#each books}}
+                    {{#if (not done)}}
+                    Wir lesen gerade »{{name}}« ({{author}},&nbsp;{{year}}),
+                    vorgeschlagen von
+                    {{lookup (lookup ../members originator) "name"}},
+                    {{proposal-date}}.
+                    {{/if}}
+                    {{/each}}
+                </p>
+
+                <img src="img/logo-long.webp" alt="{{global.name}}" id="index-logo">
+
+                <h2 class="centre-align">Über uns</h2>
+                <a href="members.html">Wir</a> haben den {{global.name}} im März
+                2024 in Leipzig gegründet und seitdem <a
+                    href="books.html">{{len books}} Bücher</a> gelesen und
+                besprochen. Wie genau unser Format funktioniert kann der <a
+                    href="statute.html#ablauf">Satzung</a> entnommen werden; in Kürze
+                also: Nacheinander ist jedes Mitglied an der Reihe, ein Buch
+                vorzuschlagen. Nach drei Wochen treffen wir uns an einem Ort,
+                den der Buchvorschläger bestimmt hat (z. B. ein Café) und
+                besprechen völlig frei die Lektüre. Anschließend verfasst jedes
+                Mitglied eine <a href="books.html">Rezension</a> für die Website.
+                <br>Wir sind basisdemokratisch organisiert; der Titel des
+                Präsidenten und seines Vizes (siehe Mitglieder) sind also hauptsächlich repräsentativer Natur.
+
+                <h2 class="centre-align">Mitgliedersuche</h2>
+                Wir sind stets auf der Suche nach neuen Mitgliedern. Derzeit bestehen
+                wir ausschließlich aus Studenten, sehen das Studentensein aber
+                freilich nicht als notwendige Eigenschaft für neue Mitglieder. Was wir hingegen
+                von Mitgliedern erwarten, ist der Wille, sich intellektuell mit
+                Literatur zu beschäftigen und sich dabei im richtigen Maße
+                viel zu ernst und überhaupt nicht ernst zu nehmen. Außerdem
+                sehen wir es als oberste Gepflogenheit, jedes Buch pünktlich
+                fertig zu lesen. Davon ausgenommen sind selbstverständlich
+                begründete Entschuldigungen. Bei Interesse an einer (natürlich
+                kostenfreien!) Mitgliedschaft siehe <a href="contacs.html#mitglied-werden">Kontakt &gt; Mitglied werden</a>.
             </div>
         </div>
         {{{global.footer}}}

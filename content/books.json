@@ -1,156 +1,147 @@
 [
-    {
-        "name": "Lushins Verteidigung",
-        "author": "Vladimir Nabokov",
-        "done": false,
-        "year": "1930",
-        "short-info": "aus dem Russischen von Dieter E. Zimmer",
-        "info": "",
-        "originator": "jessi",
-        "proposal-date": "Juli 2024",
-        "comments": []
-    },
-    {
-        "name": "Quecksilber",
-        "author": "Amélie Nothomb",
-        "done": true,
-        "year": "1998",
-        "short-info": "aus dem Französischen von Wolfgang Krege",
-        "info": "... bei dem wir uns herrlich uneinig waren.",
-        "originator": "linus",
-        "proposal-date": "Juni 2024",
-        "comments": [
-            {
-                "from": "linus",
-                "pic": "{{members.linus.pic}}",
-                "rating": "4",
-                "content": "Das erste Buchklubbuch, das den Bechdel-Test besteht. Der Roman erzählt über 180 Seiten eine spannende, wenn auch an einigen Stellen etwas unglaubwürdige, Geschichte. Da das Buch hauptsächlich in wörtlicher Rede geschrieben ist, wirkt es fast wie ein Drama oder ein Drehbuch. Durch die Kürze bleibt die Spannung übers Buch hinweg aufrechterhalten, jedoch missen die Charaktere eine gewisse Tiefe."
-            },
-            {
-                "from": "malte",
-                "pic": "{{members.malte.pic}}",
-                "rating": "2",
-                "content": "Die uninspirierende Sprache, die flachen Charaktere und die beiden (!) schrecklichen Enden überwiegen die interessante Idee des Buches."
-            },
-            {
-                "from": "alex",
-                "rating": "2.5",
-                "content": "Eine durchwachsene Erfahrung. Die Prämisse des Buches birgt großes Potenzial und ist sehr spannend. Leider wird die Ausführung diesem Potenzial nicht gerecht. Die Charaktere bleiben eindimensional: Krankenschwester Chavaigne soll alles zugleich sein, sie bleibt aber nicht greifbar und in Teilen sogar widersprüchlich. Sprünge in der Geschichte passieren urplötzlich, Dialoge erscheinen unglaubwürdig. Es wird sich nicht die Zeit genommen, die Geschichte ausreichend auszuformen. Auch wenn es teils tatsächlich wie ein Drama wirkt, so glaube ich nicht, dass dies die Intention der Autorin war – und selbst wenn dem so wäre, wird diese Idee nicht im gesamten Buch zur Geltung gebracht. Die Inkorporierung zweier Enden ist eine interessante Idee, die mich auch sehr überrascht hat, nur leider gefallen mir beide Enden nicht besonders gut. Das Zweite stört mich jedoch um einiges mehr, es vereint die gesamte von mir empfundene Unglaubwürdigkeit der Erzählung auf 14 Seiten."
-            },
-            {
-                "from": "jessi",
-                "rating": "4.75",
-                "content": "Das bisher von mir meistgeliebte Buch. Eine Insel, ein Anwesen, zwei Frauen, ein verrückter alter Kapitän - geniale Mischung, gell? Geheimnisvolle, mysteriöse Prämisse, mit interessanten Wendungen. Sprachlich sehr schön, etwas hochgestochen, aber nicht zu sehr, sodass es lesbar bleibt.<br>Sogar mit zwei Enden, choose your fighter!"
-            }
-        ]
-    },
-    {
-        "name": "Der Maler der fließenden Welt",
-        "author": "Kazuo Ishiguro",
-        "done": true,
-        "year": "1986",
-        "short-info": "aus dem Englischen von Hartmut Zahn",
-        "info": "... bei dem sich alles um die Frage drehte, wie weit dem Erzähler zu trauen sei.",
-        "originator": "alex",
-        "proposal-date": "Mai 2024",
-        "comments": [
-            {
-                "from": "linus",
-                "pic": "{{members.linus.pic}}",
-                "rating": "4",
-                "content": "Der Autor hat mit seinen malerischen und detaillierten Beschreibungen dem Leser ein tiefes Eintauchen in die Atmosphäre der Szenen ermöglicht. Die achronologische Erzählweise lässt einem in besonderer Weise an der Gedankenwelt des Protagonisten teilhaben, sorgt aber auch dafür, dass sich die Handlung länger dehnt als nötig."
-            },
-            {
-                "from": "malte",
-                "pic": "{{members.malte.pic}}",
-                "rating": "4",
-                "content": "Ein interessanter kleiner Ausschnitt aus dem Nachkriegsjapan."
-            },
-            {
-                "from": "alex",
-                "rating": "4.5",
-                "content": "»Der Maler der fließenden Welt« ist das dritte Buch, welches ich von Ishiguro gelesen habe. Mich beeindruckt seine Sprache und die andächtige Stimmung, welche durch sie geschaffen wird. In diesem Buch verbindet sich sein Schreibstil in ganz besonderer Weise mit dem Inhalt, einer Nachkriegsgeschichte aus Sicht eines alten Mannes, den im Verlauf der Erzählung seine Vergangenheit einholt. Die Gedankensprünge, ausschweifende und insgesamt erinnerungsschwelgende Erzählweise des Autors, welche auch seine späteren Werke prägt, schaffen plastische, facettenreiche Charaktere. Besonders interessant ist hierbei auch die Frage nach dem Wahrheitsgehalt des vom Hauptcharakter Geäußerten, der immer wieder Unsicherheit streut und letzten Endes nur seine Sichtweise und Erinnerung der Dinge darlegt. Die Nähe zu seiner Perspektiv vermittelt im Verlauf des Buches eindrucksvoll den Wandel der Figur selbst, seiner Umwelt und die Beziehung dieser beiden Aspekte zueinander."
-            },
-            {
-                "from": "jessi",
-                "rating": "4.5",
-                "content": "Das erste, aber definitiv nicht einzige Buch, das ich von Ishiguro gelesen habe. In diesem Werk gelingt es ihm hervorragend, eine ruhige, dennoch nicht langweilige Szenerie des Nachkriegs-Japans zu schaffen und den Lesenden in eine kleine, feine Zeitreise zu versetzen.<br>Die Sprache ist vom japanischen Erzählungsstil geprägt, auf eine Weise locker, aber dennoch nicht informell; das Buch lässt sich dadurch angenehm und fließend (badumtss) lesen.<br>Ich freue mich auf Weiteres von Ishiguro!"
-            }
-        ]
-    },
-    {
-        "name": "Die Reise nach Petuschki",
-        "author": "Wenedikt Jerofejew",
-        "done": true,
-        "year": "1969",
-        "short-info": "aus dem Russischen von Natascha Spitz",
-        "info": "... wozu wir uns passenderweise in der Vodkaria trafen.",
-        "originator": "ex",
-        "proposal-date": "April 2024",
-        "comments": [
-            {
-                "from": "linus",
-                "pic": "{{members.linus.pic}}",
-                "rating": "3",
-                "content": "Sehr komisch, aber sehr unterhaltsam."
-            },
-            {
-                "from": "malte",
-                "pic": "{{members.malte.pic}}",
-                "rating": "5",
-                "content": "Jerofejews Klassiker ist eine furchtbar tragische Dichtung, deren furchtbare Tragik ich beim brüllenden Lachen oft vergaß."
-            },
-            {
-                "from": "alex",
-                "rating": "5",
-                "content": "Sprachlich, inhaltlich, künstlerisch – einfach Weltliteratur, die mich von Anfang bis Ende mit ihrer besonderen Art der Erzählung gefesselt hat. Obgleich die Geschichte Jerofejews eigentlich eine tragische ist, so schafft es der gleichnamige Autor doch, einen klugen, pointierten Humor in das Werk einzubringen, was zu einer großartigen Mischung und Stimmungslage führt. Kein Wort und kein Vergleich fühlt sich unnötig an.<br>»Diese Stummheit ist jedem bekannt, der den Ausgang eines viele Tage dauernden schweren Rausches kennt. Ist nicht das ganze Leben nur ein flüchtiger Rausch der Seele? Eine Verfinsterung der Seele? Wir alle sind wie betrunken, nur jeder auf seine Weise, der eine hat mehr getrunken, der andere weniger.« – in diesem Sinn, na zdrowie!"
-            },
-            {
-                "from": "jessi",
-                "rating": "",
-                "content": "Aufgrund studentischer Pflichten war es mir nicht möglich, dieses Buch zu lesen. Schade, mit betrunkenen, alten russischen Männern, kenne ich mich eigentlich bestens aus."
-            }
-        ]
-    },
-    {
-        "name": "Das blinde Licht. Irrfahrten der Wissenschaft",
-        "author": "Benjamin Labatut",
-        "done": true,
-        "year": "2020",
-        "short-info": "aus dem Spanischen von Thomas Brovot",
-        "info": "Das erste Buch im {{global.name}}!",
-        "originator": "malte",
-        "proposal-date": "März 2024",
-        "comments": [
-            {
-                "from": "linus",
-                "pic": "{{member.linus.pic}}",
-                "rating": "3.14",
-                "rating_display": "π",
-                "content": "Das Genre historische Fiktion trifft es ganz gut. Wobei es im Verlauf immer weniger historisch, dafür immer fiktiver wurde. Leider haben die fiktiven Elemente der Geschichte aber keine Spannung gegeben, sondern teilweise für unnötig langweilige Ausschweife geführt. Eigentlich ein interessantes Konzept, allerdings hätte »Labertut« m. M. n. entweder ein erzählendes Sachbuch oder einen Roman verfassen sollen, sodass man als Leser den Wahrheitsgehalt der im Buch wie Fakten dargestellten Inhalte einschätzen kann."
-            },
-            {
-                "from": "malte",
-                "pic": "{{members.malte.pic}}",
-                "rating": "4",
-                "content": "Labatut hat, wie er mit seinem zweiten Werk »MANIAC« bewiesen hat, ein Händchen für die mitreißende Erzählung der Leben großartiger Naturwisschenschaftler. Dabei ist leider selten klar, was Fakt und was Fiktion ist. Wer den Film »Oppenheimer« mag, wird Labatuts Bücher wahrscheinlich ebenso mögen."
-            },
-            {
-                "from": "alex",
-                "rating": "3.5",
-                "content": "Schon vor Lesebeginn war ich ungemein gespannt auf das Zusammenspiel von Fakten und Fiktion in Labatuts Buch, denn ich konnte nicht wirklich einschätzen, was mich erwarten würde. Leider wird oftmals nicht klar, was der Realität entspricht, und was nicht. Ob das in einem Buch, in dem es um das Leben von echten Menschen, um die Höhen wie Tiefen geht, wünschenswert ist, wage ich zu bezweifeln. Wenn es dann sogar in eine (viel zu lang gezogene, auf komische Art schwärmerische) Lolita-Episode Schrödingers geht, muss man sich die Frage stellen, ob eine solche Unklarheit zu vertreten ist.<br>Auch, wenn dieser Aspekt mir größere Schwierigkeiten bereitet hat, so war die Leseerfahrung insgesamt doch eine angenehme. Sprache und Erzählung zeichnen sich durch ein interessantes bildliche Darstellung der Fakten aus, man entdeckt, dass der Aufbau der Kapitel durchdacht ist, aber dann oft doch unübersichtlich ist. Auch immer wieder auftauchende Nebenschauplätze dienen manchmal gut zur Veranschaulichung, führen aber auch öfters zu weit weg von der eigentlichen Erzählung.<br>Thematisch spielt das Buch mit dem Wahnsinn der thematisierten Menschen und dem Geniekult, welcher aber meines Erachtens nach zu unkritisch und in Teilen hochlobend darstellt wird. Aber natürlich, der Mythos Genie begeistert Menschen. Die zentralen Frage – Was kann, was muss der Mensch wissen? Wollen wir überhaupt alles wissen, oder schadet dieses möglicherweise „blinde“ Streben uns? – sind höchstinteressant und bescherten uns eine tolle erste Buchbesprechung und Diskussion."
-            },
-            {
-                "from": "jessi",
-                "rating": "2",
-                "content": "Das Buch erzählt in mehreren Kapiteln von berühmten Naturwissenschaftlern und deren Schaffen, hält sich jedoch vor, eine Prise Fiktion miteinzumischen. Ein interessantes Konzept, mMn leider unglücklich realisiert.<br>Möglicherweise bin ich etwas zu hart zu dem Buch; das Lesen hatte ich leider nicht genossen, der Schreibstil war zu penetrant hochgestochen und sehr wirr."
-            },
-            {
-                "from": "System",
-                "pic": "https://picsum.photos/200",
-                "rating": "Naturwissenschaft!",
-                "content": "Test ... bieb ... bieb ..."
-            }
-        ]
-    }
+  {
+    "name": "Lushins Verteidigung",
+    "author": "Vladimir Nabokov",
+    "done": false,
+    "year": "1930",
+    "short-info": "aus dem Russischen von Dieter E. Zimmer",
+    "info": "",
+    "originator": "jessi",
+    "proposal-date": "Juli 2024",
+    "comments": []
+  },
+  {
+    "name": "Quecksilber",
+    "author": "Amélie Nothomb",
+    "done": true,
+    "year": "1998",
+    "short-info": "aus dem Französischen von Wolfgang Krege",
+    "info": "... bei dem wir uns herrlich uneinig waren.",
+    "originator": "linus",
+    "proposal-date": "Juni 2024",
+    "comments": [
+      {
+        "from": "linus",
+        "rating": "4",
+        "content": "Das erste Buchklubbuch, das den Bechdel-Test besteht. Der Roman erzählt über 180 Seiten eine spannende, wenn auch an einigen Stellen etwas unglaubwürdige, Geschichte. Da das Buch hauptsächlich in wörtlicher Rede geschrieben ist, wirkt es fast wie ein Drama oder ein Drehbuch. Durch die Kürze bleibt die Spannung übers Buch hinweg aufrechterhalten, jedoch missen die Charaktere eine gewisse Tiefe."
+      },
+      {
+        "from": "malte",
+        "rating": "2",
+        "content": "Die uninspirierende Sprache, die flachen Charaktere und die beiden (!) schrecklichen Enden überwiegen die interessante Idee des Buches."
+      },
+      {
+        "from": "alex",
+        "rating": "2.5",
+        "content": "Eine durchwachsene Erfahrung. Die Prämisse des Buches birgt großes Potenzial und ist sehr spannend. Leider wird die Ausführung diesem Potenzial nicht gerecht. Die Charaktere bleiben eindimensional: Krankenschwester Chavaigne soll alles zugleich sein, sie bleibt aber nicht greifbar und in Teilen sogar widersprüchlich. Sprünge in der Geschichte passieren urplötzlich, Dialoge erscheinen unglaubwürdig. Es wird sich nicht die Zeit genommen, die Geschichte ausreichend auszuformen. Auch wenn es teils tatsächlich wie ein Drama wirkt, so glaube ich nicht, dass dies die Intention der Autorin war – und selbst wenn dem so wäre, wird diese Idee nicht im gesamten Buch zur Geltung gebracht. Die Inkorporierung zweier Enden ist eine interessante Idee, die mich auch sehr überrascht hat, nur leider gefallen mir beide Enden nicht besonders gut. Das Zweite stört mich jedoch um einiges mehr, es vereint die gesamte von mir empfundene Unglaubwürdigkeit der Erzählung auf 14 Seiten."
+      },
+      {
+        "from": "jessi",
+        "rating": "4.75",
+        "content": "Das bisher von mir meistgeliebte Buch. Eine Insel, ein Anwesen, zwei Frauen, ein verrückter alter Kapitän - geniale Mischung, gell? Geheimnisvolle, mysteriöse Prämisse, mit interessanten Wendungen. Sprachlich sehr schön, etwas hochgestochen, aber nicht zu sehr, sodass es lesbar bleibt. <br>Sogar mit zwei Enden, choose your fighter!"
+      }
+    ]
+  },
+  {
+    "name": "Der Maler der fließenden Welt",
+    "author": "Kazuo Ishiguro",
+    "done": true,
+    "year": "1986",
+    "short-info": "aus dem Englischen von Hartmut Zahn",
+    "info": "... bei dem sich alles um die Frage drehte wie weit dem Erzähler zu trauen sei.",
+    "originator": "alex",
+    "proposal-date": "Mai 2024",
+    "comments": [
+      {
+        "from": "linus",
+        "rating": "4",
+        "content": "Der Autor hat mit seinen malerischen und detaillierten Beschreibungen dem Leser ein tiefes Eintauchen in die Atmosphäre der Szenen ermöglicht. Die achronologische Erzählweise lässt einem in besonderer Weise an der Gedankenwelt des Protagonisten teilhaben, sorgt aber auch dafür, dass sich die Handlung länger dehnt als nötig."
+      },
+      {
+        "from": "malte",
+        "rating": "4",
+        "content": "Ein interessanter kleiner Ausschnitt aus dem Nachkriegsjapan."
+      },
+      {
+        "from": "alex",
+        "rating": "4.5",
+        "content": "»Der Maler der fließenden Welt« ist das dritte Buch, welches ich von Ishiguro gelesen habe. Mich beeindruckt seine Sprache und die andächtige Stimmung, welche durch sie geschaffen wird. In diesem Buch verbindet sich sein Schreibstil in ganz besonderer Weise mit dem Inhalt, einer Nachkriegsgeschichte aus Sicht eines alten Mannes, den im Verlauf der Erzählung seine Vergangenheit einholt. Die Gedankensprünge, ausschweifende und insgesamt erinnerungsschwelgende Erzählweise des Autors, welche auch seine späteren Werke prägt, schaffen plastische, facettenreiche Charaktere. Besonders interessant ist hierbei auch die Frage nach dem Wahrheitsgehalt des vom Hauptcharakter Geäußerten, der immer wieder Unsicherheit streut und letzten Endes nur seine Sichtweise und Erinnerung der Dinge darlegt. Die Nähe zu seiner Perspektiv vermittelt im Verlauf des Buches eindrucksvoll den Wandel der Figur selbst, seiner Umwelt und die Beziehung dieser beiden Aspekte zueinander."
+      },
+      {
+        "from": "jessi",
+        "rating": "4.5",
+        "content": "Das erste, aber definitiv nicht einzige Buch, das ich von Ishiguro gelesen habe. In diesem Werk gelingt es ihm hervorragend, eine ruhige, dennoch nicht langweilige Szenerie des Nachkriegs-Japans zu schaffen und den Lesenden in eine kleine, feine Zeitreise zu versetzen. <br>Die Sprache ist vom japanischen Erzählungsstil geprägt, auf eine Weise locker, aber dennoch nicht informell; das Buch lässt sich dadurch angenehm und fließend (badumtss) lesen. <br>Ich freue mich auf Weiteres von Ishiguro!"
+      }
+    ]
+  },
+  {
+    "name": "Die Reise nach Petuschki",
+    "author": "Wenedikt Jerofejew",
+    "done": true,
+    "year": "1969",
+    "short-info": "aus dem Russischen von Natascha Spitz",
+    "info": "... wozu wir uns passenderweise in der Vodkaria trafen.",
+    "originator": "ex",
+    "proposal-date": "April 2024",
+    "comments": [
+      {
+        "from": "linus",
+        "rating": "3",
+        "content": "Sehr komisch, aber sehr unterhaltsam."
+      },
+      {
+        "from": "malte",
+        "rating": "5",
+        "content": "Jerofejews Klassiker ist eine furchtbar tragische Dichtung, deren furchtbare Tragik ich beim brüllenden Lachen oft vergaß."
+      },
+      {
+        "from": "alex",
+        "rating": "5",
+        "content": "Sprachlich, inhaltlich, künstlerisch – einfach Weltliteratur, die mich von Anfang bis Ende mit ihrer besonderen Art der Erzählung gefesselt hat. Obgleich die Geschichte Jerofejews eigentlich eine tragische ist, so schafft es der gleichnamige Autor doch, einen klugen, pointierten Humor in das Werk einzubringen, was zu einer großartigen Mischung und Stimmungslage führt. Kein Wort und kein Vergleich fühlt sich unnötig an. <br>»Diese Stummheit ist jedem bekannt, der den Ausgang eines viele Tage dauernden schweren Rausches kennt. Ist nicht das ganze Leben nur ein flüchtiger Rausch der Seele? Eine Verfinsterung der Seele? Wir alle sind wie betrunken, nur jeder auf seine Weise, der eine hat mehr getrunken, der andere weniger.« – in diesem Sinn, na zdrowie!"
+      },
+      {
+        "from": "jessi",
+        "rating": "",
+        "content": "Aufgrund studentischer Pflichten war es mir nicht möglich, dieses Buch zu lesen. Schade, mit betrunkenen, alten russischen Männern, kenne ich mich eigentlich bestens aus."
+      }
+    ]
+  },
+  {
+    "name": "Das blinde Licht. Irrfahrten der Wissenschaft",
+    "author": "Benjamin Labatut",
+    "done": true,
+    "year": "2020",
+    "short-info": "aus dem Spanischen von Thomas Brovot",
+    "info": "Das erste Buch im {{global.name}}!",
+    "originator": "malte",
+    "proposal-date": "März 2024",
+    "comments": [
+      {
+        "from": "linus",
+        "rating": "3.14",
+        "rating_display": "π",
+        "content": "Das Genre historische Fiktion trifft es ganz gut. Wobei es im Verlauf immer weniger historisch dafür immer fiktiver wurde. Leider haben die fiktiven Elemente der Geschichte aber keine Spannung gegeben, sondern teilweise für unnötig langweilige Ausschweife geführt. Eigentlich ein interessantes Konzept, allerdings hätte »Labertut« m. M. n. entweder ein erzählendes Sachbuch oder einen Roman verfassen sollen, sodass man als Leser den Wahrheitsgehalt der im Buch wie Fakten dargestellten Inhalte einschätzen kann."
+      },
+      {
+        "from": "malte",
+        "rating": "4",
+        "content": "Labatut hat, wie er mit seinem zweiten Werk »MANIAC« bewiesen hat, ein Händchen für die mitreißende Erzählung der Leben großartiger Naturwisschenschaftler. Dabei ist leider selten klar, was Fakt und was Fiktion ist. Wer den Film »Oppenheimer« mag, wird Labatuts Bücher wahrscheinlich ebenso mögen."
+      },
+      {
+        "from": "alex",
+        "rating": "3.5",
+        "content": "Schon vor Lesebeginn war ich ungemein gespannt auf das Zusammenspiel von Fakten und Fiktion in Labatuts Buch denn ich konnte nicht wirklich einschätzen, was mich erwarten würde. Leider wird oftmals nicht klar, was der Realität entspricht, und was nicht. Ob das in einem Buch, in dem es um das Leben von echten Menschen, um die Höhen wie Tiefen geht, wünschenswert ist, wage ich zu bezweifeln. Wenn es dann sogar in eine (viel zu lang gezogene, auf komische Art schwärmerische) Lolita-Episode Schrödingers geht, muss man sich die Frage stellen, ob eine solche Unklarheit zu vertreten ist.<br>Auch, wenn dieser Aspekt mir größere Schwierigkeiten bereitet hat, so war die Leseerfahrung insgesamt doch eine angenehme. Sprache und Erzählung zeichnen sich durch ein interessantes bildliche Darstellung der Fakten aus, man entdeckt, dass der Aufbau der Kapitel durchdacht ist, aber dann oft doch unübersichtlich ist. Auch immer wieder auftauchende Nebenschauplätze dienen manchmal gut zur Veranschaulichung, führen aber auch öfters zu weit weg von der eigentlichen Erzählung.<br>Thematisch spielt das Buch mit dem Wahnsinn der thematisierten Menschen und dem Geniekult, welcher aber meines Erachtens nach zu unkritisch und in Teilen hochlobend darstellt wird. Aber natürlich, der Mythos Genie begeistert Menschen. Die zentralen Frage – Was kann, was muss der Mensch wissen? Wollen wir überhaupt alles wissen, oder schadet dieses möglicherweise „blinde“ Streben uns? – sind höchstinteressant und bescherten uns eine tolle erste Buchbesprechung und Diskussion."
+      },
+      {
+        "from": "jessi",
+        "rating": "2",
+        "content": "Das Buch erzählt in mehreren Kapiteln von berühmten Naturwissenschaftlern und deren Schaffen hält sich jedoch vor, eine Prise Fiktion miteinzumischen. Ein interessantes Konzept, mMn leider unglücklich realisiert.<br>Möglicherweise bin ich etwas zu hart zu dem Buch; das Lesen hatte ich leider nicht genossen, der Schreibstil war zu penetrant hochgestochen und sehr wirr."
+      },
+      {
+        "from": "System",
+        "rating": "Naturwissenschaft!",
+        "content": "Test ... bieb ... bieb ..."
+      }
+    ]
+  }
 ]

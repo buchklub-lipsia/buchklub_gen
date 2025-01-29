@@ -1,20 +1,106 @@
 [
   {
+    "name": "Der Club der toten Dichter/Dead Poets Society",
+    "author": "N. H. Kleinbaum",
+    "done": false,
+    "year": 1989,
+    "short-info": "... das wir auf Deutsch und Englisch lasen!",
+    "info": "",
+    "originator": "linus",
+    "proposal-date": "Januar 2024",
+    "comments": []
+  },
+  {
+    "name": "Ansichten eines Clowns",
+    "author": "Heinrich Böll",
+    "done": true,
+    "year": 1963,
+    "short-info": "",
+    "info": "Unser erstes deutsches Buch und das zweite eines Nobelpreisträgers.",
+    "originator": "alex",
+    "proposal-date": "Dezember 2024",
+    "comments": [
+      {
+        "from": "linus",
+        "rating": 5,
+        "content": "Eine bahnbrechende Parabel für die Scheinmoral der\nGesellschaft, insbesondere der katholischen Kirche und des\nBürgertums der Nachkriegszeit. So tragisch die Erzählung, so\nkomisch ist der Erzählweise aus Sicht des Clowns Hans Schier.\nHandlungstreibendes Motiv ist zwar die am Konventionalismus\ngescheiterte Liebe zu Marie. Das Werk als Liebesroman abzutun,\nwird diesem jedoch keinesfalls gerecht."
+      },
+      {
+        "from": "malte",
+        "rating": 5,
+        "content": "Zwischen eindrücklicher und wirksamer Darstellungen der\ngescheiterten Entnazifizierung und dem gekonnten Demontieren\ndes christlichen Spießbürgertums hat Heinrich Böll hier einen\nder lustigsten und unterhaltsamsten Roman der Weltliteratur\nvorgelegt."
+      }
+    ]
+  },
+  {
+    "name": "Picknick am Wegesrand",
+    "author": "Arkadi & Boris Strugazki",
+    "done": true,
+    "year": 1972,
+    "short-info": "",
+    "info": "Wir lasen verschiedene Editionen, unter anderem übersetzt von David Drevs",
+    "originator": "malte",
+    "proposal-date": "November 2024",
+    "comments": [
+      {
+        "from": "alex",
+        "rating": 3.5,
+        "content": "Am Ende bleiben mir dutzende offene Fragen und ein Gefühl der Unzufriedenheit,\ntrotz einer für sich interessanten Geschichte mit ausreichend Spannung und\nfassbaren Charakteren. Ich hatte allerdings etwas mehr erwartet, als ein »nur«\nsolides Buch, zu dem mir unerwartet wenig einfiel. Möglicherweise fehlte mir\nausreichendes Hintergrundwissen, um die leisen, verwirrend flüsternden\nInterpretationsansätze entwirren zu können."
+      },
+      {
+        "from": "linus",
+        "rating": 3.5,
+        "content": "Durch die kernige und authentische Sprache des Romans, ist man\nals Leser:in ganz dicht an dem Charakter des Stalkers Roderic\nShuchart und begleitet ihn durch seine gefährlichen Einsätze in\nder Zone. Außerirdische haben nach einem Besuch auf der Erde\nnicht nur unbewohnbare Zonen sondern auch mysteriöse\nGegenstände in eben diesen Zonen hinterlassen. Wie es sich für\neinen guten Sci-fi Roman gehört, hat man zu Beginn ganz viele\nFragezeichen beim lesen vor Augen. Jedoch schafft es der Roman\nnicht viele dieser Fragen aufzulösen, sodass man die\nWeltgestaltung gar nicht in seiner Meisterhaftigkeit bewundern\nkann, weil einfach zu viele Lücken blieben. Entgegen Roderics\nWunsch musste ich daher etwas enttäuscht fortgehen."
+      },
+      {
+        "from": "jessi",
+        "rating": 3.5,
+        "content": "Eine Sache, die mich an »Ein Picknick am Wegesrand« positiv überrascht hatte,\nwar die teils sehr humoristische Ausdrucksweise des Erzählenden. Das ist etwas,\nwas ich von russischen Büchern eigentlich nicht kenne; die hatte ich immer als\nsehr ernst und fast schon humorlos empfunden. Das Buch an sich fand ich recht\ninteressant, vor allem das Konzept, dass die Außerirdischen selbst keine\ndirekte Präsenz zeigen, außer den Dingen, die sie auf der Welt hinterlassen\nhaben. Daraus entwickelt sich ein gieriges Bestreben von „Schatzjägern“, sich\ndurch diese Artefakte zu bereichern, was ich als Kapitalismuskritik\nwahrgenommen habe (surprise, wenn es ein Buch ist, das in der DDR genehmigt\nwurde :D)<br>\nAn und für sich ein sehr düsteres Buch, jedoch bin ich kein\ngroßer Sci-Fi Fan, weswegen ich mich an einigen Stellen mit\ndem Lesen etwas gequält hatte. Vielleicht liegt es auch\ndaran, dass einige Dinge eher »kryptisch« behandelt wurden."
+      },
+      {
+        "from": "malte",
+        "rating": 3.51,
+        "content": "Die Strugazkis haben mit diesem Roman meine Erwartungen\nleider nicht erfüllt. Würde man sich mit der Sowjetunion\nauskennen, hätte man bestimmt mehr von dieser Erzählung\ngehabt. Für mich also leider eine angenehme Lektüre ohne\nviel Mehrwert."
+      }
+    ]
+  },
+  {
     "name": "Lushins Verteidigung",
     "author": "Vladimir Nabokov",
-    "done": false,
-    "year": "1930",
-    "short-info": "aus dem Russischen von Dieter E. Zimmer",
-    "info": "",
+    "done": true,
+    "year": 1930,
+    "short-info": "übersetzt von Dietmar Schulte",
+    "info": "Wir lasen die Übersetzung von Dietmar Schulte, herausgegeben von Dieter E. Zimmer im Rohwolt-Verlag.",
     "originator": "jessi",
     "proposal-date": "Juli 2024",
-    "comments": []
+    "comments": [
+      {
+        "from": "malte",
+        "rating": 4,
+        "content": "Nabokov scheint den Charakter der Geschichte, Lushin, mit namenlosen Typen zu umgeben.\nBesonders auffällig ist der der aufopfernden ♕, die sich aus nicht nachvollziehbaren Gründen diesem grobschlächtigen Sonderling annimmt.\nSelbst Maestro Lushin wirkt beizeiten eher wie ein Typus – analog etwa zu den »Figuren« des Schachspiels?\nOb Lushins Verteidigung nun ein Schachproblem ist oder nicht – ein lesenswertes Buch ist es allemal – quod erat expectandum."
+      },
+      {
+        "from": "linus",
+        "rating": 3.5,
+        "content": "Der Roman von Nabokov erzählt die Geschichte eines begabten\nEigenbrötlers, der zwar meisterhaft das Spielgeschehen auf\ndem Schachbrett vorhersehen und lenken kann, aber im echten\nLeben, ohne die Selbstaufopferung seiner Frau, komplett\naufgeschmissen ist und am Ende an der wahnsinnigen\nVorstellung untergeht, alles hätte auch gegen ihn\nverschworen, wie in einem abgekartetem Spiel. Durch seine\nverschachtelten Sätze und seinen zuweilen komplizierten\nSätzen schafft N. einen atmosphärischen dichten Roman, der\neinen direkt in die Gefühlswelt der Protagonisten zieht."
+      },
+      {
+        "from": "alex",
+        "rating": 4.25,
+        "content": "Erneut ein Buch, welches mein Drittes des  Autors ist.<br>Ein wahnsinniger\nSchachspieler und eine ihm eigene Verteidigung, die sich möglicherweise im\nschlichten Aufgeben erschöpft. Ein Akt, der als einziger in seiner Macht steht,\ninmitten von Ohnmacht bedingt durch Wiederholungen und Muster, wie sie dem\nSchach, zu Lushins Nachteil, eigen sind. Dieser fand keinen Platz in der\nRealität und floh letztlich auch vor seiner eigenen Welt, dem Schachspiel. Für\ndie Menschen um ihn nicht zu verstehen, blieb er für sich – bis zum Schluss\nspielt jeder seine Rolle, als seien sie Schachfiguren. Frau Lushin versucht mit\nall ihrer Macht zu retten, was nicht zu retten ist; eine Dame in einer\nhoffnungslosen Stellung.<br>»Lushins Verteidigung« ist eine ausgeformte\nSprachübung Nabokovs – ein Meister der Beschreibung – welche auch inhaltlich\nzum tieferen Nachdenken anregt und Raum für eigene Interpretationen lässt, wie\nunsere schöne Diskussion gezeigt hat."
+      },
+      {
+        "from": "jessi",
+        "rating": 5,
+        "content": "Mit »Lushins Verteidigung« hat es Nabokov geschafft, einen\nsprachlich hochwertigen, aber nicht zu anspruchsvollen\nEindruck in die Welt eines jungen Schachspielers zu geben.\nDie anderen stimmen mir nicht zu, aber mMn ist das Leben\nLushins geprägt von viel Traurigkeit, Einsamkeit und dem\nGefühl, nicht für diese Welt gemacht zu sein. Nur wenige\nLeute schaffen es, einen nachhaltigen Eindruck auf ihn zu\nhinterlassen und in sein Herz geschlossen zu werden.\nAufgrund dessen habe ich oft Mitgefühl für ihn empfunden\nund gehofft, dass er früher oder später die Kurve bekommt.\nOb ihm dies gelingt, müsst ihr selbst herausfinden ;)"
+      }
+    ]
   },
   {
     "name": "Quecksilber",
     "author": "Amélie Nothomb",
     "done": true,
-    "year": "1998",
+    "year": 1998,
     "short-info": "aus dem Französischen von Wolfgang Krege",
     "info": "... bei dem wir uns herrlich uneinig waren.",
     "originator": "linus",
@@ -22,23 +108,23 @@
     "comments": [
       {
         "from": "linus",
-        "rating": "4",
-        "content": "Das erste Buchklubbuch, das den Bechdel-Test besteht. Der Roman erzählt über 180 Seiten eine spannende, wenn auch an einigen Stellen etwas unglaubwürdige, Geschichte. Da das Buch hauptsächlich in wörtlicher Rede geschrieben ist, wirkt es fast wie ein Drama oder ein Drehbuch. Durch die Kürze bleibt die Spannung übers Buch hinweg aufrechterhalten, jedoch missen die Charaktere eine gewisse Tiefe."
+        "rating": 4,
+        "content": "Das erste Buchklubbuch, das den Bechdel-Test besteht.\nDer Roman erzählt über 180 Seiten eine spannende,\nwenn auch an einigen Stellen etwas unglaubwürdige, Geschichte.\nDa das Buch hauptsächlich in wörtlicher Rede geschrieben ist, wirkt es fast wie ein Drama oder ein Drehbuch.\nDurch die Kürze bleibt die Spannung übers Buch hinweg aufrechterhalten,\njedoch missen die Charaktere eine gewisse Tiefe."
       },
       {
         "from": "malte",
-        "rating": "2",
-        "content": "Die uninspirierende Sprache, die flachen Charaktere und die beiden (!) schrecklichen Enden überwiegen die interessante Idee des Buches."
+        "rating": 2,
+        "content": "Die uninspirierende Sprache, die flachen Charaktere und die beiden (!) schrecklichen Enden\nüberwiegen die interessante Idee des Buches."
       },
       {
         "from": "alex",
-        "rating": "2.5",
-        "content": "Eine durchwachsene Erfahrung. Die Prämisse des Buches birgt großes Potenzial und ist sehr spannend. Leider wird die Ausführung diesem Potenzial nicht gerecht. Die Charaktere bleiben eindimensional: Krankenschwester Chavaigne soll alles zugleich sein, sie bleibt aber nicht greifbar und in Teilen sogar widersprüchlich. Sprünge in der Geschichte passieren urplötzlich, Dialoge erscheinen unglaubwürdig. Es wird sich nicht die Zeit genommen, die Geschichte ausreichend auszuformen. Auch wenn es teils tatsächlich wie ein Drama wirkt, so glaube ich nicht, dass dies die Intention der Autorin war – und selbst wenn dem so wäre, wird diese Idee nicht im gesamten Buch zur Geltung gebracht. Die Inkorporierung zweier Enden ist eine interessante Idee, die mich auch sehr überrascht hat, nur leider gefallen mir beide Enden nicht besonders gut. Das Zweite stört mich jedoch um einiges mehr, es vereint die gesamte von mir empfundene Unglaubwürdigkeit der Erzählung auf 14 Seiten."
+        "rating": 2.5,
+        "content": "Eine durchwachsene Erfahrung. Die Prämisse des Buches birgt großes Potenzial und ist sehr spannend.\nLeider wird die Ausführung diesem Potenzial nicht gerecht. Die Charaktere bleiben eindimensional:\nKrankenschwester Chavaigne soll alles zugleich sein, sie bleibt aber nicht greifbar und in Teilen sogar widersprüchlich.\nSprünge in der Geschichte passieren urplötzlich, Dialoge erscheinen unglaubwürdig.\nEs wird sich nicht die Zeit genommen, die Geschichte ausreichend auszuformen.\nAuch wenn es teils tatsächlich wie ein Drama wirkt, so glaube ich nicht, dass dies die Intention der Autorin war\n– und selbst wenn dem so wäre, wird diese Idee nicht im gesamten Buch zur Geltung gebracht.\nDie Inkorporierung zweier Enden ist eine interessante Idee, die mich auch sehr überrascht hat,\nnur leider gefallen mir beide Enden nicht besonders gut. Das Zweite stört mich jedoch um einiges mehr,\nes vereint die gesamte von mir empfundene Unglaubwürdigkeit der Erzählung auf 14 Seiten."
       },
       {
         "from": "jessi",
-        "rating": "4.75",
-        "content": "Das bisher von mir meistgeliebte Buch. Eine Insel, ein Anwesen, zwei Frauen, ein verrückter alter Kapitän - geniale Mischung, gell? Geheimnisvolle, mysteriöse Prämisse, mit interessanten Wendungen. Sprachlich sehr schön, etwas hochgestochen, aber nicht zu sehr, sodass es lesbar bleibt. <br>Sogar mit zwei Enden, choose your fighter!"
+        "rating": 4.75,
+        "content": "Das bisher von mir meistgeliebte Buch. Eine Insel, ein Anwesen, zwei Frauen, ein verrückter alter Kapitän\n- geniale Mischung, gell? Geheimnisvolle, mysteriöse Prämisse, mit interessanten Wendungen.\nSprachlich sehr schön, etwas hochgestochen, aber nicht zu sehr, sodass es lesbar bleibt.\n<br>Sogar mit zwei Enden, choose your fighter!"
       }
     ]
   },
@@ -46,7 +132,7 @@
     "name": "Der Maler der fließenden Welt",
     "author": "Kazuo Ishiguro",
     "done": true,
-    "year": "1986",
+    "year": 1986,
     "short-info": "aus dem Englischen von Hartmut Zahn",
     "info": "... bei dem sich alles um die Frage drehte wie weit dem Erzähler zu trauen sei.",
     "originator": "alex",
@@ -54,23 +140,23 @@
     "comments": [
       {
         "from": "linus",
-        "rating": "4",
-        "content": "Der Autor hat mit seinen malerischen und detaillierten Beschreibungen dem Leser ein tiefes Eintauchen in die Atmosphäre der Szenen ermöglicht. Die achronologische Erzählweise lässt einem in besonderer Weise an der Gedankenwelt des Protagonisten teilhaben, sorgt aber auch dafür, dass sich die Handlung länger dehnt als nötig."
+        "rating": 4,
+        "content": "Der Autor hat mit seinen malerischen und detaillierten Beschreibungen dem Leser ein tiefes Eintauchen\nin die Atmosphäre der Szenen ermöglicht. Die achronologische Erzählweise lässt einem in besonderer Weise\nan der Gedankenwelt des Protagonisten teilhaben, sorgt aber auch dafür, dass sich die Handlung länger dehnt als nötig."
       },
       {
         "from": "malte",
-        "rating": "4",
+        "rating": 4,
         "content": "Ein interessanter kleiner Ausschnitt aus dem Nachkriegsjapan."
       },
       {
         "from": "alex",
-        "rating": "4.5",
-        "content": "»Der Maler der fließenden Welt« ist das dritte Buch, welches ich von Ishiguro gelesen habe. Mich beeindruckt seine Sprache und die andächtige Stimmung, welche durch sie geschaffen wird. In diesem Buch verbindet sich sein Schreibstil in ganz besonderer Weise mit dem Inhalt, einer Nachkriegsgeschichte aus Sicht eines alten Mannes, den im Verlauf der Erzählung seine Vergangenheit einholt. Die Gedankensprünge, ausschweifende und insgesamt erinnerungsschwelgende Erzählweise des Autors, welche auch seine späteren Werke prägt, schaffen plastische, facettenreiche Charaktere. Besonders interessant ist hierbei auch die Frage nach dem Wahrheitsgehalt des vom Hauptcharakter Geäußerten, der immer wieder Unsicherheit streut und letzten Endes nur seine Sichtweise und Erinnerung der Dinge darlegt. Die Nähe zu seiner Perspektiv vermittelt im Verlauf des Buches eindrucksvoll den Wandel der Figur selbst, seiner Umwelt und die Beziehung dieser beiden Aspekte zueinander."
+        "rating": 4.5,
+        "content": "»Der Maler der fließenden Welt« ist das dritte Buch, welches ich von Ishiguro gelesen habe.\nMich beeindruckt seine Sprache und die andächtige Stimmung, welche durch sie geschaffen wird.\nIn diesem Buch verbindet sich sein Schreibstil in ganz besonderer Weise mit dem Inhalt,\neiner Nachkriegsgeschichte aus Sicht eines alten Mannes, den im Verlauf der Erzählung\nseine Vergangenheit einholt. Die Gedankensprünge, ausschweifende und insgesamt erinnerungsschwelgende\nErzählweise des Autors, welche auch seine späteren Werke prägt, schaffen plastische, facettenreiche Charaktere.\nBesonders interessant ist hierbei auch die Frage nach dem Wahrheitsgehalt des vom Hauptcharakter Geäußerten,\nder immer wieder Unsicherheit streut und letzten Endes nur seine Sichtweise und Erinnerung der Dinge darlegt.\nDie Nähe zu seiner Perspektiv vermittelt im Verlauf des Buches eindrucksvoll den Wandel der Figur selbst,\nseiner Umwelt und die Beziehung dieser beiden Aspekte zueinander."
       },
       {
         "from": "jessi",
-        "rating": "4.5",
-        "content": "Das erste, aber definitiv nicht einzige Buch, das ich von Ishiguro gelesen habe. In diesem Werk gelingt es ihm hervorragend, eine ruhige, dennoch nicht langweilige Szenerie des Nachkriegs-Japans zu schaffen und den Lesenden in eine kleine, feine Zeitreise zu versetzen. <br>Die Sprache ist vom japanischen Erzählungsstil geprägt, auf eine Weise locker, aber dennoch nicht informell; das Buch lässt sich dadurch angenehm und fließend (badumtss) lesen. <br>Ich freue mich auf Weiteres von Ishiguro!"
+        "rating": 4.5,
+        "content": "Das erste, aber definitiv nicht einzige Buch, das ich von Ishiguro gelesen habe.\nIn diesem Werk gelingt es ihm hervorragend, eine ruhige, dennoch nicht langweilige Szenerie\ndes Nachkriegs-Japans zu schaffen und den Lesenden in eine kleine, feine Zeitreise zu versetzen.\n<br>Die Sprache ist vom japanischen Erzählungsstil geprägt, auf eine Weise locker, aber dennoch\nnicht informell; das Buch lässt sich dadurch angenehm und fließend (badumtss) lesen.\n<br>Ich freue mich auf Weiteres von Ishiguro!"
       }
     ]
   },
@@ -78,7 +164,7 @@
     "name": "Die Reise nach Petuschki",
     "author": "Wenedikt Jerofejew",
     "done": true,
-    "year": "1969",
+    "year": 1969,
     "short-info": "aus dem Russischen von Natascha Spitz",
     "info": "... wozu wir uns passenderweise in der Vodkaria trafen.",
     "originator": "ex",
@@ -86,18 +172,18 @@
     "comments": [
       {
         "from": "linus",
-        "rating": "3",
+        "rating": 3,
         "content": "Sehr komisch, aber sehr unterhaltsam."
       },
       {
         "from": "malte",
-        "rating": "5",
+        "rating": 5,
         "content": "Jerofejews Klassiker ist eine furchtbar tragische Dichtung, deren furchtbare Tragik ich beim brüllenden Lachen oft vergaß."
       },
       {
         "from": "alex",
-        "rating": "5",
-        "content": "Sprachlich, inhaltlich, künstlerisch – einfach Weltliteratur, die mich von Anfang bis Ende mit ihrer besonderen Art der Erzählung gefesselt hat. Obgleich die Geschichte Jerofejews eigentlich eine tragische ist, so schafft es der gleichnamige Autor doch, einen klugen, pointierten Humor in das Werk einzubringen, was zu einer großartigen Mischung und Stimmungslage führt. Kein Wort und kein Vergleich fühlt sich unnötig an. <br>»Diese Stummheit ist jedem bekannt, der den Ausgang eines viele Tage dauernden schweren Rausches kennt. Ist nicht das ganze Leben nur ein flüchtiger Rausch der Seele? Eine Verfinsterung der Seele? Wir alle sind wie betrunken, nur jeder auf seine Weise, der eine hat mehr getrunken, der andere weniger.« – in diesem Sinn, na zdrowie!"
+        "rating": 5,
+        "content": "Sprachlich, inhaltlich, künstlerisch – einfach Weltliteratur, die mich von Anfang bis Ende\nmit ihrer besonderen Art der Erzählung gefesselt hat. Obgleich die Geschichte Jerofejews eigentlich\neine tragische ist, so schafft es der gleichnamige Autor doch, einen klugen, pointierten Humor\nin das Werk einzubringen, was zu einer großartigen Mischung und Stimmungslage führt.\nKein Wort und kein Vergleich fühlt sich unnötig an.\n<br>»Diese Stummheit ist jedem bekannt, der den Ausgang eines viele Tage dauernden schweren Rausches kennt.\nIst nicht das ganze Leben nur ein flüchtiger Rausch der Seele? Eine Verfinsterung der Seele?\nWir alle sind wie betrunken, nur jeder auf seine Weise, der eine hat mehr getrunken, der andere weniger.«\n– in diesem Sinn, na zdrowie!"
       },
       {
         "from": "jessi",
@@ -110,7 +196,7 @@
     "name": "Das blinde Licht. Irrfahrten der Wissenschaft",
     "author": "Benjamin Labatut",
     "done": true,
-    "year": "2020",
+    "year": 2020,
     "short-info": "aus dem Spanischen von Thomas Brovot",
     "info": "Das erste Buch im {{global.name}}!",
     "originator": "malte",
@@ -118,24 +204,24 @@
     "comments": [
       {
         "from": "linus",
-        "rating": "3.14",
+        "rating": 3.14,
         "rating_display": "π",
-        "content": "Das Genre historische Fiktion trifft es ganz gut. Wobei es im Verlauf immer weniger historisch dafür immer fiktiver wurde. Leider haben die fiktiven Elemente der Geschichte aber keine Spannung gegeben, sondern teilweise für unnötig langweilige Ausschweife geführt. Eigentlich ein interessantes Konzept, allerdings hätte »Labertut« m. M. n. entweder ein erzählendes Sachbuch oder einen Roman verfassen sollen, sodass man als Leser den Wahrheitsgehalt der im Buch wie Fakten dargestellten Inhalte einschätzen kann."
+        "content": "Das Genre historische Fiktion trifft es ganz gut. Wobei es im Verlauf immer weniger historisch dafür immer fiktiver wurde.\nLeider haben die fiktiven Elemente der Geschichte aber keine Spannung gegeben, sondern teilweise für unnötig langweilige Ausschweife geführt.\nEigentlich ein interessantes Konzept, allerdings hätte »Labertut« m. M. n. entweder ein erzählendes Sachbuch oder einen Roman verfassen sollen,\nsodass man als Leser den Wahrheitsgehalt der im Buch wie Fakten dargestellten Inhalte einschätzen kann."
       },
       {
         "from": "malte",
-        "rating": "4",
-        "content": "Labatut hat, wie er mit seinem zweiten Werk »MANIAC« bewiesen hat, ein Händchen für die mitreißende Erzählung der Leben großartiger Naturwisschenschaftler. Dabei ist leider selten klar, was Fakt und was Fiktion ist. Wer den Film »Oppenheimer« mag, wird Labatuts Bücher wahrscheinlich ebenso mögen."
+        "rating": 4,
+        "content": "Labatut hat, wie er mit seinem zweiten Werk »MANIAC« bewiesen hat, ein Händchen für die mitreißende Erzählung der Leben großartiger Naturwisschenschaftler.\nDabei ist leider selten klar, was Fakt und was Fiktion ist. Wer den Film »Oppenheimer« mag, wird Labatuts Bücher wahrscheinlich ebenso mögen."
       },
       {
         "from": "alex",
-        "rating": "3.5",
-        "content": "Schon vor Lesebeginn war ich ungemein gespannt auf das Zusammenspiel von Fakten und Fiktion in Labatuts Buch denn ich konnte nicht wirklich einschätzen, was mich erwarten würde. Leider wird oftmals nicht klar, was der Realität entspricht, und was nicht. Ob das in einem Buch, in dem es um das Leben von echten Menschen, um die Höhen wie Tiefen geht, wünschenswert ist, wage ich zu bezweifeln. Wenn es dann sogar in eine (viel zu lang gezogene, auf komische Art schwärmerische) Lolita-Episode Schrödingers geht, muss man sich die Frage stellen, ob eine solche Unklarheit zu vertreten ist.<br>Auch, wenn dieser Aspekt mir größere Schwierigkeiten bereitet hat, so war die Leseerfahrung insgesamt doch eine angenehme. Sprache und Erzählung zeichnen sich durch ein interessantes bildliche Darstellung der Fakten aus, man entdeckt, dass der Aufbau der Kapitel durchdacht ist, aber dann oft doch unübersichtlich ist. Auch immer wieder auftauchende Nebenschauplätze dienen manchmal gut zur Veranschaulichung, führen aber auch öfters zu weit weg von der eigentlichen Erzählung.<br>Thematisch spielt das Buch mit dem Wahnsinn der thematisierten Menschen und dem Geniekult, welcher aber meines Erachtens nach zu unkritisch und in Teilen hochlobend darstellt wird. Aber natürlich, der Mythos Genie begeistert Menschen. Die zentralen Frage – Was kann, was muss der Mensch wissen? Wollen wir überhaupt alles wissen, oder schadet dieses möglicherweise „blinde“ Streben uns? – sind höchstinteressant und bescherten uns eine tolle erste Buchbesprechung und Diskussion."
+        "rating": 3.5,
+        "content": "Schon vor Lesebeginn war ich ungemein gespannt auf das Zusammenspiel von Fakten und Fiktion in Labatuts Buch denn ich konnte nicht wirklich einschätzen,\nwas mich erwarten würde. Leider wird oftmals nicht klar, was der Realität entspricht, und was nicht. Ob das in einem Buch, in dem es um das Leben von echten Menschen,\num die Höhen wie Tiefen geht, wünschenswert ist, wage ich zu bezweifeln. Wenn es dann sogar in eine (viel zu lang gezogene, auf komische Art schwärmerische)\nLolita-Episode Schrödingers geht, muss man sich die Frage stellen, ob eine solche Unklarheit zu vertreten ist.<br>Auch, wenn dieser Aspekt mir größere Schwierigkeiten\nbereitet hat, so war die Leseerfahrung insgesamt doch eine angenehme. Sprache und Erzählung zeichnen sich durch ein interessantes bildliche Darstellung der Fakten aus,\nman entdeckt, dass der Aufbau der Kapitel durchdacht ist, aber dann oft doch unübersichtlich ist. Auch immer wieder auftauchende Nebenschauplätze dienen manchmal\ngut zur Veranschaulichung, führen aber auch öfters zu weit weg von der eigentlichen Erzählung.<br>Thematisch spielt das Buch mit dem Wahnsinn der thematisierten\nMenschen und dem Geniekult, welcher aber meines Erachtens nach zu unkritisch und in Teilen hochlobend darstellt wird. Aber natürlich, der Mythos Genie begeistert Menschen.\nDie zentralen Frage – Was kann, was muss der Mensch wissen? Wollen wir überhaupt alles wissen, oder schadet dieses möglicherweise „blinde“ Streben uns?\n– sind höchstinteressant und bescherten uns eine tolle erste Buchbesprechung und Diskussion."
       },
       {
         "from": "jessi",
-        "rating": "2",
-        "content": "Das Buch erzählt in mehreren Kapiteln von berühmten Naturwissenschaftlern und deren Schaffen hält sich jedoch vor, eine Prise Fiktion miteinzumischen. Ein interessantes Konzept, mMn leider unglücklich realisiert.<br>Möglicherweise bin ich etwas zu hart zu dem Buch; das Lesen hatte ich leider nicht genossen, der Schreibstil war zu penetrant hochgestochen und sehr wirr."
+        "rating": 2,
+        "content": "Das Buch erzählt in mehreren Kapiteln von berühmten Naturwissenschaftlern und deren Schaffen hält sich jedoch vor, eine Prise Fiktion miteinzumischen.\nEin interessantes Konzept, mMn leider unglücklich realisiert.<br>Möglicherweise bin ich etwas zu hart zu dem Buch; das Lesen hatte ich leider nicht genossen,\nder Schreibstil war zu penetrant hochgestochen und sehr wirr."
       },
       {
         "from": "System",

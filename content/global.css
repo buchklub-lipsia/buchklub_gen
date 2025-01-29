@@ -2,12 +2,17 @@
     --content-width: 50em;
     --beige: #e8e6e3;
     --theme: #6a93b0;
+    --secondary: #ffebcc;
 }
 
 html, body {
     margin: 0;
     padding: 0;
     font-family: serif;
+}
+
+h1 {
+    color: var(--theme);
 }
 
 .navbar {
@@ -22,8 +27,15 @@ html, body {
     display: none;
 }
 
+#navbar-logo {
+    position: absolute;
+    top: 0.5em;
+    left: 0.5em;
+    width: 6em;
+}
+
 .navlogo {
-    display: block;
+    display: none;
     position: absolute;
     top: 1em;
     left: 1em;
@@ -74,7 +86,7 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 70%;
     margin-top: 2em;
     margin-bottom: 2em;
 }
@@ -85,6 +97,14 @@ h1 {
     font-weight: bold;
     font-size: .85em;
     margin-top: -1em;
+}
+
+#currently-reading-div {
+    background-color: var(--secondary);
+    border-radius: 1em;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .comment-author-text {
@@ -147,6 +167,14 @@ td:last-of-type {
 
 tbody > tr:nth-of-type(even) {
   background-color: rgb(237 238 242);
+}
+
+.member {
+    background-color: var(--secondary);
+    border-radius: 1em;
+    padding: 0.5em;
+    padding-top: 0.2em;
+    margin-bottom: 1em;
 }
 
 .member img {
@@ -241,6 +269,13 @@ ul li {
         display: none;
     }
 
+    #navbar-logo {
+        position: absolute;
+        top: 1em;
+        left: 1em;
+        width: 9em;
+    }
+
     .navbar {
         display: block;
         padding-top: 0em;
@@ -263,9 +298,38 @@ ul li {
     .navlogo {
         position: relative;
         margin-bottom: 2em;
+        display: block;
+        top: 1em;
+        left: 1em;
+        text-decoration: none;
+        color: black;
     }
 
     #index-logo {
-        width: 45%;
+        width: 40%;
+    }
+
+    #currently-reading-div {
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+
+    #members-container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 1em;
+    }
+
+    #books-container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 1em;
+    }
+
+    #dos-donts-container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 1em;
+        gap: 1em;
     }
 }

@@ -7,19 +7,25 @@
         <meta name="description" content="Ein kleiner Buchklub in Leipzig, der Anfang 2024 gegründet wurde und Mitglieder sucht!">
         <meta name="author" content="Malte Dostal">
         <title>{{global.name}} in Leipzig</title>
+        <link rel="icon" type="image/png" href="img/favicon-48x48.png" sizes="48x48" />
+        <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
+        <link rel="shortcut icon" href="img/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png" />
+        <meta name="apple-mobile-web-app-title" content="Buchklub Lipsia" />
+        <link rel="manifest" href="img/site.webmanifest" />
         <link rel="stylesheet" href="global.css">
     </head>
 
     <body>
         {{{global.header}}}
         <div class="main">
-            <h1>Willkommen beim {{global.name}} in Leipzig!</h1>
+            <h1>{{global.name}} in Leipzig</h1>
             <div class="main-content">
                 <p>Unser kleiner Buchklub besteht derzeit aus
                     <a href="members.html">{{(len members)}} Mitgliedern</a> und
                     ist <a href="contact.html"><i>auf der Suche nach Neuzugängen!</i></a>
                 </p>
-
+                <div id="currently-reading-div">
                 <h2 class="centre-align">Aktuelle Lektüre</h2>
                 <p>
                     {{#each books}}
@@ -32,7 +38,8 @@
                     {{/each}}
                 </p>
 
-                <img src="img/logo-long.webp" alt="{{global.name}}" id="index-logo">
+                <img src="img/logo-long-transparent.webp" alt="{{global.name}}" id="index-logo">
+                </div>
 
                 <h2 class="centre-align">Über uns</h2>
                 <a href="members.html">Wir</a> haben den {{global.name}} im März
@@ -58,7 +65,7 @@
                 sehen wir es als oberste Gepflogenheit, jedes Buch pünktlich
                 fertig zu lesen. Davon ausgenommen sind selbstverständlich
                 begründete Entschuldigungen. Bei Interesse an einer (natürlich
-                kostenfreien!) Mitgliedschaft siehe <a href="contacs.html#mitglied-werden">Kontakt &gt; Mitglied werden</a>.
+                kostenfreien!) Mitgliedschaft siehe <a href="contact.html#mitglied-werden">Kontakt &gt; Mitglied werden</a>.
             </div>
         </div>
         {{{global.footer}}}

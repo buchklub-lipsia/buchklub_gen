@@ -4,6 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Bücher | {{global.name}} in Leipzig</title>
+        <link rel="icon" type="image/png" href="img/favicon-48x48.png" sizes="48x48" />
+        <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
+        <link rel="shortcut icon" href="img/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png" />
+        <meta name="apple-mobile-web-app-title" content="Buchklub Lipsia" />
+        <link rel="manifest" href="img/site.webmanifest" />
         <link rel="stylesheet" href="global.css">
         <script src="sorttable.js"></script>
     </head>
@@ -42,13 +48,16 @@
                 </tbody>
             </table>
             <div class="main-content">
-                {{#each books}}
-                {{#if done}}
-                <h2 {{#if (eq @index 2)}}id="not-first-book"{{/if}}>{{author}}: {{name}}&nbsp;({{year}})</h2>
-                {{> book}}
-                <hr>
-                {{/if}}
-                {{/each}}
+                <div id="books-container">
+                    {{#each books}}
+                    {{#if done}}
+                    <div>
+                        <h2 {{#if (eq @index 2)}}id="not-first-book"{{/if}}>{{author}}: {{name}}&nbsp;({{year}})</h2>
+                        {{> book}}
+                    </div>
+                    {{/if}}
+                    {{/each}}
+                </div>
             </div>
         </div>
         {{{global.footer}}}

@@ -1,113 +1,106 @@
-mod model;
-
-use std::{
-    fs::{self, File},
-    path::{Path, PathBuf},
-    str::FromStr,
-};
+use std::collections::HashMap;
+use std::fs::{self, File};
+use std::path::{Path, PathBuf};
 
 use chrono::Local;
-use handlebars::{Handlebars, TemplateError};
-use serde_json::{json, Map, Number, Value};
+use serde_json::{json, to_string_pretty, Map, Value};
+use handlebars::Handlebars;
+
+pub const CONTENT_DIR: &str = "content";
+pub const MEMBERS_FILE: &str = "members.json";
+pub const BOOKS_FILE: &str = "books.json";
+pub const GLOBAL_FILE: &str = "global.json";
+pub const HEADER_FILE: &str = "header.html";
+pub const FOOTER_FILE: &str = "footer.html";
 
 pub const DATE_FORMAT: &str = "%d.%m.%Y %H:%M";
+pub const KEY_BUILD_TIME: &str = "build_time";
+pub const KEY_HEADER: &str = "header";
+pub const KEY_FOOTER: &str = "footer";
+pub const KEY_COMMENTS: &str = "comments";
+pub const KEY_RATING: &str = "rating";
+pub const KEY_FROM: &str = "from";
+pub const KEY_AVERAGE_RATING: &str = "average-rating";
 
-fn main() -> Result<(), TemplateError> {
-    let content_dir = PathBuf::from_str("content").expect("failed to init root content path");
-    let member_file =
-        File::open(content_dir.join("members.json")).expect("members.json doesn't exist");
-    let global_file =
-        File::open(content_dir.join("global.json")).expect("gloal.json doesn't exist");
-    let books_file = File::open(content_dir.join("books.json")).expect("books.json doesn't exist");
-    let mut members: Value = serde_json::from_reader(member_file).expect("ill-formed members.json");
-    let mut global: Value = serde_json::from_reader(global_file).expect("ill-formed global.json");
-    let mut books: Value = serde_json::from_reader(books_file).expect("ill-formed books.json");
-    let mut root = Map::new();
-    let global_map = global.as_object_mut().expect("global has to be an object");
-    global_map.insert(
-        String::from("build_time"),
-        json!(format!("{}", Local::now().format(DATE_FORMAT))),
-    );
-    global_map.insert(
-        String::from("header"),
-        json!(std::fs::read_to_string(content_dir.join("header.html")).expect("header.html")),
-    );
-    global_map.insert(
-        String::from("footer"),
-        json!(std::fs::read_to_string(content_dir.join("footer.html")).expect("footer.html")),
-    );
-    // Calculate average ratings
-    let members_obj = members.as_object_mut().expect("members to be an object");
-    let ratings: Vec<_> = books
-        .as_array()
-        .expect("books to be an array")
-        .iter()
-        .flat_map(|book| {
-            book.as_object()
-                .expect("book to be an object")
-                .get("comments")
-                .expect("book to have comments")
-                .as_array()
-                .expect("comments to be an array")
-        })
-        .map(|comment| {
-            let comment = comment.as_object().expect("comments to contain objects");
-            (comment.get("from").and_then(Value::as_str).expect("comment to have string from field"), comment.get("rating").and_then(Value::as_str).expect("comment to have rating field"))
-        }).collect();
-
-    for (id, member) in members_obj {
-        let their_ratings = ratings.iter().filter(|(i, _)| i == id).filter_map(|(_, rating)| rating.parse::<f64>().ok()).collect::<Vec<_>>();
-        member.as_object_mut().expect("member to be an object").insert(String::from("average-rating"), json!(to_string_2_dec_places(their_ratings.iter().sum::<f64>() / their_ratings.len() as f64)));
+fn main() -> Result<(), String> {
+    let content_dir = PathBuf::from(CONTENT_DIR);
+    if !content_dir.is_dir() {
+        return Err(format!("missing '{CONTENT_DIR}' sub dir!"));
     }
 
-    // average rating per book; unwraps because of prior checks
-    for book in books.as_array_mut().unwrap() {
-        let book = book.as_object_mut().unwrap();
-        let ratings: Vec<_> = book.get("comments").unwrap().as_array().unwrap().iter()
-            .map(Value::as_object)
-            .map(Option::unwrap)
-            .filter_map(|c| c.get("rating").and_then(Value::as_str).and_then(|s| s.parse::<f64>().ok()))
-            .collect();
-        book.insert(String::from("average-rating"), if ratings.is_empty() { json!("n. a.") } else { json!(to_string_2_dec_places(ratings.iter().sum::<f64>() / ratings.len() as f64)) });
-    }
+    let mut members_json = read_json_object(&content_dir, MEMBERS_FILE)?;
+    let members_map = members_json
+        .as_object_mut()
+        .ok_or_else(|| format!("{MEMBERS_FILE} has to contain an object!"))?;
+    let mut books_json = read_json_object(&content_dir, BOOKS_FILE)?;
+    let books_array = books_json
+        .as_array_mut()
+        .ok_or_else(|| format!("{BOOKS_FILE} has to contain an array!"))?;
+    let mut global_json = read_json_object(&content_dir, GLOBAL_FILE)?;
+    let global_map = global_json
+        .as_object_mut()
+        .ok_or_else(|| format!("{GLOBAL_FILE} has to contain an object!"))?;
+    let mut root_map = Map::new();
 
-    let members_list = Value::Array(
-        members
-            .clone()
+    global_map.insert(
+        String::from(KEY_BUILD_TIME),
+        Value::String(Local::now().format(DATE_FORMAT).to_string()),
+    );
+    global_map.insert(
+        String::from(KEY_HEADER),
+        Value::String(read_file(&content_dir, HEADER_FILE)?),
+    );
+    global_map.insert(
+        String::from(KEY_FOOTER),
+        Value::String(read_file(&content_dir, FOOTER_FILE)?),
+    );
+
+    let ratings_by_member = extract_ratings(books_array)?;
+    for (id, member) in members_map.iter_mut() {
+        let Some(ratings) = ratings_by_member.get(id) else {
+            continue;
+        };
+        let member_obj = member
             .as_object_mut()
-            .expect("members has to be an object")
-            .iter_mut()
-            .map(|(id, value)| {
-                value
-                    .as_object_mut()
-                    .unwrap()
-                    .insert(String::from("id"), json!(id));
-                value.clone()
-            })
-            .collect(),
-    );
-    root.insert(String::from("members"), members);
-    root.insert(String::from("members-list"), members_list);
-    root.insert(String::from("global"), global);
-    root.insert(String::from("books"), books);
+            .ok_or_else(|| format!("member is not an object: '{id:?}'"))?;
+        let ratings_sum: f64 = ratings.iter().sum();
+        member_obj.insert(
+            String::from(KEY_AVERAGE_RATING),
+            json!(to_string_2_dec_places(ratings_sum / ratings.len() as f64)),
+        );
+    }
 
-    let root = Value::Object(root);
+    let members_list: Vec<_> = members_map.clone()
+        .iter_mut()
+        .map(|(id, member)| {
+            member.as_object_mut().unwrap().insert(String::from("id"), json!(id));
+            member.clone() //?
+        })
+    .collect();
+
+    root_map.insert(String::from("members"), members_json);
+    root_map.insert(String::from("members-list"), json!(members_list));
+    root_map.insert(String::from("global"), global_json);
+    root_map.insert(String::from("books"), books_json);
+
+    // TODO \\
+    let root = Value::Object(root_map);
     let mut handlebars = Handlebars::new();
     handlebars.register_partial(
         "book",
         std::fs::read_to_string(content_dir.join("book.html")).expect("book.html"),
-    )?;
+    ).map_err(template_err_to_string)?;
     handlebars
         .register_template_file("index", "content/index.html")
         .map_err(|e| {
             println!("{e}");
             e
-        })?;
-    handlebars.register_template_file("books", "content/books.html")?;
-    handlebars.register_template_file("members", "content/members.html")?;
-    handlebars.register_template_file("statute", "content/statute.html")?;
-    handlebars.register_template_file("contact", "content/contact.html")?;
-    handlebars.register_template_file("misc", "content/misc.html")?;
+        }).map_err(template_err_to_string)?;
+    handlebars.register_template_file("books", "content/books.html").map_err(template_err_to_string)?;
+    handlebars.register_template_file("members", "content/members.html").map_err(template_err_to_string)?;
+    handlebars.register_template_file("statute", "content/statute.html").map_err(template_err_to_string)?;
+    handlebars.register_template_file("contact", "content/contact.html").map_err(template_err_to_string)?;
+    handlebars.register_template_file("misc", "content/misc.html").map_err(template_err_to_string)?;
 
     let dst_dir = PathBuf::from("../buchklub");
     // create index.html
@@ -134,7 +127,69 @@ fn main() -> Result<(), TemplateError> {
         .expect("copying collapser.js");
     // copy img/
     cp_dir(content_dir.join("img"), dst_dir.join("img")).expect("copying img/");
+    // TODO-END \\
+
     Ok(())
+}
+
+fn template_err_to_string(e: handlebars::TemplateError) -> String {
+    e.to_string()
+}
+
+fn extract_ratings(
+    books_array: &mut [Value],
+) -> Result<HashMap<String, Vec<f64>>, String> {
+    let mut member_ratings = HashMap::new();
+    for book in books_array {
+        let book = book
+            .as_object_mut()
+            .ok_or_else(|| format!("{BOOKS_FILE} has to contain an array of objects!"))?;
+        let Some(comments) = book.get(KEY_COMMENTS) else {
+            continue;
+        };
+        let comments = comments
+            .as_array()
+            .ok_or_else(|| format!("comments need be an array: {book:?}"))?;
+        let mut ratings = Vec::new();
+        for comment in comments {
+            let comment = comment
+                .as_object()
+                .ok_or_else(|| format!("expected comment '{comment:?}' to be an object"))?;
+            let from = comment
+                .get(KEY_FROM)
+                .and_then(Value::as_str)
+                .ok_or_else(|| format!("comment '{comment:?}' is missing {KEY_FROM} field!"))?;
+            let Some(rating) = comment.get(KEY_RATING).and_then(Value::as_f64) else {
+                println!(
+                    "warning: comment is missing a rating:\n{}",
+                    to_string_pretty(comment).unwrap()
+                );
+                continue;
+            };
+            member_ratings
+                .entry(from.to_string())
+                .or_insert(Vec::new())
+                .push(rating);
+            ratings.push(rating);
+        }
+        let ratings_sum: f64 = ratings.iter().sum();
+        book.insert(String::from(KEY_AVERAGE_RATING), json!(to_string_2_dec_places(ratings_sum / ratings.len() as f64)));
+    }
+    Ok(member_ratings)
+}
+
+fn read_json_object(content_dir: &PathBuf, path: &str) -> Result<Value, String> {
+    let file = File::open(content_dir.join(path))
+        .map_err(|_| format!("missing '{dir}/{path}'!", dir = content_dir.display()))?;
+
+    let json: Value =
+        serde_json::from_reader(file).map_err(|e| format!("ill-formed {path}: {e}"))?;
+    Ok(json)
+}
+
+fn read_file(content_dir: &PathBuf, path: &str) -> Result<String, String> {
+    std::fs::read_to_string(content_dir.join(path))
+        .map_err(|_| format!("missing '{dir}/{path}'!", dir = content_dir.display()))
 }
 
 fn render_file(

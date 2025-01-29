@@ -4,6 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Mitglieder | {{global.name}} in Leipzig</title>
+        <link rel="icon" type="image/png" href="img/favicon-48x48.png" sizes="48x48" />
+        <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
+        <link rel="shortcut icon" href="img/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png" />
+        <meta name="apple-mobile-web-app-title" content="Buchklub Lipsia" />
+        <link rel="manifest" href="img/site.webmanifest" />
         <link rel="stylesheet" href="global.css">
     </head>
 
@@ -11,31 +17,32 @@
         {{{global.header}}}
         <div class="main">
             <h1>Mitglieder</h1>
-            {{#each members-list}}
-            {{#if hide}}
-            {{else}}
-            <div class="member">
-                <h2 id="{{id}}" class="collapser collapser-init-show">{{name}}</h2>
-                <div>
-                    <!-- <img src="{{pic}}", alt="&#11217;{{name}}"> -->
-                    <span class="member-short-info">{{short_info}}</span>
-                    <div class="left-align">
-                        <p class="member-long-info fold">{{{long_info}}}</p>
+            <div id="members-container">
+                {{#each members-list}}
+                {{#if hide}}
+                {{else}}
+                <div class="member">
+                    <h2 id="{{id}}" class="collapser collapser-init-show">{{name}}</h2>
+                    <div>
+                        <!-- <img src="{{pic}}", alt="&#11217;{{name}}"> -->
+                        <span class="member-short-info">{{short_info}}</span>
+                        <div class="left-align">
+                            <p class="member-long-info fold">{{{long_info}}}</p>
+                        </div>
                     </div>
+                    <p> Durchschnittliches Fazit: {{#if average-rating}}{{average-rating}}{{else}}n. a.{{/if}}&nbsp;/&nbsp;5</p>
+                    <h3 class="collapser">Vorgeschlagene Bücher</h3>
+                    <ul>
+                        {{#each ../books}}
+                        {{#if (eq ../id originator)}}
+                        <li>{{author}}: {{name}}</li>
+                        {{/if}}
+                        {{/each}}
+                    </ul>
                 </div>
-                <p> Durchschnittliches Fazit: {{#if average-rating}}{{average-rating}}{{else}}n. a.{{/if}}&nbsp;/&nbsp;5</p>
-                <h3 class="collapser">Vorgeschlagene Bücher</h3>
-                <ul>
-                    {{#each ../books}}
-                    {{#if (eq ../id originator)}}
-                    <li>{{author}}: {{name}}</li>
-                    {{/if}}
-                    {{/each}}
-                </ul>
+                {{/if}}
+                {{/each}}
             </div>
-            <hr>
-            {{/if}}
-            {{/each}}
         </div>
         {{{global.footer}}}
     </body>

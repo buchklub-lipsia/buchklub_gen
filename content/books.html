@@ -51,7 +51,7 @@
                 <div id="books-container">
                     {{#each books}}
                     {{#if done}}
-                    <div>
+                    <div class="book">
                         <h2 {{#if (eq @index 2)}}id="not-first-book"{{/if}}>{{author}}: {{name}}&nbsp;({{year}})</h2>
                         {{> book}}
                     </div>

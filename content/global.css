@@ -16,11 +16,16 @@ h1 {
 }
 
 .navbar {
+    transition: all 1s ease;
     position: relative;
     text-align: center;
     padding: 2em;
     padding-bottom: 1.5em;
     background-color: var(--theme);
+}
+
+.navbar-hr {
+    display: none;
 }
 
 .navlinks {
@@ -60,7 +65,8 @@ h1 {
     top: .5em;
     right: 1em;
     text-decoration: none;
-    font-weight: 900;
+    font-variant: small-caps;
+    font-weight: 500;
     color: black;
     font-size: 1.5em;
 }
@@ -105,6 +111,10 @@ h1 {
     padding: 1em;
     margin-top: 1em;
     margin-bottom: 1em;
+}
+
+.comment {
+    width: 90%;
 }
 
 .comment-author-text {
@@ -265,6 +275,10 @@ ul li {
 }
 
 @media (min-width:800px)  {
+    h1 {
+        color: black;
+    }
+
     .hamburger {
         display: none;
     }
@@ -280,6 +294,13 @@ ul li {
         display: block;
         padding-top: 0em;
         padding-bottom: .75em;
+        background-color: white;
+    }
+
+    .navbar-hr {
+        display: block;
+        width: 50%;
+        color: var(--theme);
     }
 
     .navlinks {
@@ -289,20 +310,25 @@ ul li {
     .navitem {
         display: inline;
         padding: 1em;
+        color: var(--theme);
+        font-weight: bold;
     }
 
     .navitem:hover, .navlogo:hover {
-        color: white;
+        color: black;
     }
 
     .navlogo {
         position: relative;
-        margin-bottom: 2em;
+        margin-bottom: 1em;
+        padding: 0;
         display: block;
-        top: 1em;
-        left: 1em;
+        top: 0.5em;
+        left: 0em;
         text-decoration: none;
-        color: black;
+        color: var(--theme);
+        font-size: 2em;
+        font-weight: bold;
     }
 
     #index-logo {
@@ -318,6 +344,13 @@ ul li {
         display: grid;
         grid-template-columns: 50% 50%;
         gap: 1em;
+    }
+
+    .book {
+        border: 3px solid var(--theme);
+        border-radius: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
     }
 
     #books-container {

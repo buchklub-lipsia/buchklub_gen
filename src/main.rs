@@ -159,7 +159,7 @@ fn extract_ratings(
                 .get(KEY_FROM)
                 .and_then(Value::as_str)
                 .ok_or_else(|| format!("comment '{comment:?}' is missing {KEY_FROM} field!"))?;
-            let Some(rating) = comment.get(KEY_RATING).and_then(Value::as_f64) else {
+            let Some(rating) = comment.get(KEY_RATING).and_then(value_to_f64) else {
                 println!(
                     "warning: comment is missing a rating:\n{}",
                     to_string_pretty(comment).unwrap()
@@ -176,6 +176,18 @@ fn extract_ratings(
         book.insert(String::from(KEY_AVERAGE_RATING), json!(to_string_2_dec_places(ratings_sum / ratings.len() as f64)));
     }
     Ok(member_ratings)
+}
+
+fn value_to_f64(value: &Value) -> Option<f64> {
+    match value {
+        Value::Null | Value::Bool(_) | Value::Array(_) | Value::Object(_) => None,
+        Value::Number(_) => value.as_f64(),
+        Value::String(s) => if let Some(f) = s.parse::<f64>().ok() {
+            Some(f)
+        } else {
+            None
+        }
+    }
 }
 
 fn read_json_object(content_dir: &PathBuf, path: &str) -> Result<Value, String> {

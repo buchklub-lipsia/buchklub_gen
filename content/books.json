@@ -1,14 +1,46 @@
 [
   {
+    "name": "Nachmittage",
+    "author": "Ferdinand von Schirach",
+    "done": false,
+    "year": 2022,
+    "short-info": "",
+    "info": "",
+    "originator": "jessi",
+    "proposal-date": "Februar 2025",
+    "comment": []
+  },
+  {
     "name": "Der Club der toten Dichter/Dead Poets Society",
     "author": "N. H. Kleinbaum",
-    "done": false,
+    "done": true,
     "year": 1989,
-    "short-info": "... das wir auf Deutsch und Englisch lasen!",
-    "info": "",
+    "short-info": "In Originalsprache und der Übersetzung von Ekkehart Reinke",
+    "info": "... das wir auf Deutsch und Englisch lasen!",
     "originator": "linus",
     "proposal-date": "Januar 2024",
-    "comments": []
+    "comments": [
+      {
+        "from": "malte",
+        "rating": 0.5,
+        "content": "Der Film, dessen Drehbuch Kleinbaum zu einem Roman glorifiziert\nhat, mag noch so gut sein.  Diese Adaption aber, die man beim\nbesten Willen treffender als »Merchandising-Artikel« bezeichnen\nmuss, ist hingegen schrecklich.<br>\nDem Leser wird kein literarisches Werk, sondern die Aufzählung\neinzelner Handlungsteile präsentiert.  Die Katastrophe des\nfünften Aktes passt nicht zu den ersten vier Akten und ist von\neiner eigentlichen Tragweite, die sich Kleinbaum nicht verdient\nhat.  Die »Liebesgeschichte« zwischen Knox und Chris ist zum\nKotzen ekelerregend und passt in den Frauen verachtenden Kanon\ndieses Buches.  Schließlich ist die anti-intellektualistische\nEinstellung des Lehrers Keating, der die Literaturwissenschaft\nauf die rein subjektive Erfahrung reduziert, furchterregend und\nbasiert auf einem Strohmann (»Dr. Pritchard«).  Diese Buch ist\nes offenbar nicht einmal Wert, dass ich meine Parataxen schön\nmiteinander bekannt mache.<br>\nIch nehme dieses Buch nicht an und finde es auch schlimm, dass\nich einige Stunden das hier lesen musste!"
+      },
+      {
+        "from": "alex",
+        "rating": "0",
+        "content": "Wer aus einem Film ein Buch macht, der sollte dem Film etwas hinzuzufügen\nhaben, oder aber als absolutes Minimum die Erzählung dem Medium Roman anpassen.\nKleinbaum ist mit ihrer Wiedergabe des beliebten Filmklassikers an dieser\nAufgabe kläglich gescheitert und liefert uns ein glorifiziertes Drehbuch ohne\njeglichen Mehrwert. Schon im Verlauf des ersten Kapitels fällt auf, dass eine\nwiedererkennbare, interessante Erzählstimme vollkommen fehlt; es handelt sich\nvielmehr um eine bloße Aufzählung der Geschehnisse, ohne, dass diese\ntiefergehend beschrieben werden. Was in einer Filmmontage schön aussieht und\nvisuell nachvollziehbar ist, wird in einem Buch zu einer Farce. Hinzukommen\nunglaubwürdige Szenen, die sich im Verlauf der Geschichte überhaupt nicht\nanbahnen und ein Lehrer, der nicht lehrt.\n\nIn diesem „Roman“ ist absolut nichts von Wert zu finden."
+      },
+      {
+        "from": "jessi",
+        "rating": 1,
+        "content": "Zuerst habe ich die Geschichte von „Dead Poets Society“ genossen. Ich mochte\ndie Idee einer strengen Jungenakademie und dem Struggle der jugendlichen\nHauptcharaktere, den Erwartungen ihres Umfelds und der Gesellschaft gerecht zu\nwerden. Begeistert hat mich das Konzept eines Lehrers, der diesen Druck auf\neinmal umwirft und entgegen aller Erwartungen von seinen Schülern Leichtigkeit\nerwartet. Was komisch ist, wenn ich darüber nachdenke, denn Leichtigkeit kann\nman nicht erzwingen.<br>\nIch habe viele eigene Ideen, Vorstellungen und Meinungen während des Lesens\neingebracht und wenig auf die Art, wie das Buch verfasst wurde, geachtet. Nach\nunserem Buchklubtreffen musste ich feststellen, dass das Buch nicht das alles\nwar, was ich darin hineininterpretiert hatte. Das passiert mir sonst nie nach\nunseren Treffen, dass sich meine Meinung so stark danach ändert. Aber bei\ndiesem Buch war es wohl kein großer Verlust. Es sind viele Lücken, Unreinheiten\nund einfach nicht schön geschriebene Stellen erkennbar, die uns teilweise\nverstört zurückgelassen haben (Hust hust, die Partyszene, hust). Fragt mich\nnicht, wie ich das beim Lesen ausgeblendet habe. Vielleicht, weil ich nur noch\nwenige Tage Zeit zum Lesen hatte, ups. Naja, das Ding kriegt 1/5 Sterne von\nmir. Der Film soll aber super sein, auf den freue ich mich."
+      },
+      {
+        "from": "linus",
+        "rating": 1,
+        "content": "Ich habe mich sehr auf das Buch gefreut und wurde maßlos enttäuscht. Wie ist es\nmöglich, dass ein Buch, das den Sinn des Lebens im Ästhetischem (insbesondere\nder Literatur) sieht, so schlecht geschrieben sein? Der ganze Roman wirkt als\nhätte man Chat-gpt gebeten die Szenen aus dem Film in Textform zu bringen. Ich\nhabe noch nie ein Buch gelesen, dass es verglichen mit dem Film schafft weniger\nInformationen und Hintergründe zu vermitteln. Auch von der plumpen Sprache\nabgesehen, bleibt die Geschichte weit unter dem Potential seiner Prämisse. Die\nSchüler sind flach und verwechselbar, Neils Vater ist als Charakter extrem\nunglaubwürdig und die Repräsentation von Frauen ist einfach ekelhaft. Es tut\nmir leid, dass N. H. Kleinbaum ihre und unsere Zeit verschwendet hat."
+      }
+    ]
   },
   {
     "name": "Ansichten eines Clowns",
@@ -28,7 +60,12 @@
       {
         "from": "malte",
         "rating": 5,
-        "content": "Zwischen eindrücklicher und wirksamer Darstellungen der\ngescheiterten Entnazifizierung und dem gekonnten Demontieren\ndes christlichen Spießbürgertums hat Heinrich Böll hier einen\nder lustigsten und unterhaltsamsten Roman der Weltliteratur\nvorgelegt."
+        "content": "Zwischen eindrücklicher und wirksamer Darstellungen der\ngescheiterten Entnazifizierung und dem gekonnten Demontieren\ndes christlichen Spießbürgertums hat Heinrich Böll hier sicherlich einen\nder lustigsten und unterhaltsamsten Romane der Weltliteratur\nvorgelegt."
+      },
+      {
+        "from": "alex",
+        "rating": 5,
+        "content": "Ein durch und durch gelungenes Werk satirischer Literatur!\n»Ansichten eines Clowns« liefert einen detaillierten und\nauthentischen Einblick in den Alltag der Nachkriegszeit,\ndurchzogen mit lauten und leisen Spitzen gegen die\nvorherrschende Doppelmoral der Gesellschaft – insbesondere des\nVerbandskatholizismus – der 50er Jahre. Der Kraftakt aller,\nsich oberflächlich als moralisch und korrekt darzustellen, von\nClown Schnier als »Zeitalter der Prostitution« bezeichnet,\noffenbart schonungslos die Schwächen, Missgunst und den\nEgozentrismus der Beteiligten – und das in einer höchst\nkomischen und raffinierten Weise, die sprachlich begeistert. Im\nRoman wird eine junge Liebe Opfer dieser Umstände – das im\nRoman Beschriebene gilt jedoch für weit mehr, als nur diese\nTrennung, und beglückt den Leser als ein kleines Stück\nZeitgeschichte."
       }
     ]
   },

@@ -1,8 +1,10 @@
 :root {
     --content-width: 45em;
+    --content-width-plus: 55em;
     --beige: #e8e6e3;
     --theme: #6a93b0;
-    --secondary: #ffebcc;
+    --secondary: #fff0db;
+    --secondary-bak: #ffebcc;
 }
 
 html, body {
@@ -82,6 +84,10 @@ h1 {
     line-height: 1.6;
 }
 
+#books-main {
+    max-width: var(--content-width-plus);
+}
+
 .main-content {
     text-align: left;
 }
@@ -106,6 +112,7 @@ h1 {
 #currently-reading-div {
     background-color: var(--secondary);
     border-radius: 1em;
+    border: 3px solid var(--theme);
     padding: 1em;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -117,8 +124,9 @@ h1 {
 
 .book {
     margin-top: 1.5em;
-    background-color: #fff0db;
+    background-color: var(--secondary);
     border-radius: 1em;
+    border: 3px solid var(--theme);
     padding-top: 0.25em;
     padding-bottom: 0.5em;
     padding-left: 1em;
@@ -127,7 +135,7 @@ h1 {
 
 .book h2 {
     font-size: 1.25em;
-    line-height: 2em;
+    line-height: 1.5em;
 }
 
 .book-sep {
@@ -206,6 +214,7 @@ tbody > tr:nth-of-type(even) {
 .member {
     background-color: var(--secondary);
     border-radius: 1em;
+    border: 3px solid var(--theme);
     padding: 0.5em;
     padding-top: 0.2em;
     margin-bottom: 1em;
@@ -366,10 +375,6 @@ ul li {
 
     #table-toggle {
         display: block;
-    }
-
-    .book {
-        border: 3px solid var(--theme);
     }
 
     .book-sep {

@@ -1,9 +1,9 @@
 function hamburgerToggle() {
     const nav = document.getElementById("navlinks");
-    if (nav.style.display === "block") {
+    if (nav.style.display === "grid") {
         nav.style.display = "none";
     } else {
-        nav.style.display = "block";
+        nav.style.display = "grid";
     }
 }
 

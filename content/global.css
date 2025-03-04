@@ -1,5 +1,5 @@
 :root {
-    --content-width: 50em;
+    --content-width: 45em;
     --beige: #e8e6e3;
     --theme: #6a93b0;
     --secondary: #ffebcc;
@@ -12,24 +12,26 @@ html, body {
 }
 
 h1 {
-    color: var(--theme);
+    color: black;
+    margin-top: 0;
 }
 
 .navbar {
-    transition: all 1s ease;
     position: relative;
     text-align: center;
     padding: 2em;
     padding-bottom: 1.5em;
-    background-color: var(--theme);
 }
 
 .navbar-hr {
-    display: none;
+    width: 50%;
+    color: var(--theme);
 }
 
 .navlinks {
     display: none;
+    grid-template-columns: 50% 50%;
+    margin-top: 1.5em;
 }
 
 #navbar-logo {
@@ -77,14 +79,11 @@ h1 {
     margin: 0 auto;
     padding: .5em;
     text-align: center;
+    line-height: 1.6;
 }
 
 .main-content {
     text-align: left;
-}
-
-h1 {
-    margin-top: 0;
 }
 
 #index-logo {
@@ -99,9 +98,8 @@ h1 {
 
 .blue-text {
     color: var(--theme);
-    font-style: italic;
-    font-weight: bold;
     font-size: .85em;
+    font-weight: 500;
     margin-top: -1em;
 }
 
@@ -111,6 +109,32 @@ h1 {
     padding: 1em;
     margin-top: 1em;
     margin-bottom: 1em;
+}
+
+#table-toggle {
+    display: none;
+}
+
+.book {
+    margin-top: 1.5em;
+    background-color: #fff0db;
+    border-radius: 1em;
+    padding-top: 0.25em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.book h2 {
+    font-size: 1.25em;
+    line-height: 2em;
+}
+
+.book-sep {
+    display: block;
+    color: var(--theme);
+    width: 75%;
+    margin-top: 2em;
 }
 
 .comment {
@@ -275,10 +299,6 @@ ul li {
 }
 
 @media (min-width:800px)  {
-    h1 {
-        color: black;
-    }
-
     .hamburger {
         display: none;
     }
@@ -297,12 +317,6 @@ ul li {
         background-color: white;
     }
 
-    .navbar-hr {
-        display: block;
-        width: 50%;
-        color: var(--theme);
-    }
-
     .navlinks {
         display: inline;
     }
@@ -316,6 +330,10 @@ ul li {
 
     .navitem:hover, .navlogo:hover {
         color: black;
+    }
+
+    #back-to-home-nav {
+        display: none;
     }
 
     .navlogo {
@@ -346,11 +364,16 @@ ul li {
         gap: 1em;
     }
 
+    #table-toggle {
+        display: block;
+    }
+
     .book {
         border: 3px solid var(--theme);
-        border-radius: 1em;
-        padding-left: 1em;
-        padding-right: 1em;
+    }
+
+    .book-sep {
+        display: none;
     }
 
     #books-container {

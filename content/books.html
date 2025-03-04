@@ -18,7 +18,7 @@
         {{{global.header}}}
         <div class="main">
             <h1>Gelesene Bücher</h1>
-            <h2 class="collapser">Tabelle</h2>
+            <h2 class="collapser" id="table-toggle">Tabelle</h2>
             <table class="sortable">
                 <thead>
                     <tr>
@@ -55,6 +55,7 @@
                         <h2 {{#if (eq @index 2)}}id="not-first-book"{{/if}}>{{author}}: {{name}}&nbsp;({{year}})</h2>
                         {{> book}}
                     </div>
+                    <hr class="book-sep">
                     {{/if}}
                     {{/each}}
                 </div>

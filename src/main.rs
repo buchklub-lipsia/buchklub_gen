@@ -7,9 +7,9 @@ use serde_json::{json, to_string_pretty, Map, Value};
 use handlebars::Handlebars;
 
 pub const CONTENT_DIR: &str = "content";
-pub const MEMBERS_FILE: &str = "members.json";
-pub const BOOKS_FILE: &str = "books.json";
-pub const GLOBAL_FILE: &str = "global.json";
+pub const MEMBERS_FILE: &str = "members.gon";
+pub const BOOKS_FILE: &str = "books.gon";
+pub const GLOBAL_FILE: &str = "global.gon";
 pub const HEADER_FILE: &str = "header.html";
 pub const FOOTER_FILE: &str = "footer.html";
 
@@ -28,15 +28,15 @@ fn main() -> Result<(), String> {
         return Err(format!("missing '{CONTENT_DIR}' sub dir!"));
     }
 
-    let mut members_json = read_json_object(&content_dir, MEMBERS_FILE)?;
+    let mut members_json = read_gon_object(&content_dir, MEMBERS_FILE)?;
     let members_map = members_json
         .as_object_mut()
         .ok_or_else(|| format!("{MEMBERS_FILE} has to contain an object!"))?;
-    let mut books_json = read_json_object(&content_dir, BOOKS_FILE)?;
+    let mut books_json = read_gon_object(&content_dir, BOOKS_FILE)?;
     let books_array = books_json
         .as_array_mut()
         .ok_or_else(|| format!("{BOOKS_FILE} has to contain an array!"))?;
-    let mut global_json = read_json_object(&content_dir, GLOBAL_FILE)?;
+    let mut global_json = read_gon_object(&content_dir, GLOBAL_FILE)?;
     let global_map = global_json
         .as_object_mut()
         .ok_or_else(|| format!("{GLOBAL_FILE} has to contain an object!"))?;
@@ -190,13 +190,12 @@ fn value_to_f64(value: &Value) -> Option<f64> {
     }
 }
 
-fn read_json_object(content_dir: &PathBuf, path: &str) -> Result<Value, String> {
-    let file = File::open(content_dir.join(path))
+fn read_gon_object(content_dir: &PathBuf, path: &str) -> Result<Value, String> {
+    let src = std::fs::read_to_string(content_dir.join(path))
         .map_err(|_| format!("missing '{dir}/{path}'!", dir = content_dir.display()))?;
 
-    let json: Value =
-        serde_json::from_reader(file).map_err(|e| format!("ill-formed {path}: {e}"))?;
-    Ok(json)
+    let gon = gon::parse_str(&src).map_err(|e| format!("ill-formed {path}: {e}"))?.unwrap();
+    Ok(gon.into())
 }
 
 fn read_file(content_dir: &PathBuf, path: &str) -> Result<String, String> {

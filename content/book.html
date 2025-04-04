@@ -1,8 +1,8 @@
 <p class="blue-text">
     Vorgeschlagen von:
     {{#if (lookup (lookup ../members originator) "name")}}
-        {{lookup (lookup ../members originator) "name"}}{{else}}ehemaliges Mitglied{{/if}}, {{proposal-date}}
-    <br>{{short-info}}
+        {{lookup (lookup ../members originator) "name"}}{{else}}ehemaliges Mitglied{{/if}}, {{proposal_date}}
+    <br>{{short_info}}
 </p>
 <p>{{info}}</p>
 {{#if (gt (len comments) 0)}}<h3 class="collapser collapser-init-show">Meinungen der Mitglieder</h3>{{/if}}

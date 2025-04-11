@@ -217,7 +217,7 @@ tbody > tr:nth-of-type(even) {
     border: 3px solid var(--theme);
     padding: 0.5em;
     padding-top: 0.2em;
-    margin-bottom: 1em;
+    margin-bottom: 0;
 }
 
 .member img {

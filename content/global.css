@@ -217,7 +217,7 @@ tbody > tr:nth-of-type(even) {
     border: 3px solid var(--theme);
     padding: 0.5em;
     padding-top: 0.2em;
-    margin-bottom: 0;
+    margin-bottom: 1em;
 }
 
 .member img {
@@ -365,6 +365,10 @@ ul li {
     #currently-reading-div {
         margin-left: 5em;
         margin-right: 5em;
+    }
+
+    .member {
+        margin-bottom: 0em;
     }
 
     #members-container {

@@ -367,6 +367,10 @@ ul li {
         margin-right: 5em;
     }
 
+    .member {
+        margin-bottom: 0em;
+    }
+
     #members-container {
         display: grid;
         grid-template-columns: 50% 50%;

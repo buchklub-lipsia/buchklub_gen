@@ -1,14 +1,31 @@
 [
   {
-    name: "Nachmittage",
-    author: "Ferdinand von Schirach",
+    name: "Aufzeichnungen aus dem Kellerloch",
+    author: "Fjodor Dostojewski",
     done: false,
-    year: 2022,
+    year: 1864,
     short_info: "",
     info: "",
+    originator: "malte",
+    proposal_date: "April 2025",
+    comments: []
+  },
+  {
+    name: "Nachmittage",
+    author: "Ferdinand von Schirach",
+    done: true,
+    year: 2022,
+    short_info: "",
+    info: "... das »große Erzählkunst« ist?",
     originator: "jessi",
     proposal_date: "Februar 2025",
-    comment: []
+    comments: [
+        {
+            from: "malte",
+            rating: 2.5,
+            content: "»Nachmittage« verspricht Einem »eines der persönlichsten Bücher« mit »große[r] Erzählkunst« der »großen Stimme der deutschen Literatur«. Was man wirklich bekommt sind 23 Kurz-, Kürzer und Kürzestgeschichten, von denen zwei tatsächlich große Klasse sind (1, 10), ein paar klischeehafte Facebook-Posts, eine Handvoll formgleicher Schauergeschichten und zwischendrin kurze Lichtblicke (8, 11, 23). Der Rest ist mittelmäßig."
+        }
+    ]
   },
   {
     name: "Der Club der toten Dichter/Dead Poets Society",

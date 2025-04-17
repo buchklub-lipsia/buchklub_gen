@@ -4,6 +4,6 @@ build:
 	cargo run
 
 deploy: build
-	cd ../buchklub && git add . && (date | xargs -0 git commit -m) && git pull && git push
+	cd ../buchklub && git add . && (date | xargs -0 git commit -m) && git push -f
 
 b: build

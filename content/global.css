@@ -27,6 +27,7 @@ h1 {
 
 .navbar-hr {
     width: var(--content-width);
+    max-width: 100%;
     color: var(--theme);
 }
 

@@ -1,8 +1,19 @@
 [
   {
+    name: "Elefant",
+    author: "Martin Suter",
+    done: false,
+    year: 2017,
+    short_info: "",
+    info: "",
+    originator: "helena",
+    proposal_date: "Mai 2025",
+    comments: []
+  },
+  {
     name: "Aufzeichnungen aus dem Kellerloch",
     author: "Fjodor Dostojewski",
-    done: false,
+    done: true,
     year: 1864,
     short_info: "",
     info: "",

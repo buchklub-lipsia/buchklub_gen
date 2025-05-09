@@ -3,6 +3,12 @@
 build:
 	cargo run
 
+preview: build
+	open ../buchklub/index.html
+
+reset_build:
+	cd ../buchklub && git reset --hard
+
 deploy: build
 	cd ../buchklub && git add . && (date | xargs -0 git commit -m) && git push -f
 

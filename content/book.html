@@ -8,6 +8,9 @@
 {{#if (gt (len comments) 0)}}<h3 class="collapser collapser-init-show">Meinungen der Mitglieder</h3>{{/if}}
 <span class="comments">
 <p>Durchschnittliches Fazit: {{average-rating}}</p>
+{{#if (eq (len comments) 0)}}
+Noch keine Meinungen der Mitglieder ...
+{{/if}}
 {{#each comments}}
 <blockquote class="comment">
         <p class="comment-author"><span class="blue-text comment-author-text">{{#if (lookup (lookup ../../members from) "name")}}<a href="members.html#{{from}}">{{lookup (lookup ../../members from) "name"}}</a>{{else}}{{from}}{{/if}}: <!-- <img src="{{pic}}" alt="{{from}}" class="comment-author-pic">--></span>

@@ -1,8 +1,19 @@
 [
   {
+    name: "Elefant",
+    author: "Martin Suter",
+    done: false,
+    year: 2017,
+    short_info: "",
+    info: "",
+    originator: "helena",
+    proposal_date: "Mai 2025",
+    comments: []
+  },
+  {
     name: "Aufzeichnungen aus dem Kellerloch",
     author: "Fjodor Dostojewski",
-    done: false,
+    done: true,
     year: 1864,
     short_info: "",
     info: "",
@@ -44,7 +55,7 @@ Insgesamt ein schön geschriebenes Buch zum abschnittsweisen Lesen."
         {
             from: "linus",
             rating: 3.5,
-            content: "„Nachmittage“ ist eine Ansammlung von handwerklich marklosen Kurzgeschichten und Notizen. Die Geschichten zeigen die Ambivalenz von Gut und Böse im Menschen, in prägnanter und sprachlich ansprechender Weise auf. Zuweilen war die Handlung jedoch klischeehaft und die vermittelte Botschaft fast altväterlich. Von Schirach hat ein solides Buch geschrieben; die Literaturlandschaft mit „Nachmittage“ aber nicht wirklich bereichert, sondern eine Kurzgeschichtensammlung geschrieben, die sich in ähnliche dieser Art einreiht. Nichtsdestotrotz hatte ich eine gute Leseerfahrung. Nur hab ich bis jetzt nicht verstanden welchen Mehrwert die einseitigen Notizen zwischen den längeren Kurzgeschichten hatten."
+            content: "„Nachmittage“ ist eine Ansammlung von handwerklich makellosen Kurzgeschichten und Notizen. Die Geschichten zeigen die Ambivalenz von Gut und Böse im Menschen, in prägnanter und sprachlich ansprechender Weise auf. Zuweilen war die Handlung jedoch klischeehaft und die vermittelte Botschaft fast altväterlich. Von Schirach hat ein solides Buch geschrieben; die Literaturlandschaft mit „Nachmittage“ aber nicht wirklich bereichert, sondern eine Kurzgeschichtensammlung geschrieben, die sich in ähnliche dieser Art einreiht. Nichtsdestotrotz hatte ich eine gute Leseerfahrung. Nur hab ich bis jetzt nicht verstanden welchen Mehrwert die einseitigen Notizen zwischen den längeren Kurzgeschichten hatten."
         }
     ]
   },

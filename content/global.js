@@ -16,7 +16,7 @@ function getSiblingByClass(e, className) {
     }
 }
 
-const readMoreThreshold = 100;
+const readMoreThreshold = 225;
 const folds = document.getElementsByClassName("fold");
 const MORE = "...&nbsp;Mehr&nbsp;anzeigen";
 const LESS = "&nbsp;(Weniger&nbsp;anzeigen)";

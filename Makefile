@@ -1,10 +1,21 @@
-.PHONY: b build deploy_website content_push
+.PHONY: b build deploy_website content_push verify fmt
 
 build:
 	cargo run
 
+verify:
+	for f in $$(find . -name "*.gon"); do \
+		echo -n "$$f " && gon verify $$f ; \
+	done
+
+fmt: verify
+	for f in $$(find . -name "*.gon"); do \
+		echo "Formatting $$f" ; \
+		gon fmt -w 4 -t -i $$f ; \
+	done
+
 preview: build
-	open ../buchklub/index.html
+	open ../buchklub/index.html | firefox ../buchklub/index.html
 
 reset_build:
 	cd ../buchklub && git reset --hard

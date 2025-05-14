@@ -60,6 +60,15 @@
                     dankbar, so die Motivation zum Weiterlesen gefunden zu haben
                     und somit auf einige spannende Gedanken gestoßen wurde.",
             },
+            {
+                from: "malte",
+                rating: 4,
+                rating_display: "Schön und Erhaben",
+                content: "Ein allzu menschlicher Antiheld ärgert den Leser vor der eigentlichen Handlung
+                    mit einem sehr langen – um nicht zu sagen: langweiligen
+                    – Essay, für dessen Verständnis man wohl Nietzsche sein
+                    müsste.",
+            },
         ],
     },
     {

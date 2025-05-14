@@ -11,7 +11,7 @@ verify:
 fmt: verify
 	for f in $$(find . -name "*.gon"); do \
 		echo "Formatting $$f" ; \
-		gon fmt -w 4 -t -i $$f ; \
+		gon fmt -w 4 -t -i -m 80 $$f ; \
 	done
 
 preview: build
@@ -23,9 +23,9 @@ reset_build:
 deploy: build
 	cd ../buchklub && git add . && (date | xargs -0 git commit -m) && git push -f
 
-content_push:
+content_push: fmt
 	git add content
-	git commit -m "$(date | xargs echo content update)"
+	git commit -m "$$(date | xargs echo content update)"
 	git push
 
 b: build

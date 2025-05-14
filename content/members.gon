@@ -1,80 +1,68 @@
 {
     alex: {
-        name: "Alexander"
-,
-        short_info: "studiert die Rechtswissenschaft, Präsident"
-,
-        long_info: "Mit der Gründung des Buchklubs habe ich mir einen Kindheitstraum erfüllt, denn schon immer bin
-                        ich durch und durch lesebegeistert und wollte diese Passion in angeregtem Austausch mit
-                        anderen teilen.
-                        Neben Literatur begeistere ich mich insbesondere für Politik und das Sprachenlernen.
-            Ich studiere
-                        die Rechtswissenschaft mit Schwerpunkt in den Kriminalwissenschaften. In meiner Freizeit
-                        spiele ich außerdem Golf,
-                        höre viel Musik und bin gerne schaffend tätig, wie mit Häkeln oder Zeichnen.<br>Ähnlich
-            Malte ist
-                        eines meiner Lieblingsbücher »Der Graf von Monte Christo« von Alexandre Dumas, aber auch
-                        »Der Krieg mit den Molchen«
-                        von Karel Čapek und »Jane Eyre« von Charlotte Brontë sind mir nachhaltig in Erinnerung
-            geblieben."
-,
+        name: "Alexander",
+        short_info: "studiert die Rechtswissenschaft, Präsident",
+        long_info: "Mit der Gründung des Buchklubs habe ich mir einen Kindheitstraum erfüllt, denn
+            schon immer bin ich durch und durch lesebegeistert und wollte diese
+            Passion in angeregtem Austausch mit anderen teilen. Neben Literatur
+            begeistere ich mich insbesondere für Politik und das Sprachenlernen.
+            Ich studiere die Rechtswissenschaft mit Schwerpunkt in den
+            Kriminalwissenschaften. In meiner Freizeit spiele ich außerdem Golf,
+            höre viel Musik und bin gerne schaffend tätig, wie mit Häkeln oder
+            Zeichnen.<br>Ähnlich Malte ist eines meiner Lieblingsbücher »Der
+            Graf von Monte Christo« von Alexandre Dumas, aber auch »Der Krieg
+            mit den Molchen« von Karel Čapek und »Jane Eyre« von Charlotte
+            Brontë sind mir nachhaltig in Erinnerung geblieben.",
     },
     malte: {
-        name: "Malte"
-,
-        short_info: "studiert die Informatik, Webmaster"
-,
-        long_info: "Obgleich mir die digitale Dekadenz zuwider ist und ich ebenso geisteswissenschaftlich interessiert
-                        bin, studiere ich seit 2022 die Informatik.
-                        Am liebsten ist mir dabei der theoretische Teil und insbesondere die Logik, die
-            Automatentheorie und
-                        die Berechenbarkeit. Mein Lieblingsbuch ist der Graf von Monte Christo,
-                        mein Lieblingscharakter der kleine Kai Graf Mölln aus »Buddenbrooks«."
-,
+        name: "Malte",
+        short_info: "studiert die Informatik, Webmaster",
+        long_info: "Obgleich mir die digitale Dekadenz zuwider ist und ich ebenso
+            geisteswissenschaftlich interessiert bin, studiere ich seit
+            2022 die Informatik. Am liebsten ist mir dabei der theoretische
+            Teil und insbesondere die Logik, die Automatentheorie und die
+            Berechenbarkeit. Mein Lieblingsbuch ist der Graf von Monte
+            Christo, mein Lieblingscharakter der kleine Kai Graf Mölln aus
+            »Buddenbrooks«.",
     },
     jessi: {
-        name: "Jessica"
-,
-        short_info: "studiert die Rechtswissenschaft"
-,
-        long_info: "Hello, ich bin Jessi, 21, und studiere Jura im Schwerpunkt Grundlagen des Rechts. Ich mag alles,
-                        was mit Geschichte, True Crime, Literatur, Kunst und Katzen zu tun hat. Der Buchklub
-                        ist mir sehr wichtig, da ich mir nicht immer aktiv Zeit zum Lesen neben will/kann und
-                        ich dadurch eine gewisse Leseroutine entwickelt habe und bezüglich der Genre/Autor*innen
-                        auch aus meiner Komfortzone rauskomme.<br>
-                        Meine größte Freude beim Lesen:  ich denke sehr bildlich und kann dadurch richtig in
-            die Buchwelten
-                        eintauchen; so stelle mir gerne ihre Orte und Farben vor. Was ich nicht mag: ich lese zu
-                        schnell und muss dadurch oft Passagen wiederholen, um sie richtig mitzunehmen."
-,
+        name: "Jessica",
+        short_info: "studiert die Rechtswissenschaft",
+        long_info: "Hello, ich bin Jessi, 21, und studiere Jura im Schwerpunkt Grundlagen des
+            Rechts. Ich mag alles, was mit Geschichte, True Crime, Literatur,
+            Kunst und Katzen zu tun hat. Der Buchklub ist mir sehr wichtig, da
+            ich mir nicht immer aktiv Zeit zum Lesen neben will/kann und ich
+            dadurch eine gewisse Leseroutine entwickelt habe und bezüglich der
+            Genre/Autor*innen auch aus meiner Komfortzone rauskomme.<br> Meine
+            größte Freude beim Lesen: ich denke sehr bildlich und kann dadurch
+            richtig in die Buchwelten eintauchen; so stelle mir gerne ihre Orte
+            und Farben vor. Was ich nicht mag: ich lese zu schnell und muss
+            dadurch oft Passagen wiederholen, um sie richtig mitzunehmen.",
     },
     linus: {
-        name: "Linus"
-,
-        short_info: "studiert die Rechtswissenschaft, Vizepräsident"
-,
-        long_info: "Moin, ich bin neben meiner Buchklubmitgliedschaft Jurastudent mit dem Schwerpunkt
-                        Kriminalwissenschaften. Ich begeistere mich für Pistazien, Nina Simone und abendliche
-                        Spaziergänge (in keiner spezifischen Reihenfolge). Das Buch, mit dem ich Lesen gelernt
-                        habe, war »Karius und Baktus« und das letze Buch, was mich zum Weinen gebracht hat, war
-                        »Das Lied des Achill« von Madeline Miller."
-,
+        name: "Linus",
+        short_info: "studiert die Rechtswissenschaft, Vizepräsident",
+        long_info: "Moin, ich bin neben meiner Buchklubmitgliedschaft Jurastudent mit dem
+            Schwerpunkt Kriminalwissenschaften. Ich begeistere mich für
+            Pistazien, Nina Simone und abendliche Spaziergänge (in keiner
+            spezifischen Reihenfolge). Das Buch, mit dem ich Lesen gelernt habe,
+            war »Karius und Baktus« und das letze Buch, was mich zum Weinen
+            gebracht hat, war »Das Lied des Achill« von Madeline Miller.",
     },
     helena: {
-        name: "Helena"
-,
-        short_info: "studiert die Chemie"
-,
-        long_info: "Hey, ich bin Helena - mit dunkler Schokolade, einem grünen Tee oder wahlweise einem Cappuccino
-                        bin ich immer mit einem Lächeln anzutreffen (das liegt wohl am Koffein und am
-                        Serotonin).<br>
-                        Für mich ist der Buchklub eine schöne Abwechslung zu sperrigen Lehrbüchern und nüchtern
-                        geschriebenen Praktikumsanweisungen. Neben meinem Studium bin ich eine begeisterte
-                        Läuferin, die bereits die Marathons in Berlin und Frankfurt gelaufen ist. Niemals zu
-                        kurz kommt bei mir „Alle Welt“, mein Pferd. Letzteres ist wohl eine Leidenschaft die ich
-                        mit Juli Zeh, einer meiner Lieblingsautorinnen teile. Ich lese gerne jüngere Literatur,
-                        darunter auch Schätzing und Dürrenmatt. Ich liebe es aktuelle Themen durch den Blick
-                        eines Autors zu betrachten und daraus meine eigenen Schlüsse zu ziehen."
-,
+        name: "Helena",
+        short_info: "studiert die Chemie",
+        long_info: "Hey, ich bin Helena - mit dunkler Schokolade, einem grünen Tee oder wahlweise
+            einem Cappuccino bin ich immer mit einem Lächeln anzutreffen (das
+            liegt wohl am Koffein und am Serotonin).<br> Für mich ist der
+            Buchklub eine schöne Abwechslung zu sperrigen Lehrbüchern und
+            nüchtern geschriebenen Praktikumsanweisungen. Neben meinem Studium
+            bin ich eine begeisterte Läuferin, die bereits die Marathons in
+            Berlin und Frankfurt gelaufen ist. Niemals zu kurz kommt bei mir
+            „Alle Welt“, mein Pferd. Letzteres ist wohl eine Leidenschaft die
+            ich mit Juli Zeh, einer meiner Lieblingsautorinnen teile. Ich lese
+            gerne jüngere Literatur, darunter auch Schätzing und Dürrenmatt. Ich
+            liebe es aktuelle Themen durch den Blick eines Autors zu betrachten
+            und daraus meine eigenen Schlüsse zu ziehen.",
     },
 }

@@ -1,748 +1,696 @@
 [
     {
-        name: "Elefant"
-,
-        author: "Martin Suter"
-,
+        name: "Elefant",
+        author: "Martin Suter",
         done: false,
         year: 2017,
-        short_info: ""
-,
-        info: ""
-,
-        originator: "helena"
-,
-        proposal_date: "Mai 2025"
-,
+        short_info: "",
+        info: "",
+        originator: "helena",
+        proposal_date: "Mai 2025",
         comments: [],
     },
     {
-        name: "Aufzeichnungen aus dem Kellerloch"
-,
-        author: "Fjodor Dostojewski"
-,
+        name: "Aufzeichnungen aus dem Kellerloch",
+        author: "Fjodor Dostojewski",
         done: true,
         year: 1864,
-        short_info: ""
-,
-        info: ""
-,
-        originator: "malte"
-,
-        proposal_date: "April 2025"
-,
+        short_info: "",
+        info: "",
+        originator: "malte",
+        proposal_date: "April 2025",
         comments: [
             {
-                from: "jessi"
-,
+                from: "jessi",
                 rating: 3.5,
-                content: "„Aufzeichnungen aus dem Kellerloch“ von Dostojewski ist ein Buch, wovor ich mich zunächst gedrückt
-                                        hatte. Ich bin nicht der größte Fan von ihm, da mir sein Schreibstil nicht
-                                        gefällt (zu viel Blabla). Der erste Teil des Buches (~50 Seiten) hatte meine
-                                        Befürchtungen bestätigt; ein ziemlich wirrer Mann schreibt seine wirren Gedanken
-                                        über die Wirkungen und Folgen der Aufklärung nieder. Und ich hab’s gehasst. Aber
-                                        der zweite Teil macht das wieder wett: Einem depressiven, hypersensiblen Russen
-                                        (total neues Konzept in diesem Buchklub) sind die Menschen um sich herum mehr
-                                        Feind als Freund. Er erwartet von ihnen das Schlechteste, denkt, sie machen sich
-                                        über ihn lustig, respektieren ihn nicht. Dementsprechend feindselig fällt sein
-                                        Verhalten ihnen gegenüber aus. Dieser Teil war sehr schön geschrieben und war
-                                        äußerst unterhaltsam, weil man ständig ein Gefühl des Fremdschams dem Erzähler
-                                        ggü hatte und sich dachte: oh god, don’t do that."
-,
+                content: "„Aufzeichnungen aus dem Kellerloch“ von Dostojewski ist ein Buch, wovor ich
+                    mich zunächst gedrückt hatte. Ich bin nicht der größte
+                    Fan von ihm, da mir sein Schreibstil nicht gefällt (zu
+                    viel Blabla). Der erste Teil des Buches (~50 Seiten) hatte
+                    meine Befürchtungen bestätigt; ein ziemlich wirrer Mann
+                    schreibt seine wirren Gedanken über die Wirkungen und
+                    Folgen der Aufklärung nieder. Und ich hab’s gehasst. Aber
+                    der zweite Teil macht das wieder wett: Einem depressiven,
+                    hypersensiblen Russen (total neues Konzept in diesem
+                    Buchklub) sind die Menschen um sich herum mehr Feind als
+                    Freund. Er erwartet von ihnen das Schlechteste, denkt,
+                    sie machen sich über ihn lustig, respektieren ihn nicht.
+                    Dementsprechend feindselig fällt sein Verhalten ihnen
+                    gegenüber aus. Dieser Teil war sehr schön geschrieben und
+                    war äußerst unterhaltsam, weil man ständig ein Gefühl des
+                    Fremdschams dem Erzähler ggü hatte und sich dachte: oh god,
+                    don’t do that.",
             },
             {
-                from: "linus"
-,
+                from: "linus",
                 rating: 4.5,
-                content: "Wenn man mich fragt, ob ich Spaß beim Lesen von „Aufzeichnungen aus dem Kellerloch“ hatte,
-                                        ist meine Antwort ganz klar: Nein. Meistens empfand ich eine Mischung aus
-                                        Fremdscham, Beklemmung und Frustration. Doch gerade darin sehe ich die Kunst
-                                        dieses Buches. Es wird ein extrem unangenehmer, aber zutiefst authentischer
-                                        Mensch porträtiert, dessen inneren Vorgängen man als Leser:in so ungefiltert wie
-                                        möglich ausgesetzt ist. Zuletzt bleibt die Frage, ob das Leben determiniert ist
-                                        oder nicht oder ob ein Mensch lediglich durch seine Annahme, er sei determiniert
-                                        am Ende tatsächlich nicht mehr frei Handeln kann (Selbsterfüllende Prophezeiung)
-                                        offen. Ohne den Rahmen des Buchklubs, hätte ich dieses Buch wohl nach 20
-                                        Seiten aus der Hand gelegt und bin daher sehr dankbar, so die Motivation zum
-                                        Weiterlesen gefunden zu haben und somit auf einige spannende Gedanken gestoßen
-                                        wurde."
-,
+                content: "Wenn man mich fragt, ob ich Spaß beim Lesen von „Aufzeichnungen aus dem
+                    Kellerloch“ hatte, ist meine Antwort ganz klar: Nein.
+                    Meistens empfand ich eine Mischung aus Fremdscham,
+                    Beklemmung und Frustration. Doch gerade darin sehe ich die
+                    Kunst dieses Buches. Es wird ein extrem unangenehmer, aber
+                    zutiefst authentischer Mensch porträtiert, dessen inneren
+                    Vorgängen man als Leser:in so ungefiltert wie möglich
+                    ausgesetzt ist. Zuletzt bleibt die Frage, ob das Leben
+                    determiniert ist oder nicht oder ob ein Mensch lediglich
+                    durch seine Annahme, er sei determiniert am Ende tatsächlich
+                    nicht mehr frei Handeln kann (Selbsterfüllende Prophezeiung)
+                    offen. Ohne den Rahmen des Buchklubs, hätte ich dieses Buch
+                    wohl nach 20 Seiten aus der Hand gelegt und bin daher sehr
+                    dankbar, so die Motivation zum Weiterlesen gefunden zu haben
+                    und somit auf einige spannende Gedanken gestoßen wurde.",
             },
         ],
     },
     {
-        name: "Nachmittage"
-,
-        author: "Ferdinand von Schirach"
-,
+        name: "Nachmittage",
+        author: "Ferdinand von Schirach",
         done: true,
         year: 2022,
-        short_info: ""
-,
-        info: "... das »große Erzählkunst« ist?"
-,
-        originator: "jessi"
-,
-        proposal_date: "Februar 2025"
-,
+        short_info: "",
+        info: "... das »große Erzählkunst« ist?",
+        originator: "jessi",
+        proposal_date: "Februar 2025",
         comments: [
             {
-                from: "malte"
-,
+                from: "malte",
                 rating: 2.5,
-                content: "»Nachmittage« verspricht Einem »eines der
-                                                        persönlichsten Bücher« mit »große[r] Erzählkunst« der »großen
-                                                        Stimme der deutschen Literatur«. Was man wirklich bekommt sind
-                                                        23 Kurz-, Kürzer und Kürzestgeschichten, von denen zwei
-                                                        tatsächlich große Klasse sind (1, 10), ein paar klischeehafte
-                                                        Facebook-Posts, eine Handvoll formgleicher Schauergeschichten
-                                                        und zwischendrin kurze Lichtblicke (8, 11, 23). Der Rest ist
-                                                        mittelmäßig."
-,
+                content: "»Nachmittage« verspricht Einem »eines der persönlichsten Bücher« mit »große[r]
+                    Erzählkunst« der »großen Stimme der deutschen Literatur«.
+                    Was man wirklich bekommt sind 23 Kurz-, Kürzer und
+                    Kürzestgeschichten, von denen zwei tatsächlich große Klasse
+                    sind (1, 10), ein paar klischeehafte Facebook-Posts, eine
+                    Handvoll formgleicher Schauergeschichten und zwischendrin
+                    kurze Lichtblicke (8, 11, 23). Der Rest ist mittelmäßig.",
             },
             {
-                from: "helena"
-,
+                from: "helena",
                 rating: 3.5,
-                content: "Der Titel des Buches ist viel mehr eine Beschreibung für die Art und Weise wann man es lesen
-                                        kann, als dass er seinen Inhalt passend wieder gibt. Ich persönlich mag von
-                                        Schirachs Art zu schreiben und fand den Querschnitt der Themen der einzelnen
-                                        Kurzgeschichten lesenswert. Besonders gefallen hat mir die Kurzgeschichte über
-                                        einen Uhrenhändler, den wir am Wendepunkt seines Lebens begleiten, als sein
-                                        Doppelleben zusammenzubrechen droht. Die Erzählungen enden zwar oft absehbar
-                                        und haben einen ähnlichen Aufbau, trotz dessen erfüllen sie ihren Zweck zum
-                                        Nachdenken über jene Themen anzuregen. Einige Geschichten sind allerdings
-                                        austauschbar. Zudem wird ein Einblick in von Schirachs Leben nur durch das
-                                        Darbieten seiner Emotionen ermöglicht - letzten Endes schreibt er doch über das
-                                        Leben der anderen.
-                                        Insgesamt ein schön geschriebenes Buch zum abschnittsweisen Lesen."
-,
+                content: "Der Titel des Buches ist viel mehr eine Beschreibung für die Art und Weise
+                    wann man es lesen kann, als dass er seinen Inhalt passend
+                    wieder gibt. Ich persönlich mag von Schirachs Art zu
+                    schreiben und fand den Querschnitt der Themen der einzelnen
+                    Kurzgeschichten lesenswert. Besonders gefallen hat mir
+                    die Kurzgeschichte über einen Uhrenhändler, den wir am
+                    Wendepunkt seines Lebens begleiten, als sein Doppelleben
+                    zusammenzubrechen droht. Die Erzählungen enden zwar oft
+                    absehbar und haben einen ähnlichen Aufbau, trotz dessen
+                    erfüllen sie ihren Zweck zum Nachdenken über jene Themen
+                    anzuregen. Einige Geschichten sind allerdings austauschbar.
+                    Zudem wird ein Einblick in von Schirachs Leben nur durch
+                    das Darbieten seiner Emotionen ermöglicht - letzten Endes
+                    schreibt er doch über das Leben der anderen. Insgesamt ein
+                    schön geschriebenes Buch zum abschnittsweisen Lesen.",
             },
             {
-                from: "alex"
-,
+                from: "alex",
                 rating: 2.5,
-                content: "„Nachmittage“ ist eine Sammlung an Kurzgeschichten und Gedankensplittern ohne besondere Tiefen,
-                                        aber leider auch ohne besondere Höhen. Während eine Handvoll Kurzgeschichten
-                                        inhaltlich spannend und in ihrem Handwerk gelungen ist, so blieb mir der größere
-                                        Teil des Buches nicht nachhaltig in Erinnerung. Zu häufig war meine Reaktion
-                                        während des Lesens ein bloßes Schulterzucken. Zu oft wirkt das Geschriebene
-                                        klischee- und floskelhaft. Im Vergleich zu anderen Werken Schierachs – wie
-                                        etwa „Schuld“ – bleibt dieses doch ein ganzes Stück hinter meinen Erwartungen
-                                        zurück."
-,
+                content: "„Nachmittage“ ist eine Sammlung an Kurzgeschichten und Gedankensplittern ohne
+                    besondere Tiefen, aber leider auch ohne besondere Höhen.
+                    Während eine Handvoll Kurzgeschichten inhaltlich spannend
+                    und in ihrem Handwerk gelungen ist, so blieb mir der
+                    größere Teil des Buches nicht nachhaltig in Erinnerung.
+                    Zu häufig war meine Reaktion während des Lesens ein bloßes
+                    Schulterzucken. Zu oft wirkt das Geschriebene klischee- und
+                    floskelhaft. Im Vergleich zu anderen Werken Schierachs – wie
+                    etwa „Schuld“ – bleibt dieses doch ein ganzes Stück hinter
+                    meinen Erwartungen zurück.",
             },
             {
-                from: "jessi"
-,
+                from: "jessi",
                 rating: 4,
-                content: "„Nachmittage“ ist eine Sammlung an Kurzgeschichten und Gedankensplittern ohne besondere Tiefen,
-                                        aber leider auch ohne besondere Höhen. Während eine Handvoll Kurzgeschichten
-                                        inhaltlich spannend und in ihrem Handwerk gelungen ist, so blieb mir der größere
-                                        Teil des Buches nicht nachhaltig in Erinnerung. Zu häufig war meine Reaktion
-                                        während des Lesens ein bloßes Schulterzucken. Zu oft wirkt das Geschriebene
-                                        klischee- und floskelhaft. Im Vergleich zu anderen Werken Schierachs – wie
-                                        etwa „Schuld“ – bleibt dieses doch ein ganzes Stück hinter meinen Erwartungen
-                                        zurück."
-,
+                content: "„Nachmittage“ ist eine Sammlung an Kurzgeschichten und Gedankensplittern ohne
+                    besondere Tiefen, aber leider auch ohne besondere Höhen.
+                    Während eine Handvoll Kurzgeschichten inhaltlich spannend
+                    und in ihrem Handwerk gelungen ist, so blieb mir der
+                    größere Teil des Buches nicht nachhaltig in Erinnerung.
+                    Zu häufig war meine Reaktion während des Lesens ein bloßes
+                    Schulterzucken. Zu oft wirkt das Geschriebene klischee- und
+                    floskelhaft. Im Vergleich zu anderen Werken Schierachs – wie
+                    etwa „Schuld“ – bleibt dieses doch ein ganzes Stück hinter
+                    meinen Erwartungen zurück.",
             },
             {
-                from: "linus"
-,
+                from: "linus",
                 rating: 3.5,
-                content: "„Nachmittage“ ist eine Ansammlung von handwerklich makellosen Kurzgeschichten und Notizen. Die
-                                        Geschichten zeigen die Ambivalenz von Gut und Böse im Menschen, in prägnanter
-                                        und sprachlich ansprechender Weise auf. Zuweilen war die Handlung jedoch
-                                        klischeehaft und die vermittelte Botschaft fast altväterlich. Von Schirach hat
-                                        ein solides Buch geschrieben; die Literaturlandschaft mit „Nachmittage“ aber
-                                        nicht wirklich bereichert, sondern eine Kurzgeschichtensammlung geschrieben,
-                                        die sich in ähnliche dieser Art einreiht. Nichtsdestotrotz hatte ich eine gute
-                                        Leseerfahrung. Nur hab ich bis jetzt nicht verstanden welchen Mehrwert die
-                                        einseitigen Notizen zwischen den längeren Kurzgeschichten hatten."
-,
+                content: "„Nachmittage“ ist eine Ansammlung von handwerklich makellosen Kurzgeschichten
+                    und Notizen. Die Geschichten zeigen die Ambivalenz von
+                    Gut und Böse im Menschen, in prägnanter und sprachlich
+                    ansprechender Weise auf. Zuweilen war die Handlung
+                    jedoch klischeehaft und die vermittelte Botschaft fast
+                    altväterlich. Von Schirach hat ein solides Buch geschrieben;
+                    die Literaturlandschaft mit „Nachmittage“ aber nicht
+                    wirklich bereichert, sondern eine Kurzgeschichtensammlung
+                    geschrieben, die sich in ähnliche dieser Art einreiht.
+                    Nichtsdestotrotz hatte ich eine gute Leseerfahrung. Nur
+                    hab ich bis jetzt nicht verstanden welchen Mehrwert die
+                    einseitigen Notizen zwischen den längeren Kurzgeschichten
+                    hatten.",
             },
         ],
     },
     {
-        name: "Der Club der toten Dichter/Dead Poets Society"
-,
-        author: "N. H. Kleinbaum"
-,
+        name: "Der Club der toten Dichter/Dead Poets Society",
+        author: "N. H. Kleinbaum",
         done: true,
         year: 1989,
-        short_info: "In Originalsprache und der Übersetzung von Ekkehart Reinke"
-,
-        info: "... das wir auf Deutsch und Englisch lasen!"
-,
-        originator: "linus"
-,
-        proposal_date: "Januar 2024"
-,
+        short_info: "In Originalsprache und der Übersetzung von Ekkehart Reinke",
+        info: "... das wir auf Deutsch und Englisch lasen!",
+        originator: "linus",
+        proposal_date: "Januar 2024",
         comments: [
             {
-                from: "malte"
-,
+                from: "malte",
                 rating: 0.5,
-                content: "Der Film, dessen Drehbuch Kleinbaum zu einem Roman glorifiziert hat, mag noch so gut sein.  Diese
-                                        Adaption aber, die man beim besten Willen treffender als »Merchandising-
-                                        Artikel« bezeichnen muss, ist hingegen schrecklich.<br> Dem Leser wird
-                                        kein literarisches Werk, sondern die Aufzählung einzelner Handlungsteile
-                                        präsentiert.  Die Katastrophe des fünften Aktes passt nicht zu den ersten
-                                        vier Akten und ist von einer eigentlichen Tragweite, die sich Kleinbaum
-                                        nicht verdient hat.  Die »Liebesgeschichte« zwischen Knox und Chris ist zum
-                                        Kotzen ekelerregend und passt in den Frauen verachtenden Kanon dieses Buches.
-                                        Schließlich ist die anti-intellektualistische Einstellung des Lehrers Keating,
-                                        der die Literaturwissenschaft auf die rein subjektive Erfahrung reduziert,
-                                        furchterregend und basiert auf einem Strohmann (»Dr. Pritchard«).  Diese Buch
-                                        ist es offenbar nicht einmal Wert, dass ich meine Parataxen schön miteinander
-                                        bekannt mache.<br> Ich nehme dieses Buch nicht an und finde es auch schlimm,
-                                        dass ich einige Stunden das hier lesen musste!"
-,
+                content: "Der Film, dessen Drehbuch Kleinbaum zu einem Roman glorifiziert hat, mag
+                    noch so gut sein. Diese Adaption aber, die man beim besten
+                    Willen treffender als »Merchandising- Artikel« bezeichnen
+                    muss, ist hingegen schrecklich.<br> Dem Leser wird kein
+                    literarisches Werk, sondern die Aufzählung einzelner
+                    Handlungsteile präsentiert. Die Katastrophe des fünften
+                    Aktes passt nicht zu den ersten vier Akten und ist von
+                    einer eigentlichen Tragweite, die sich Kleinbaum nicht
+                    verdient hat. Die »Liebesgeschichte« zwischen Knox und
+                    Chris ist zum Kotzen ekelerregend und passt in den Frauen
+                    verachtenden Kanon dieses Buches. Schließlich ist die anti-
+                    intellektualistische Einstellung des Lehrers Keating, der
+                    die Literaturwissenschaft auf die rein subjektive Erfahrung
+                    reduziert, furchterregend und basiert auf einem Strohmann
+                    (»Dr. Pritchard«). Diese Buch ist es offenbar nicht einmal
+                    Wert, dass ich meine Parataxen schön miteinander bekannt
+                    mache.<br> Ich nehme dieses Buch nicht an und finde es auch
+                    schlimm, dass ich einige Stunden das hier lesen musste!",
             },
             {
-                from: "alex"
-,
-                rating: "0"
-,
-                content: "Wer aus einem Film ein Buch macht, der sollte dem Film etwas hinzuzufügen haben, oder aber als
-                                        absolutes Minimum die Erzählung dem Medium Roman anpassen. Kleinbaum ist
-                                        mit ihrer Wiedergabe des beliebten Filmklassikers an dieser Aufgabe kläglich
-                                        gescheitert und liefert uns ein glorifiziertes Drehbuch ohne jeglichen Mehrwert.
-                                        Schon im Verlauf des ersten Kapitels fällt auf, dass eine wiedererkennbare,
-                                        interessante Erzählstimme vollkommen fehlt; es handelt sich vielmehr um eine
-                                        bloße Aufzählung der Geschehnisse, ohne, dass diese tiefergehend beschrieben
-                                        werden. Was in einer Filmmontage schön aussieht und visuell nachvollziehbar ist,
-                                        wird in einem Buch zu einer Farce. Hinzukommen unglaubwürdige Szenen, die sich
-                                        im Verlauf der Geschichte überhaupt nicht anbahnen und ein Lehrer, der nicht
-                                        lehrt.  In diesem „Roman“ ist absolut nichts von Wert zu finden."
-,
+                from: "alex",
+                rating: "0",
+                content: "Wer aus einem Film ein Buch macht, der sollte dem Film etwas hinzuzufügen
+                    haben, oder aber als absolutes Minimum die Erzählung dem
+                    Medium Roman anpassen. Kleinbaum ist mit ihrer Wiedergabe
+                    des beliebten Filmklassikers an dieser Aufgabe kläglich
+                    gescheitert und liefert uns ein glorifiziertes Drehbuch
+                    ohne jeglichen Mehrwert. Schon im Verlauf des ersten
+                    Kapitels fällt auf, dass eine wiedererkennbare, interessante
+                    Erzählstimme vollkommen fehlt; es handelt sich vielmehr um
+                    eine bloße Aufzählung der Geschehnisse, ohne, dass diese
+                    tiefergehend beschrieben werden. Was in einer Filmmontage
+                    schön aussieht und visuell nachvollziehbar ist, wird in
+                    einem Buch zu einer Farce. Hinzukommen unglaubwürdige
+                    Szenen, die sich im Verlauf der Geschichte überhaupt nicht
+                    anbahnen und ein Lehrer, der nicht lehrt. In diesem „Roman“
+                    ist absolut nichts von Wert zu finden.",
             },
             {
-                from: "jessi"
-,
+                from: "jessi",
                 rating: 1,
-                content: "Zuerst habe ich die Geschichte von „Dead Poets Society“ genossen. Ich mochte die Idee einer
-                                        strengen Jungenakademie und dem Struggle der jugendlichen Hauptcharaktere, den
-                                        Erwartungen ihres Umfelds und der Gesellschaft gerecht zu werden. Begeistert hat
-                                        mich das Konzept eines Lehrers, der diesen Druck auf einmal umwirft und entgegen
-                                        aller Erwartungen von seinen Schülern Leichtigkeit erwartet. Was komisch ist,
-                                        wenn ich darüber nachdenke, denn Leichtigkeit kann man nicht erzwingen.<br>
-                                        Ich habe viele eigene Ideen, Vorstellungen und Meinungen während des Lesens
-                                        eingebracht und wenig auf die Art, wie das Buch verfasst wurde, geachtet. Nach
-                                        unserem Buchklubtreffen musste ich feststellen, dass das Buch nicht das alles
-                                        war, was ich darin hineininterpretiert hatte. Das passiert mir sonst nie nach
-                                        unseren Treffen, dass sich meine Meinung so stark danach ändert. Aber bei diesem
-                                        Buch war es wohl kein großer Verlust. Es sind viele Lücken, Unreinheiten und
-                                        einfach nicht schön geschriebene Stellen erkennbar, die uns teilweise verstört
-                                        zurückgelassen haben (Hust hust, die Partyszene, hust). Fragt mich nicht, wie
-                                        ich das beim Lesen ausgeblendet habe. Vielleicht, weil ich nur noch wenige Tage
-                                        Zeit zum Lesen hatte, ups. Naja, das Ding kriegt 1/5 Sterne von mir. Der Film
-                                        soll aber super sein, auf den freue ich mich."
-,
+                content: "Zuerst habe ich die Geschichte von „Dead Poets Society“ genossen. Ich mochte
+                    die Idee einer strengen Jungenakademie und dem Struggle
+                    der jugendlichen Hauptcharaktere, den Erwartungen ihres
+                    Umfelds und der Gesellschaft gerecht zu werden. Begeistert
+                    hat mich das Konzept eines Lehrers, der diesen Druck auf
+                    einmal umwirft und entgegen aller Erwartungen von seinen
+                    Schülern Leichtigkeit erwartet. Was komisch ist, wenn
+                    ich darüber nachdenke, denn Leichtigkeit kann man nicht
+                    erzwingen.<br> Ich habe viele eigene Ideen, Vorstellungen
+                    und Meinungen während des Lesens eingebracht und wenig auf
+                    die Art, wie das Buch verfasst wurde, geachtet. Nach unserem
+                    Buchklubtreffen musste ich feststellen, dass das Buch nicht
+                    das alles war, was ich darin hineininterpretiert hatte. Das
+                    passiert mir sonst nie nach unseren Treffen, dass sich meine
+                    Meinung so stark danach ändert. Aber bei diesem Buch war es
+                    wohl kein großer Verlust. Es sind viele Lücken, Unreinheiten
+                    und einfach nicht schön geschriebene Stellen erkennbar, die
+                    uns teilweise verstört zurückgelassen haben (Hust hust, die
+                    Partyszene, hust). Fragt mich nicht, wie ich das beim Lesen
+                    ausgeblendet habe. Vielleicht, weil ich nur noch wenige
+                    Tage Zeit zum Lesen hatte, ups. Naja, das Ding kriegt 1/5
+                    Sterne von mir. Der Film soll aber super sein, auf den freue
+                    ich mich.",
             },
             {
-                from: "linus"
-,
+                from: "linus",
                 rating: 1,
-                content: "Ich habe mich sehr auf das Buch gefreut und wurde maßlos enttäuscht. Wie ist es möglich, dass
-                                        ein Buch, das den Sinn des Lebens im Ästhetischem (insbesondere der Literatur)
-                                        sieht, so schlecht geschrieben sein? Der ganze Roman wirkt als hätte man Chat-
-                                        gpt gebeten die Szenen aus dem Film in Textform zu bringen. Ich habe noch nie
-                                        ein Buch gelesen, dass es verglichen mit dem Film schafft weniger Informationen
-                                        und Hintergründe zu vermitteln. Auch von der plumpen Sprache abgesehen, bleibt
-                                        die Geschichte weit unter dem Potential seiner Prämisse. Die Schüler sind flach
-                                        und verwechselbar, Neils Vater ist als Charakter extrem unglaubwürdig und die
-                                        Repräsentation von Frauen ist einfach ekelhaft. Es tut mir leid, dass N. H.
-                                        Kleinbaum ihre und unsere Zeit verschwendet hat."
-,
+                content: "Ich habe mich sehr auf das Buch gefreut und wurde maßlos enttäuscht. Wie
+                    ist es möglich, dass ein Buch, das den Sinn des Lebens im
+                    Ästhetischem (insbesondere der Literatur) sieht, so schlecht
+                    geschrieben sein? Der ganze Roman wirkt als hätte man Chat-
+                    gpt gebeten die Szenen aus dem Film in Textform zu bringen.
+                    Ich habe noch nie ein Buch gelesen, dass es verglichen mit
+                    dem Film schafft weniger Informationen und Hintergründe zu
+                    vermitteln. Auch von der plumpen Sprache abgesehen, bleibt
+                    die Geschichte weit unter dem Potential seiner Prämisse.
+                    Die Schüler sind flach und verwechselbar, Neils Vater ist
+                    als Charakter extrem unglaubwürdig und die Repräsentation
+                    von Frauen ist einfach ekelhaft. Es tut mir leid, dass N. H.
+                    Kleinbaum ihre und unsere Zeit verschwendet hat.",
             },
         ],
     },
     {
-        name: "Ansichten eines Clowns"
-,
-        author: "Heinrich Böll"
-,
+        name: "Ansichten eines Clowns",
+        author: "Heinrich Böll",
         done: true,
         year: 1963,
-        short_info: ""
-,
-        info: "Unser erstes deutsches Buch und das zweite eines Nobelpreisträgers."
-,
-        originator: "alex"
-,
-        proposal_date: "Dezember 2024"
-,
+        short_info: "",
+        info: "Unser erstes deutsches Buch und das zweite eines Nobelpreisträgers.",
+        originator: "alex",
+        proposal_date: "Dezember 2024",
         comments: [
             {
-                from: "linus"
-,
+                from: "linus",
                 rating: 5,
-                content: "Eine bahnbrechende Parabel für die Scheinmoral der Gesellschaft, insbesondere der katholischen
-                                        Kirche und des Bürgertums der Nachkriegszeit. So tragisch die Erzählung,
-                                        so komisch ist der Erzählweise aus Sicht des Clowns Hans Schier.
-                                        Handlungstreibendes Motiv ist zwar die am Konventionalismus gescheiterte Liebe
-                                        zu Marie. Das Werk als Liebesroman abzutun, wird diesem jedoch keinesfalls
-                                        gerecht."
-,
+                content: "Eine bahnbrechende Parabel für die Scheinmoral der Gesellschaft, insbesondere
+                    der katholischen Kirche und des Bürgertums der
+                    Nachkriegszeit. So tragisch die Erzählung, so komisch
+                    ist der Erzählweise aus Sicht des Clowns Hans Schier.
+                    Handlungstreibendes Motiv ist zwar die am Konventionalismus
+                    gescheiterte Liebe zu Marie. Das Werk als Liebesroman
+                    abzutun, wird diesem jedoch keinesfalls gerecht.",
             },
             {
-                from: "malte"
-,
+                from: "malte",
                 rating: 5,
-                content: "Zwischen eindrücklicher und wirksamer Darstellungen der gescheiterten Entnazifizierung und dem
-                                        gekonnten Demontieren des christlichen Spießbürgertums hat Heinrich Böll hier
-                                        sicherlich einen der lustigsten und unterhaltsamsten Romane der Weltliteratur
-                                        vorgelegt."
-,
+                content: "Zwischen eindrücklicher und wirksamer Darstellungen der gescheiterten
+                    Entnazifizierung und dem gekonnten Demontieren des
+                    christlichen Spießbürgertums hat Heinrich Böll hier
+                    sicherlich einen der lustigsten und unterhaltsamsten Romane
+                    der Weltliteratur vorgelegt.",
             },
             {
-                from: "alex"
-,
+                from: "alex",
                 rating: 5,
-                content: "Ein durch und durch gelungenes Werk satirischer Literatur! »Ansichten eines Clowns« liefert einen
-                                        detaillierten und authentischen Einblick in den Alltag der Nachkriegszeit,
-                                        durchzogen mit lauten und leisen Spitzen gegen die vorherrschende Doppelmoral
-                                        der Gesellschaft – insbesondere des Verbandskatholizismus – der 50er Jahre.
-                                        Der Kraftakt aller, sich oberflächlich als moralisch und korrekt darzustellen,
-                                        von Clown Schnier als »Zeitalter der Prostitution« bezeichnet, offenbart
-                                        schonungslos die Schwächen, Missgunst und den Egozentrismus der Beteiligten
-                                        – und das in einer höchst komischen und raffinierten Weise, die sprachlich
-                                        begeistert. Im Roman wird eine junge Liebe Opfer dieser Umstände – das im Roman
-                                        Beschriebene gilt jedoch für weit mehr, als nur diese Trennung, und beglückt den
-                                        Leser als ein kleines Stück Zeitgeschichte."
-,
+                content: "Ein durch und durch gelungenes Werk satirischer Literatur! »Ansichten eines
+                    Clowns« liefert einen detaillierten und authentischen
+                    Einblick in den Alltag der Nachkriegszeit, durchzogen
+                    mit lauten und leisen Spitzen gegen die vorherrschende
+                    Doppelmoral der Gesellschaft – insbesondere des
+                    Verbandskatholizismus – der 50er Jahre. Der Kraftakt aller,
+                    sich oberflächlich als moralisch und korrekt darzustellen,
+                    von Clown Schnier als »Zeitalter der Prostitution«
+                    bezeichnet, offenbart schonungslos die Schwächen, Missgunst
+                    und den Egozentrismus der Beteiligten – und das in einer
+                    höchst komischen und raffinierten Weise, die sprachlich
+                    begeistert. Im Roman wird eine junge Liebe Opfer dieser
+                    Umstände – das im Roman Beschriebene gilt jedoch für weit
+                    mehr, als nur diese Trennung, und beglückt den Leser als ein
+                    kleines Stück Zeitgeschichte.",
             },
         ],
     },
     {
-        name: "Picknick am Wegesrand"
-,
-        author: "Arkadi & Boris Strugazki"
-,
+        name: "Picknick am Wegesrand",
+        author: "Arkadi & Boris Strugazki",
         done: true,
         year: 1972,
-        short_info: ""
-,
-        info: "Wir lasen verschiedene Editionen, unter anderem übersetzt von David Drevs"
-,
-        originator: "malte"
-,
-        proposal_date: "November 2024"
-,
+        short_info: "",
+        info: "Wir lasen verschiedene Editionen, unter anderem übersetzt von David Drevs",
+        originator: "malte",
+        proposal_date: "November 2024",
         comments: [
             {
-                from: "alex"
-,
+                from: "alex",
                 rating: 3.5,
-                content: "Am Ende bleiben mir dutzende offene Fragen und ein Gefühl der Unzufriedenheit, trotz einer für sich
-                                        interessanten Geschichte mit ausreichend Spannung und fassbaren Charakteren.
-                                        Ich hatte allerdings etwas mehr erwartet, als ein »nur« solides Buch, zu
-                                        dem mir unerwartet wenig einfiel. Möglicherweise fehlte mir ausreichendes
-                                        Hintergrundwissen, um die leisen, verwirrend flüsternden Interpretationsansätze
-                                        entwirren zu können."
-,
+                content: "Am Ende bleiben mir dutzende offene Fragen und ein Gefühl der Unzufriedenheit,
+                    trotz einer für sich interessanten Geschichte mit
+                    ausreichend Spannung und fassbaren Charakteren. Ich hatte
+                    allerdings etwas mehr erwartet, als ein »nur« solides
+                    Buch, zu dem mir unerwartet wenig einfiel. Möglicherweise
+                    fehlte mir ausreichendes Hintergrundwissen, um die leisen,
+                    verwirrend flüsternden Interpretationsansätze entwirren
+                    zu können.",
             },
             {
-                from: "linus"
-,
+                from: "linus",
                 rating: 3.5,
-                content: "Durch die kernige und authentische Sprache des Romans, ist man als Leser:in ganz dicht an
-                                        dem Charakter des Stalkers Roderic Shuchart und begleitet ihn durch seine
-                                        gefährlichen Einsätze in der Zone. Außerirdische haben nach einem Besuch auf der
-                                        Erde nicht nur unbewohnbare Zonen sondern auch mysteriöse Gegenstände in eben
-                                        diesen Zonen hinterlassen. Wie es sich für einen guten Sci-fi Roman gehört, hat
-                                        man zu Beginn ganz viele Fragezeichen beim lesen vor Augen. Jedoch schafft es
-                                        der Roman nicht viele dieser Fragen aufzulösen, sodass man die Weltgestaltung
-                                        gar nicht in seiner Meisterhaftigkeit bewundern kann, weil einfach zu viele
-                                        Lücken blieben. Entgegen Roderics Wunsch musste ich daher etwas enttäuscht
-                                        fortgehen."
-,
+                content: "Durch die kernige und authentische Sprache des Romans, ist man als Leser:in
+                    ganz dicht an dem Charakter des Stalkers Roderic Shuchart
+                    und begleitet ihn durch seine gefährlichen Einsätze in
+                    der Zone. Außerirdische haben nach einem Besuch auf der
+                    Erde nicht nur unbewohnbare Zonen sondern auch mysteriöse
+                    Gegenstände in eben diesen Zonen hinterlassen. Wie es sich
+                    für einen guten Sci-fi Roman gehört, hat man zu Beginn ganz
+                    viele Fragezeichen beim lesen vor Augen. Jedoch schafft es
+                    der Roman nicht viele dieser Fragen aufzulösen, sodass man
+                    die Weltgestaltung gar nicht in seiner Meisterhaftigkeit
+                    bewundern kann, weil einfach zu viele Lücken blieben.
+                    Entgegen Roderics Wunsch musste ich daher etwas enttäuscht
+                    fortgehen.",
             },
             {
-                from: "jessi"
-,
+                from: "jessi",
                 rating: 3.5,
-                content: "Eine Sache, die mich an »Ein Picknick am Wegesrand« positiv überrascht hatte, war die teils
-                                        sehr humoristische Ausdrucksweise des Erzählenden. Das ist etwas, was ich von
-                                        russischen Büchern eigentlich nicht kenne; die hatte ich immer als sehr ernst
-                                        und fast schon humorlos empfunden. Das Buch an sich fand ich recht interessant,
-                                        vor allem das Konzept, dass die Außerirdischen selbst keine direkte Präsenz
-                                        zeigen, außer den Dingen, die sie auf der Welt hinterlassen haben. Daraus
-                                        entwickelt sich ein gieriges Bestreben von „Schatzjägern“, sich durch diese
-                                        Artefakte zu bereichern, was ich als Kapitalismuskritik wahrgenommen habe
-                                        (surprise, wenn es ein Buch ist, das in der DDR genehmigt wurde :D)<br> An und
-                                        für sich ein sehr düsteres Buch, jedoch bin ich kein großer Sci-Fi Fan, weswegen
-                                        ich mich an einigen Stellen mit dem Lesen etwas gequält hatte. Vielleicht liegt
-                                        es auch daran, dass einige Dinge eher »kryptisch« behandelt wurden."
-,
+                content: "Eine Sache, die mich an »Ein Picknick am Wegesrand« positiv überrascht
+                    hatte, war die teils sehr humoristische Ausdrucksweise des
+                    Erzählenden. Das ist etwas, was ich von russischen Büchern
+                    eigentlich nicht kenne; die hatte ich immer als sehr ernst
+                    und fast schon humorlos empfunden. Das Buch an sich fand
+                    ich recht interessant, vor allem das Konzept, dass die
+                    Außerirdischen selbst keine direkte Präsenz zeigen, außer
+                    den Dingen, die sie auf der Welt hinterlassen haben. Daraus
+                    entwickelt sich ein gieriges Bestreben von „Schatzjägern“,
+                    sich durch diese Artefakte zu bereichern, was ich als
+                    Kapitalismuskritik wahrgenommen habe (surprise, wenn es ein
+                    Buch ist, das in der DDR genehmigt wurde :D)<br> An und für
+                    sich ein sehr düsteres Buch, jedoch bin ich kein großer Sci-
+                    Fi Fan, weswegen ich mich an einigen Stellen mit dem Lesen
+                    etwas gequält hatte. Vielleicht liegt es auch daran, dass
+                    einige Dinge eher »kryptisch« behandelt wurden.",
             },
             {
-                from: "malte"
-,
+                from: "malte",
                 rating: 3.51,
-                content: "Die Strugazkis haben mit diesem Roman meine Erwartungen leider nicht erfüllt. Würde man sich mit
-                                        der Sowjetunion auskennen, hätte man bestimmt mehr von dieser Erzählung gehabt.
-                                        Für mich also leider eine angenehme Lektüre ohne viel Mehrwert."
-,
+                content: "Die Strugazkis haben mit diesem Roman meine Erwartungen leider nicht erfüllt.
+                    Würde man sich mit der Sowjetunion auskennen, hätte man
+                    bestimmt mehr von dieser Erzählung gehabt. Für mich also
+                    leider eine angenehme Lektüre ohne viel Mehrwert.",
             },
         ],
     },
     {
-        name: "Lushins Verteidigung"
-,
-        author: "Vladimir Nabokov"
-,
+        name: "Lushins Verteidigung",
+        author: "Vladimir Nabokov",
         done: true,
         year: 1930,
-        short_info: "übersetzt von Dietmar Schulte"
-,
-        info: "Wir lasen die Übersetzung von Dietmar Schulte, herausgegeben von Dieter E. Zimmer im Rohwolt-
-                        Verlag."
-,
-        originator: "jessi"
-,
-        proposal_date: "Juli 2024"
-,
+        short_info: "übersetzt von Dietmar Schulte",
+        info: "Wir lasen die Übersetzung von Dietmar Schulte, herausgegeben von Dieter E.
+            Zimmer im Rohwolt- Verlag.",
+        originator: "jessi",
+        proposal_date: "Juli 2024",
         comments: [
             {
-                from: "malte"
-,
+                from: "malte",
                 rating: 4,
-                content: "Nabokov scheint den Charakter der Geschichte, Lushin, mit namenlosen Typen zu umgeben. Besonders
-                                        auffällig ist der der aufopfernden ♕, die sich aus nicht nachvollziehbaren
-                                        Gründen diesem grobschlächtigen Sonderling annimmt. Selbst Maestro Lushin wirkt
-                                        beizeiten eher wie ein Typus – analog etwa zu den »Figuren« des Schachspiels?
-                                        Ob Lushins Verteidigung nun ein Schachproblem ist oder nicht – ein lesenswertes
-                                        Buch ist es allemal – quod erat expectandum."
-,
+                content: "Nabokov scheint den Charakter der Geschichte, Lushin, mit namenlosen Typen
+                    zu umgeben. Besonders auffällig ist der der aufopfernden
+                    ♕, die sich aus nicht nachvollziehbaren Gründen diesem
+                    grobschlächtigen Sonderling annimmt. Selbst Maestro Lushin
+                    wirkt beizeiten eher wie ein Typus – analog etwa zu den
+                    »Figuren« des Schachspiels? Ob Lushins Verteidigung nun ein
+                    Schachproblem ist oder nicht – ein lesenswertes Buch ist es
+                    allemal – quod erat expectandum.",
             },
             {
-                from: "linus"
-,
+                from: "linus",
                 rating: 3.5,
-                content: "Der Roman von Nabokov erzählt die Geschichte eines begabten Eigenbrötlers, der zwar meisterhaft das
-                                        Spielgeschehen auf dem Schachbrett vorhersehen und lenken kann, aber im echten
-                                        Leben, ohne die Selbstaufopferung seiner Frau, komplett aufgeschmissen ist
-                                        und am Ende an der wahnsinnigen Vorstellung untergeht, alles hätte auch gegen
-                                        ihn verschworen, wie in einem abgekartetem Spiel. Durch seine verschachtelten
-                                        Sätze und seinen zuweilen komplizierten Sätzen schafft N. einen atmosphärischen
-                                        dichten Roman, der einen direkt in die Gefühlswelt der Protagonisten zieht."
-,
+                content: "Der Roman von Nabokov erzählt die Geschichte eines begabten Eigenbrötlers,
+                    der zwar meisterhaft das Spielgeschehen auf dem Schachbrett
+                    vorhersehen und lenken kann, aber im echten Leben, ohne die
+                    Selbstaufopferung seiner Frau, komplett aufgeschmissen ist
+                    und am Ende an der wahnsinnigen Vorstellung untergeht, alles
+                    hätte auch gegen ihn verschworen, wie in einem abgekartetem
+                    Spiel. Durch seine verschachtelten Sätze und seinen zuweilen
+                    komplizierten Sätzen schafft N. einen atmosphärischen
+                    dichten Roman, der einen direkt in die Gefühlswelt der
+                    Protagonisten zieht.",
             },
             {
-                from: "alex"
-,
+                from: "alex",
                 rating: 4.25,
-                content: "Erneut ein Buch, welches mein Drittes des  Autors ist.<br>Ein wahnsinniger Schachspieler und
-                                        eine ihm eigene Verteidigung, die sich möglicherweise im schlichten Aufgeben
-                                        erschöpft. Ein Akt, der als einziger in seiner Macht steht, inmitten von
-                                        Ohnmacht bedingt durch Wiederholungen und Muster, wie sie dem Schach, zu
-                                        Lushins Nachteil, eigen sind. Dieser fand keinen Platz in der Realität und
-                                        floh letztlich auch vor seiner eigenen Welt, dem Schachspiel. Für die Menschen
-                                        um ihn nicht zu verstehen, blieb er für sich – bis zum Schluss spielt jeder
-                                        seine Rolle, als seien sie Schachfiguren. Frau Lushin versucht mit all ihrer
-                                        Macht zu retten, was nicht zu retten ist; eine Dame in einer hoffnungslosen
-                                        Stellung.<br>»Lushins Verteidigung« ist eine ausgeformte Sprachübung Nabokovs
-                                        – ein Meister der Beschreibung – welche auch inhaltlich zum tieferen Nachdenken
-                                        anregt und Raum für eigene Interpretationen lässt, wie unsere schöne Diskussion
-                                        gezeigt hat."
-,
+                content: "Erneut ein Buch, welches mein Drittes des Autors ist.<br>Ein wahnsinniger
+                    Schachspieler und eine ihm eigene Verteidigung, die sich
+                    möglicherweise im schlichten Aufgeben erschöpft. Ein
+                    Akt, der als einziger in seiner Macht steht, inmitten von
+                    Ohnmacht bedingt durch Wiederholungen und Muster, wie sie
+                    dem Schach, zu Lushins Nachteil, eigen sind. Dieser fand
+                    keinen Platz in der Realität und floh letztlich auch vor
+                    seiner eigenen Welt, dem Schachspiel. Für die Menschen um
+                    ihn nicht zu verstehen, blieb er für sich – bis zum Schluss
+                    spielt jeder seine Rolle, als seien sie Schachfiguren.
+                    Frau Lushin versucht mit all ihrer Macht zu retten, was
+                    nicht zu retten ist; eine Dame in einer hoffnungslosen
+                    Stellung.<br>»Lushins Verteidigung« ist eine ausgeformte
+                    Sprachübung Nabokovs – ein Meister der Beschreibung – welche
+                    auch inhaltlich zum tieferen Nachdenken anregt und Raum für
+                    eigene Interpretationen lässt, wie unsere schöne Diskussion
+                    gezeigt hat.",
             },
             {
-                from: "jessi"
-,
+                from: "jessi",
                 rating: 5,
-                content: "Mit »Lushins Verteidigung« hat es Nabokov geschafft, einen sprachlich hochwertigen, aber nicht
-                                        zu anspruchsvollen Eindruck in die Welt eines jungen Schachspielers zu geben.
-                                        Die anderen stimmen mir nicht zu, aber mMn ist das Leben Lushins geprägt von
-                                        viel Traurigkeit, Einsamkeit und dem Gefühl, nicht für diese Welt gemacht zu
-                                        sein. Nur wenige Leute schaffen es, einen nachhaltigen Eindruck auf ihn zu
-                                        hinterlassen und in sein Herz geschlossen zu werden. Aufgrund dessen habe ich
-                                        oft Mitgefühl für ihn empfunden und gehofft, dass er früher oder später die
-                                        Kurve bekommt. Ob ihm dies gelingt, müsst ihr selbst herausfinden ;)"
-,
+                content: "Mit »Lushins Verteidigung« hat es Nabokov geschafft, einen sprachlich
+                    hochwertigen, aber nicht zu anspruchsvollen Eindruck in
+                    die Welt eines jungen Schachspielers zu geben. Die anderen
+                    stimmen mir nicht zu, aber mMn ist das Leben Lushins geprägt
+                    von viel Traurigkeit, Einsamkeit und dem Gefühl, nicht für
+                    diese Welt gemacht zu sein. Nur wenige Leute schaffen es,
+                    einen nachhaltigen Eindruck auf ihn zu hinterlassen und in
+                    sein Herz geschlossen zu werden. Aufgrund dessen habe ich
+                    oft Mitgefühl für ihn empfunden und gehofft, dass er früher
+                    oder später die Kurve bekommt. Ob ihm dies gelingt, müsst
+                    ihr selbst herausfinden ;)",
             },
         ],
     },
     {
-        name: "Quecksilber"
-,
-        author: "Amélie Nothomb"
-,
+        name: "Quecksilber",
+        author: "Amélie Nothomb",
         done: true,
         year: 1998,
-        short_info: "aus dem Französischen von Wolfgang Krege"
-,
-        info: "... bei dem wir uns herrlich uneinig waren."
-,
-        originator: "linus"
-,
-        proposal_date: "Juni 2024"
-,
+        short_info: "aus dem Französischen von Wolfgang Krege",
+        info: "... bei dem wir uns herrlich uneinig waren.",
+        originator: "linus",
+        proposal_date: "Juni 2024",
         comments: [
             {
-                from: "linus"
-,
+                from: "linus",
                 rating: 4,
-                content: "Das erste Buchklubbuch, das den Bechdel-Test besteht. Der Roman erzählt über 180 Seiten eine
-                                        spannende, wenn auch an einigen Stellen etwas unglaubwürdige, Geschichte. Da
-                                        das Buch hauptsächlich in wörtlicher Rede geschrieben ist, wirkt es fast wie ein
-                                        Drama oder ein Drehbuch. Durch die Kürze bleibt die Spannung übers Buch hinweg
-                                        aufrechterhalten, jedoch missen die Charaktere eine gewisse Tiefe."
-,
+                content: "Das erste Buchklubbuch, das den Bechdel-Test besteht. Der Roman erzählt über
+                    180 Seiten eine spannende, wenn auch an einigen Stellen
+                    etwas unglaubwürdige, Geschichte. Da das Buch hauptsächlich
+                    in wörtlicher Rede geschrieben ist, wirkt es fast wie ein
+                    Drama oder ein Drehbuch. Durch die Kürze bleibt die Spannung
+                    übers Buch hinweg aufrechterhalten, jedoch missen die
+                    Charaktere eine gewisse Tiefe.",
             },
             {
-                from: "malte"
-,
+                from: "malte",
                 rating: 2,
-                content: "Die uninspirierende Sprache, die flachen Charaktere und die beiden (!) schrecklichen Enden
-                                        überwiegen die interessante Idee des Buches."
-,
+                content: "Die uninspirierende Sprache, die flachen Charaktere und die beiden (!)
+                    schrecklichen Enden überwiegen die interessante Idee des
+                    Buches.",
             },
             {
-                from: "alex"
-,
+                from: "alex",
                 rating: 2.5,
-                content: "Eine durchwachsene Erfahrung. Die Prämisse des Buches birgt großes Potenzial und ist sehr spannend.
-                                        Leider wird die Ausführung diesem Potenzial nicht gerecht. Die Charaktere
-                                        bleiben eindimensional: Krankenschwester Chavaigne soll alles zugleich sein,
-                                        sie bleibt aber nicht greifbar und in Teilen sogar widersprüchlich. Sprünge in
-                                        der Geschichte passieren urplötzlich, Dialoge erscheinen unglaubwürdig. Es wird
-                                        sich nicht die Zeit genommen, die Geschichte ausreichend auszuformen. Auch wenn
-                                        es teils tatsächlich wie ein Drama wirkt, so glaube ich nicht, dass dies die
-                                        Intention der Autorin war – und selbst wenn dem so wäre, wird diese Idee nicht
-                                        im gesamten Buch zur Geltung gebracht. Die Inkorporierung zweier Enden ist eine
-                                        interessante Idee, die mich auch sehr überrascht hat, nur leider gefallen mir
-                                        beide Enden nicht besonders gut. Das Zweite stört mich jedoch um einiges mehr,
-                                        es vereint die gesamte von mir empfundene Unglaubwürdigkeit der Erzählung auf
-                                        14 Seiten."
-,
+                content: "Eine durchwachsene Erfahrung. Die Prämisse des Buches birgt großes Potenzial
+                    und ist sehr spannend. Leider wird die Ausführung
+                    diesem Potenzial nicht gerecht. Die Charaktere bleiben
+                    eindimensional: Krankenschwester Chavaigne soll alles
+                    zugleich sein, sie bleibt aber nicht greifbar und in Teilen
+                    sogar widersprüchlich. Sprünge in der Geschichte passieren
+                    urplötzlich, Dialoge erscheinen unglaubwürdig. Es wird
+                    sich nicht die Zeit genommen, die Geschichte ausreichend
+                    auszuformen. Auch wenn es teils tatsächlich wie ein Drama
+                    wirkt, so glaube ich nicht, dass dies die Intention der
+                    Autorin war – und selbst wenn dem so wäre, wird diese
+                    Idee nicht im gesamten Buch zur Geltung gebracht. Die
+                    Inkorporierung zweier Enden ist eine interessante Idee, die
+                    mich auch sehr überrascht hat, nur leider gefallen mir beide
+                    Enden nicht besonders gut. Das Zweite stört mich jedoch
+                    um einiges mehr, es vereint die gesamte von mir empfundene
+                    Unglaubwürdigkeit der Erzählung auf 14 Seiten.",
             },
             {
-                from: "jessi"
-,
+                from: "jessi",
                 rating: 4.75,
-                content: "Das bisher von mir meistgeliebte Buch. Eine Insel, ein Anwesen, zwei Frauen, ein verrückter
-                                        alter Kapitän - geniale Mischung, gell? Geheimnisvolle, mysteriöse Prämisse,
-                                        mit interessanten Wendungen. Sprachlich sehr schön, etwas hochgestochen, aber
-                                        nicht zu sehr, sodass es lesbar bleibt. <br>Sogar mit zwei Enden, choose your
-                                        fighter!"
-,
+                content: "Das bisher von mir meistgeliebte Buch. Eine Insel, ein Anwesen, zwei Frauen,
+                    ein verrückter alter Kapitän - geniale Mischung, gell?
+                    Geheimnisvolle, mysteriöse Prämisse, mit interessanten
+                    Wendungen. Sprachlich sehr schön, etwas hochgestochen, aber
+                    nicht zu sehr, sodass es lesbar bleibt. <br>Sogar mit zwei
+                    Enden, choose your fighter!",
             },
         ],
     },
     {
-        name: "Der Maler der fließenden Welt"
-,
-        author: "Kazuo Ishiguro"
-,
+        name: "Der Maler der fließenden Welt",
+        author: "Kazuo Ishiguro",
         done: true,
         year: 1986,
-        short_info: "aus dem Englischen von Hartmut Zahn"
-,
-        info: "... bei dem sich alles um die Frage drehte wie weit dem Erzähler zu trauen sei."
-,
-        originator: "alex"
-,
-        proposal_date: "Mai 2024"
-,
+        short_info: "aus dem Englischen von Hartmut Zahn",
+        info: "... bei dem sich alles um die Frage drehte wie weit dem Erzähler zu trauen
+            sei.",
+        originator: "alex",
+        proposal_date: "Mai 2024",
         comments: [
             {
-                from: "linus"
-,
+                from: "linus",
                 rating: 4,
-                content: "Der Autor hat mit seinen malerischen und detaillierten Beschreibungen dem Leser ein tiefes
-                                        Eintauchen in die Atmosphäre der Szenen ermöglicht. Die achronologische
-                                        Erzählweise lässt einem in besonderer Weise an der Gedankenwelt des
-                                        Protagonisten teilhaben, sorgt aber auch dafür, dass sich die Handlung länger
-                                        dehnt als nötig."
-,
+                content: "Der Autor hat mit seinen malerischen und detaillierten Beschreibungen dem
+                    Leser ein tiefes Eintauchen in die Atmosphäre der Szenen
+                    ermöglicht. Die achronologische Erzählweise lässt einem
+                    in besonderer Weise an der Gedankenwelt des Protagonisten
+                    teilhaben, sorgt aber auch dafür, dass sich die Handlung
+                    länger dehnt als nötig.",
             },
             {
-                from: "malte"
-,
+                from: "malte",
                 rating: 4,
-                content: "Ein interessanter kleiner Ausschnitt aus dem Nachkriegsjapan."
-,
+                content: "Ein interessanter kleiner Ausschnitt aus dem Nachkriegsjapan.",
             },
             {
-                from: "alex"
-,
+                from: "alex",
                 rating: 4.5,
-                content: "»Der Maler der fließenden Welt« ist das dritte Buch, welches ich von Ishiguro gelesen habe.
-                                        Mich beeindruckt seine Sprache und die andächtige Stimmung, welche durch
-                                        sie geschaffen wird. In diesem Buch verbindet sich sein Schreibstil in ganz
-                                        besonderer Weise mit dem Inhalt, einer Nachkriegsgeschichte aus Sicht eines
-                                        alten Mannes, den im Verlauf der Erzählung seine Vergangenheit einholt. Die
-                                        Gedankensprünge, ausschweifende und insgesamt erinnerungsschwelgende Erzählweise
-                                        des Autors, welche auch seine späteren Werke prägt, schaffen plastische,
-                                        facettenreiche Charaktere. Besonders interessant ist hierbei auch die Frage
-                                        nach dem Wahrheitsgehalt des vom Hauptcharakter Geäußerten, der immer wieder
-                                        Unsicherheit streut und letzten Endes nur seine Sichtweise und Erinnerung der
-                                        Dinge darlegt. Die Nähe zu seiner Perspektiv vermittelt im Verlauf des Buches
-                                        eindrucksvoll den Wandel der Figur selbst, seiner Umwelt und die Beziehung
-                                        dieser beiden Aspekte zueinander."
-,
+                content: "»Der Maler der fließenden Welt« ist das dritte Buch, welches ich von Ishiguro
+                    gelesen habe. Mich beeindruckt seine Sprache und die
+                    andächtige Stimmung, welche durch sie geschaffen wird.
+                    In diesem Buch verbindet sich sein Schreibstil in ganz
+                    besonderer Weise mit dem Inhalt, einer Nachkriegsgeschichte
+                    aus Sicht eines alten Mannes, den im Verlauf der Erzählung
+                    seine Vergangenheit einholt. Die Gedankensprünge,
+                    ausschweifende und insgesamt erinnerungsschwelgende
+                    Erzählweise des Autors, welche auch seine späteren Werke
+                    prägt, schaffen plastische, facettenreiche Charaktere.
+                    Besonders interessant ist hierbei auch die Frage nach dem
+                    Wahrheitsgehalt des vom Hauptcharakter Geäußerten, der
+                    immer wieder Unsicherheit streut und letzten Endes nur
+                    seine Sichtweise und Erinnerung der Dinge darlegt. Die
+                    Nähe zu seiner Perspektiv vermittelt im Verlauf des Buches
+                    eindrucksvoll den Wandel der Figur selbst, seiner Umwelt und
+                    die Beziehung dieser beiden Aspekte zueinander.",
             },
             {
-                from: "jessi"
-,
+                from: "jessi",
                 rating: 4.5,
-                content: "Das erste, aber definitiv nicht einzige Buch, das ich von Ishiguro gelesen habe. In diesem Werk
-                                        gelingt es ihm hervorragend, eine ruhige, dennoch nicht langweilige Szenerie des
-                                        Nachkriegs-Japans zu schaffen und den Lesenden in eine kleine, feine Zeitreise
-                                        zu versetzen. <br>Die Sprache ist vom japanischen Erzählungsstil geprägt, auf
-                                        eine Weise locker, aber dennoch nicht informell; das Buch lässt sich dadurch
-                                        angenehm und fließend (badumtss) lesen. <br>Ich freue mich auf Weiteres von
-                                        Ishiguro!"
-,
+                content: "Das erste, aber definitiv nicht einzige Buch, das ich von Ishiguro gelesen
+                    habe. In diesem Werk gelingt es ihm hervorragend, eine
+                    ruhige, dennoch nicht langweilige Szenerie des Nachkriegs-
+                    Japans zu schaffen und den Lesenden in eine kleine, feine
+                    Zeitreise zu versetzen. <br>Die Sprache ist vom japanischen
+                    Erzählungsstil geprägt, auf eine Weise locker, aber dennoch
+                    nicht informell; das Buch lässt sich dadurch angenehm und
+                    fließend (badumtss) lesen. <br>Ich freue mich auf Weiteres
+                    von Ishiguro!",
             },
         ],
     },
     {
-        name: "Die Reise nach Petuschki"
-,
-        author: "Wenedikt Jerofejew"
-,
+        name: "Die Reise nach Petuschki",
+        author: "Wenedikt Jerofejew",
         done: true,
         year: 1969,
-        short_info: "aus dem Russischen von Natascha Spitz"
-,
-        info: "... wozu wir uns passenderweise in der Vodkaria trafen."
-,
-        originator: "ex"
-,
-        proposal_date: "April 2024"
-,
+        short_info: "aus dem Russischen von Natascha Spitz",
+        info: "... wozu wir uns passenderweise in der Vodkaria trafen.",
+        originator: "ex",
+        proposal_date: "April 2024",
         comments: [
             {
-                from: "linus"
-,
+                from: "linus",
                 rating: 3,
-                content: "Sehr komisch, aber sehr unterhaltsam."
-,
+                content: "Sehr komisch, aber sehr unterhaltsam.",
             },
             {
-                from: "malte"
-,
+                from: "malte",
                 rating: 5,
-                content: "Jerofejews Klassiker ist eine furchtbar tragische Dichtung, deren furchtbare Tragik ich beim
-                                        brüllenden Lachen oft vergaß."
-,
+                content: "Jerofejews Klassiker ist eine furchtbar tragische Dichtung, deren furchtbare
+                    Tragik ich beim brüllenden Lachen oft vergaß.",
             },
             {
-                from: "alex"
-,
+                from: "alex",
                 rating: 5,
-                content: "Sprachlich, inhaltlich, künstlerisch – einfach Weltliteratur, die mich von Anfang bis Ende mit
-                                        ihrer besonderen Art der Erzählung gefesselt hat. Obgleich die Geschichte
-                                        Jerofejews eigentlich eine tragische ist, so schafft es der gleichnamige Autor
-                                        doch, einen klugen, pointierten Humor in das Werk einzubringen, was zu einer
-                                        großartigen Mischung und Stimmungslage führt. Kein Wort und kein Vergleich fühlt
-                                        sich unnötig an. <br>»Diese Stummheit ist jedem bekannt, der den Ausgang eines
-                                        viele Tage dauernden schweren Rausches kennt. Ist nicht das ganze Leben nur ein
-                                        flüchtiger Rausch der Seele? Eine Verfinsterung der Seele? Wir alle sind wie
-                                        betrunken, nur jeder auf seine Weise, der eine hat mehr getrunken, der andere
-                                        weniger.« – in diesem Sinn, na zdrowie!"
-,
+                content: "Sprachlich, inhaltlich, künstlerisch – einfach Weltliteratur, die mich von
+                    Anfang bis Ende mit ihrer besonderen Art der Erzählung
+                    gefesselt hat. Obgleich die Geschichte Jerofejews eigentlich
+                    eine tragische ist, so schafft es der gleichnamige
+                    Autor doch, einen klugen, pointierten Humor in das Werk
+                    einzubringen, was zu einer großartigen Mischung und
+                    Stimmungslage führt. Kein Wort und kein Vergleich fühlt
+                    sich unnötig an. <br>»Diese Stummheit ist jedem bekannt,
+                    der den Ausgang eines viele Tage dauernden schweren Rausches
+                    kennt. Ist nicht das ganze Leben nur ein flüchtiger Rausch
+                    der Seele? Eine Verfinsterung der Seele? Wir alle sind
+                    wie betrunken, nur jeder auf seine Weise, der eine hat
+                    mehr getrunken, der andere weniger.« – in diesem Sinn, na
+                    zdrowie!",
             },
             {
-                from: "jessi"
-,
-                rating: ""
-,
-                content: "Aufgrund studentischer Pflichten war es mir nicht möglich, dieses Buch zu lesen. Schade, mit
-                                        betrunkenen, alten russischen Männern, kenne ich mich eigentlich bestens aus."
-,
+                from: "jessi",
+                rating: "",
+                content: "Aufgrund studentischer Pflichten war es mir nicht möglich, dieses Buch zu
+                    lesen. Schade, mit betrunkenen, alten russischen Männern,
+                    kenne ich mich eigentlich bestens aus.",
             },
         ],
     },
     {
-        name: "Das blinde Licht. Irrfahrten der Wissenschaft"
-,
-        author: "Benjamin Labatut"
-,
+        name: "Das blinde Licht. Irrfahrten der Wissenschaft",
+        author: "Benjamin Labatut",
         done: true,
         year: 2020,
-        short_info: "aus dem Spanischen von Thomas Brovot"
-,
-        info: "Das erste Buch im {{global.name}}!"
-,
-        originator: "malte"
-,
-        proposal_date: "März 2024"
-,
+        short_info: "aus dem Spanischen von Thomas Brovot",
+        info: "Das erste Buch im {{global.name}}!",
+        originator: "malte",
+        proposal_date: "März 2024",
         comments: [
             {
-                from: "linus"
-,
+                from: "linus",
                 rating: 3.14,
-                rating_display: "π"
-,
-                content: "Das Genre historische Fiktion trifft es ganz gut. Wobei es im Verlauf immer weniger historisch
-                                        dafür immer fiktiver wurde. Leider haben die fiktiven Elemente der Geschichte
-                                        aber keine Spannung gegeben, sondern teilweise für unnötig langweilige
-                                        Ausschweife geführt. Eigentlich ein interessantes Konzept, allerdings hätte
-                                        »Labertut« m. M. n. entweder ein erzählendes Sachbuch oder einen Roman verfassen
-                                        sollen, sodass man als Leser den Wahrheitsgehalt der im Buch wie Fakten
-                                        dargestellten Inhalte einschätzen kann."
-,
+                rating_display: "π",
+                content: "Das Genre historische Fiktion trifft es ganz gut. Wobei es im Verlauf immer
+                    weniger historisch dafür immer fiktiver wurde. Leider
+                    haben die fiktiven Elemente der Geschichte aber keine
+                    Spannung gegeben, sondern teilweise für unnötig langweilige
+                    Ausschweife geführt. Eigentlich ein interessantes
+                    Konzept, allerdings hätte »Labertut« m. M. n. entweder ein
+                    erzählendes Sachbuch oder einen Roman verfassen sollen,
+                    sodass man als Leser den Wahrheitsgehalt der im Buch wie
+                    Fakten dargestellten Inhalte einschätzen kann.",
             },
             {
-                from: "malte"
-,
+                from: "malte",
                 rating: 4,
-                content: "Labatut hat, wie er mit seinem zweiten Werk »MANIAC« bewiesen hat, ein Händchen für die mitreißende
-                                        Erzählung der Leben großartiger Naturwisschenschaftler. Dabei ist leider
-                                        selten klar, was Fakt und was Fiktion ist. Wer den Film »Oppenheimer« mag, wird
-                                        Labatuts Bücher wahrscheinlich ebenso mögen."
-,
+                content: "Labatut hat, wie er mit seinem zweiten Werk »MANIAC« bewiesen hat, ein
+                    Händchen für die mitreißende Erzählung der Leben großartiger
+                    Naturwisschenschaftler. Dabei ist leider selten klar, was
+                    Fakt und was Fiktion ist. Wer den Film »Oppenheimer« mag,
+                    wird Labatuts Bücher wahrscheinlich ebenso mögen.",
             },
             {
-                from: "alex"
-,
+                from: "alex",
                 rating: 3.5,
-                content: "Schon vor Lesebeginn war ich ungemein gespannt auf das Zusammenspiel von Fakten und Fiktion in
-                                        Labatuts Buch denn ich konnte nicht wirklich einschätzen, was mich erwarten
-                                        würde. Leider wird oftmals nicht klar, was der Realität entspricht, und was
-                                        nicht. Ob das in einem Buch, in dem es um das Leben von echten Menschen, um
-                                        die Höhen wie Tiefen geht, wünschenswert ist, wage ich zu bezweifeln. Wenn es
-                                        dann sogar in eine (viel zu lang gezogene, auf komische Art schwärmerische)
-                                        Lolita-Episode Schrödingers geht, muss man sich die Frage stellen, ob eine
-                                        solche Unklarheit zu vertreten ist.<br>Auch, wenn dieser Aspekt mir größere
-                                        Schwierigkeiten bereitet hat, so war die Leseerfahrung insgesamt doch eine
-                                        angenehme. Sprache und Erzählung zeichnen sich durch ein interessantes bildliche
-                                        Darstellung der Fakten aus, man entdeckt, dass der Aufbau der Kapitel durchdacht
-                                        ist, aber dann oft doch unübersichtlich ist. Auch immer wieder auftauchende
-                                        Nebenschauplätze dienen manchmal gut zur Veranschaulichung, führen aber auch
-                                        öfters zu weit weg von der eigentlichen Erzählung.<br>Thematisch spielt das Buch
-                                        mit dem Wahnsinn der thematisierten Menschen und dem Geniekult, welcher aber
-                                        meines Erachtens nach zu unkritisch und in Teilen hochlobend darstellt wird.
-                                        Aber natürlich, der Mythos Genie begeistert Menschen. Die zentralen Frage –
-                                        Was kann, was muss der Mensch wissen? Wollen wir überhaupt alles wissen, oder
-                                        schadet dieses möglicherweise „blinde“ Streben uns? – sind höchstinteressant und
-                                        bescherten uns eine tolle erste Buchbesprechung und Diskussion."
-,
+                content: "Schon vor Lesebeginn war ich ungemein gespannt auf das Zusammenspiel von Fakten
+                    und Fiktion in Labatuts Buch denn ich konnte nicht wirklich
+                    einschätzen, was mich erwarten würde. Leider wird oftmals
+                    nicht klar, was der Realität entspricht, und was nicht.
+                    Ob das in einem Buch, in dem es um das Leben von echten
+                    Menschen, um die Höhen wie Tiefen geht, wünschenswert ist,
+                    wage ich zu bezweifeln. Wenn es dann sogar in eine (viel
+                    zu lang gezogene, auf komische Art schwärmerische) Lolita-
+                    Episode Schrödingers geht, muss man sich die Frage stellen,
+                    ob eine solche Unklarheit zu vertreten ist.<br>Auch, wenn
+                    dieser Aspekt mir größere Schwierigkeiten bereitet hat,
+                    so war die Leseerfahrung insgesamt doch eine angenehme.
+                    Sprache und Erzählung zeichnen sich durch ein interessantes
+                    bildliche Darstellung der Fakten aus, man entdeckt, dass
+                    der Aufbau der Kapitel durchdacht ist, aber dann oft
+                    doch unübersichtlich ist. Auch immer wieder auftauchende
+                    Nebenschauplätze dienen manchmal gut zur Veranschaulichung,
+                    führen aber auch öfters zu weit weg von der eigentlichen
+                    Erzählung.<br>Thematisch spielt das Buch mit dem Wahnsinn
+                    der thematisierten Menschen und dem Geniekult, welcher
+                    aber meines Erachtens nach zu unkritisch und in Teilen
+                    hochlobend darstellt wird. Aber natürlich, der Mythos Genie
+                    begeistert Menschen. Die zentralen Frage – Was kann, was
+                    muss der Mensch wissen? Wollen wir überhaupt alles wissen,
+                    oder schadet dieses möglicherweise „blinde“ Streben uns? –
+                    sind höchstinteressant und bescherten uns eine tolle erste
+                    Buchbesprechung und Diskussion.",
             },
             {
-                from: "jessi"
-,
+                from: "jessi",
                 rating: 2,
-                content: "Das Buch erzählt in mehreren Kapiteln von berühmten Naturwissenschaftlern und deren Schaffen hält
-                                        sich jedoch vor, eine Prise Fiktion miteinzumischen. Ein interessantes Konzept,
-                                        mMn leider unglücklich realisiert.<br>Möglicherweise bin ich etwas zu hart zu
-                                        dem Buch; das Lesen hatte ich leider nicht genossen, der Schreibstil war zu
-                                        penetrant hochgestochen und sehr wirr."
-,
+                content: "Das Buch erzählt in mehreren Kapiteln von berühmten Naturwissenschaftlern und
+                    deren Schaffen hält sich jedoch vor, eine Prise Fiktion
+                    miteinzumischen. Ein interessantes Konzept, mMn leider
+                    unglücklich realisiert.<br>Möglicherweise bin ich etwas zu
+                    hart zu dem Buch; das Lesen hatte ich leider nicht genossen,
+                    der Schreibstil war zu penetrant hochgestochen und sehr
+                    wirr.",
             },
             {
-                from: "System"
-,
-                rating: "Naturwissenschaft!"
-,
-                content: "Test ... bieb ... bieb ..."
-,
+                from: "System",
+                rating: "Naturwissenschaft!",
+                content: "Test ... bieb ... bieb ...",
             },
         ],
     },

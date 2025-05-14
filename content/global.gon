@@ -1,12 +1,7 @@
 {
-    name: "Buchklub Lipsia"
-,
-    build_time: "! machine generated !"
-,
-    header: "! machine generated !"
-,
-    book: "! machine generated !"
-,
-    footer: "! machine generated !"
-,
+    name: "Buchklub Lipsia",
+    build_time: "! machine generated !",
+    header: "! machine generated !",
+    book: "! machine generated !",
+    footer: "! machine generated !",
 }

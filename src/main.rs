@@ -55,7 +55,7 @@ fn main() -> Result<(), String> {
         Value::String(read_file(&content_dir, FOOTER_FILE)?),
     );
 
-    let ratings_by_member = extract_ratings(books_array)?;
+    let ratings_by_member = extract_ratings(books_array, &members_map)?;
     for (id, member) in members_map.iter_mut() {
         let Some(ratings) = ratings_by_member.get(id) else {
             continue;
@@ -138,6 +138,7 @@ fn template_err_to_string(e: handlebars::TemplateError) -> String {
 
 fn extract_ratings(
     books_array: &mut [Value],
+    members_map: &Map<String, Value>,
 ) -> Result<HashMap<String, Vec<f64>>, String> {
     let mut member_ratings = HashMap::new();
     for book in books_array {
@@ -159,6 +160,12 @@ fn extract_ratings(
                 .get(KEY_FROM)
                 .and_then(Value::as_str)
                 .ok_or_else(|| format!("comment '{comment:?}' is missing {KEY_FROM} field!"))?;
+            if !members_map.contains_key(from) {
+                println!(
+                    "warning: comment has an unknown author: {from}\n\tknown members: {:?}",
+                    members_map.keys().collect::<Vec<_>>(),
+                );
+            }
             let Some(rating) = comment.get(KEY_RATING).and_then(value_to_f64) else {
                 println!(
                     "warning: comment is missing a rating:\n{}",

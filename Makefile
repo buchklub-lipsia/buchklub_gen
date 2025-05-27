@@ -25,7 +25,7 @@ deploy: build
 
 content_push: fmt
 	git add content
-	git commit -m "$$(date | xargs echo content update)"
+	git commit -m "$$(date | xargs echo content update)" || echo nothing to commit
 	git push
 
 b: build

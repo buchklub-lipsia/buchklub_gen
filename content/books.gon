@@ -1,11 +1,22 @@
 [
     {
-        name: "Elefant",
-        author: "Martin Suter",
+        name: "Pornographie",
+        author: "Witold Gombrowicz",
         done: false,
-        year: 2017,
+        year: 1960,
         short_info: "",
         info: "",
+        originator: "alex",
+        proposal_date: "Juni 2025",
+        comments: [],
+    },
+    {
+        name: "Elefant",
+        author: "Martin Suter",
+        done: true,
+        year: 2017,
+        short_info: ""
+        info: "… das wir märchenhaft fanden?",
         originator: "helena",
         proposal_date: "Mai 2025",
         comments: [],

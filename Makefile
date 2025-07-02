@@ -21,7 +21,7 @@ reset_build:
 	cd ../buchklub && git reset --hard
 
 deploy: build
-	cd ../buchklub && git add . && (date | xargs -0 git commit -m) && git push -f
+	cd ../buchklub && git add . && (date | xargs -0 git commit -m) ; git push -f
 
 content_push: fmt
 	git add content

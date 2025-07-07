@@ -19,7 +19,18 @@
         info: "… das wir märchenhaft fanden?",
         originator: "helena",
         proposal_date: "Mai 2025",
-        comments: [],
+        comments: [
+            {
+                from: "malte",
+                rating: 2,
+                content: "Insgesamt ist der »Elefant« von Martin Suter ein
+                enttäuschendes Buch, in dem die archetypischen »Bösen« die Tiere
+                als bloße Objekte genetisch manipulieren, indes die
+                archetypischen »Guten« die Genmanipulation undifferenziert
+                kritisieren. Darüber hinaus ist die Sprache mittelmäßig und
+                voller kleiner Ungereimtheiten."
+            }
+        ],
     },
     {
         name: "Aufzeichnungen aus dem Kellerloch",

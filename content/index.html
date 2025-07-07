@@ -21,19 +21,20 @@
         <div class="main">
             <h1>{{global.name}}</h1>
             <div class="main-content">
-                <p>Unser kleiner Buchklub besteht derzeit aus
+                <p class="box-it">Unser kleiner Buchklub besteht derzeit aus
                     <a href="members.html">{{(len members)}} Mitgliedern</a> und
                     befindet ich bezüglich der Mietgliedersuche in einer Pufferphase.
                     Bei Interesse an unserem Buchklub, siehe <a href="contact.html"><i>Kontakt</i></a>.
                 </p>
-                <div id="currently-reading-div">
                 <h2 class="centre-align">Aktuelle Lektüre</h2>
+                <div id="currently-reading-div">
                 <p>
                     {{#each books}}
                     {{#if (not done)}}
-                    Wir lesen gerade »{{name}}« ({{author}},&nbsp;{{year}}),
+                    <b>»{{name}}«</b><br>
+                    ({{author}},&nbsp;{{year}})<br>
                     vorgeschlagen von
-                    {{lookup (lookup ../members originator) "name"}},
+                    {{lookup (lookup ../members originator) "name"}} im
                     {{proposal_date}}.
                     {{/if}}
                     {{/each}}
@@ -46,27 +47,9 @@
                 <a href="members.html">Wir</a> haben den {{global.name}} im März
                 2024 in Leipzig gegründet und seitdem <a
                     href="books.html">{{len books}} Bücher</a> gelesen und
-                besprochen. Wie genau unser Format funktioniert, kann der <a
-                    href="statute.html#ablauf">Satzung</a> entnommen werden; in Kürze
-                also: Nacheinander ist jedes Mitglied an der Reihe, ein Buch
-                vorzuschlagen. Nach drei Wochen treffen wir uns an einem Ort,
-                den der Buchvorschläger bestimmt hat (z. B. ein Café) und
-                besprechen völlig frei die Lektüre. Anschließend verfasst jedes
-                Mitglied eine <a href="books.html">Rezension</a> für die Website.
+                besprochen.
                 <br>Wir sind basisdemokratisch organisiert; der Titel des
                 Präsidenten und seines Vizes (siehe Mitglieder) sind also hauptsächlich repräsentativ.
-
-                <h2 class="centre-align">Mitgliedersuche</h2>
-                Wir sind stets auf der Suche nach neuen Mitgliedern. Derzeit bestehen
-                wir ausschließlich aus Studenten, sehen das Studentensein aber
-                freilich nicht als notwendige Eigenschaft für neue Mitglieder. Was wir hingegen
-                von Mitgliedern erwarten, ist der Wille, sich intellektuell mit
-                Literatur zu beschäftigen und sich dabei im richtigen Maße
-                zu ernst und gar nicht ernst zu nehmen. Außerdem
-                sehen wir es als hohe Gepflogenheit, jedes Buch pünktlich
-                fertig zu lesen. Davon ausgenommen sind selbstverständlich
-                begründete Entschuldigungen. Bei Interesse an einer (übrigens
-                kostenfreien!) Mitgliedschaft siehe <a href="contact.html#mitglied-werden">Kontakt &gt; Mitglied werden</a>.
             </div>
         </div>
         {{{global.footer}}}

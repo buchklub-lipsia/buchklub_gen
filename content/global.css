@@ -10,7 +10,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: serif;
+    font-family: italic;
 }
 
 h1 {
@@ -26,7 +26,7 @@ h1 {
 }
 
 .navbar-hr {
-    width: var(--content-width);
+    width: 75%;
     max-width: 100%;
     color: var(--theme);
 }
@@ -42,19 +42,6 @@ h1 {
     top: 0.5em;
     left: 0.5em;
     width: 6em;
-}
-
-.navlogo {
-    display: none;
-    position: absolute;
-    top: 1em;
-    left: 1em;
-    text-decoration: none;
-    color: black;
-}
-
-.navlogo img {
-    max-width: 5em;
 }
 
 .navitem {
@@ -110,7 +97,15 @@ h1 {
     margin-top: -1em;
 }
 
+.box-it {
+    padding: 0.3em;
+    border: 2px solid black;
+    background-image: linear-gradient(var(--theme), var(--beige));
+}
+
 #currently-reading-div {
+    font-size: 1.25em;
+    text-align: center;
     background-color: var(--secondary);
     border-radius: 1em;
     border: 3px solid var(--theme);
@@ -322,7 +317,7 @@ ul li {
 
     .navbar {
         display: block;
-        padding-top: 0em;
+        padding-top: 2em;
         padding-bottom: .75em;
         background-color: white;
     }
@@ -338,25 +333,8 @@ ul li {
         font-weight: bold;
     }
 
-    .navitem:hover, .navlogo:hover {
-        color: black;
-    }
-
     #back-to-home-nav {
         display: none;
-    }
-
-    .navlogo {
-        position: relative;
-        margin-bottom: 1em;
-        padding: 0;
-        display: block;
-        top: 0.5em;
-        left: 0em;
-        text-decoration: none;
-        color: var(--theme);
-        font-size: 2em;
-        font-weight: bold;
     }
 
     #index-logo {

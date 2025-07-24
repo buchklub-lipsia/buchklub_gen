@@ -1,14 +1,74 @@
 [
     {
-        name: "Elefant",
-        author: "Martin Suter",
+        name: "Pornographie",
+        author: "Witold Gombrowicz",
         done: false,
-        year: 2017,
+        year: 1960,
         short_info: "",
         info: "",
+        originator: "alex",
+        proposal_date: "Juni 2025",
+        comments: [],
+    },
+    {
+        name: "Elefant",
+        author: "Martin Suter",
+        done: true,
+        year: 2017,
+        short_info: "",
+        info: "… das wir märchenhaft fanden?",
         originator: "helena",
         proposal_date: "Mai 2025",
-        comments: [],
+        comments: [
+            {
+                from: "malte",
+                rating: 2,
+                content: "Insgesamt ist der »Elefant« von Martin Suter ein enttäuschendes Buch, in dem
+                    die archetypischen »Bösen« die Tiere als bloße Objekte
+                    genetisch manipulieren, indes die archetypischen »Guten«
+                    die Genmanipulation undifferenziert kritisieren. Darüber
+                    hinaus ist die Sprache mittelmäßig und voller kleiner
+                    Ungereimtheiten.",
+            },
+            {
+                from: "alex",
+                rating: 2.5,
+                content: "In „Elefant“ hat Martin Suter versucht, viele interessante Themen zu einer
+                    spannenden Geschichte zusammenzuführen. Leider wird jeder
+                    Aspekt nur oberflächlich berührt; die Themen versanden
+                    im Lauf der Erzählung. Insbesondere die zentrale Thematik
+                    der Gentechnik wird kaum berührt. Im Ergebnis plätschert
+                    der unterkomplexe Roman von Anfang bis Ende vor sich
+                    hin, ohne besondere Höhen und Tiefen (außer den beiden
+                    pseudointellektuellen Dialogen zwischen Schoch und Valerie,
+                    die unglaubwürdiger nicht hätten sein können). Die Sprache
+                    stört nicht, begeistert aber auch nicht. Bei „Elefant“
+                    handelt es sich um durchschnittliche Literatur für die
+                    Massen, die sich in Anbetracht der komplexen Themen zu
+                    schnell dahinlesen lässt.",
+            },
+            {
+                from: "jessi",
+                rating: 3,
+                content: "Der „Elefant“ von Martin Suter ist ein Buch mit einem interessanten
+                    Konzept. Suter teilt das Buch in zwei sich ergänzende
+                    Handlungsstränge, die von unterschiedlichen Individuen
+                    geprägt werden. Dass ein Handlungsstrang primär aus der
+                    Sicht eines Obdachlosen erzählt, der durch ein kleines,
+                    magisch wirkendes Elefantenjunges eine neue Hoffnung im
+                    Leben schöpft, fand ich irgendwie sehr rührend. Auch empfand
+                    ich die gentechnischen Erläuterungen des Buches als sehr
+                    interessant, weil ich mich vorher nie damit beschäftigt
+                    hatte und von selbst auch nicht getan hätte. Ich muss
+                    mich aber meinen Freunden anschließen; Suter hat eine
+                    interessante Prämisse geschaffen, die ihr volles Potential
+                    aber nicht ausleben konnte. Viel zu viele Themen wurden
+                    behandelt, zu viele unterschiedliche Charaktere eingeführt.
+                    Das Buch war inhaltlich alles, aber in seiner Ausführung
+                    wiederum nichts. Aber der kleine Elefant war echt cute.
+                    Gibt Pluspunkte.",
+            },
+        ],
     },
     {
         name: "Aufzeichnungen aus dem Kellerloch",

@@ -1,11 +1,11 @@
 <p class="blue-text">
-    Vorgeschlagen von:
+    vorgeschlagen von:
     {{#if (lookup (lookup ../members originator) "name")}}
         {{lookup (lookup ../members originator) "name"}}{{else}}ehemaliges Mitglied{{/if}}, {{proposal_date}}
     <br>{{short_info}}
 </p>
 <p>{{info}}</p>
-{{#if (gt (len comments) 0)}}<h3 class="collapser collapser-init-show">Meinungen der Mitglieder</h3>{{/if}}
+{{#if (gt (len comments) 0)}}<h3 class="collapser">Meinungen der Mitglieder</h3>{{/if}}
 <span class="comments">
 <p>Durchschnittliches Fazit: {{average-rating}}</p>
 {{#if (eq (len comments) 0)}}

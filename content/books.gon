@@ -1,14 +1,35 @@
 [
     {
+        name: "Gezeichnet/No Longer Human",
+        author: "Osamu Dazai",
+        done: false,
+        year: 1948,
+        short_info: "",
+        info: "",
+        originator: "jessi",
+        proposal_date: "August 2025",
+        comments: [],
+    },
+    {
         name: "Pornographie",
         author: "Witold Gombrowicz",
-        done: false,
+        done: true,
         year: 1960,
         short_info: "",
         info: "",
         originator: "alex",
         proposal_date: "Juni 2025",
-        comments: [],
+        comments: [
+            {
+                from: "malte",
+                rating: 4.5,
+                content: "Ein sonderbarer Roman mit ein bis zwei perversen
+                Intellektuellen aus Warschau in den Hauptrollen, bei dessen Besprechung
+                zu jedem doppelten noch ein dreifacher Boden entdeckt wurde.
+                Die Umschreibungen und Ausführungen mäanderten manchmal allzu
+                grotesk und waren hie und da langweilig."
+            }
+        ],
     },
     {
         name: "Elefant",

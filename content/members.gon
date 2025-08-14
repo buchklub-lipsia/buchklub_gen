@@ -65,4 +65,9 @@
             liebe es aktuelle Themen durch den Blick eines Autors zu betrachten
             und daraus meine eigenen Schlüsse zu ziehen.",
     },
+    noah: {
+        name: "Noah",
+        short_info: "",
+        long_info: "",
+    },
 }

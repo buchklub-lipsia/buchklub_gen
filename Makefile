@@ -15,7 +15,7 @@ fmt: verify
 	done
 
 preview: build
-	open ../buchklub/index.html | firefox ../buchklub/index.html
+	open ../buchklub/index.html || firefox ../buchklub/index.html
 
 reset_build:
 	cd ../buchklub && git reset --hard

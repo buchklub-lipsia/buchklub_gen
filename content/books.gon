@@ -1,14 +1,35 @@
 [
     {
+        name: "Gezeichnet/No Longer Human",
+        author: "Osamu Dazai",
+        done: false,
+        year: 1948,
+        short_info: "",
+        info: "",
+        originator: "jessi",
+        proposal_date: "August 2025",
+        comments: [],
+    },
+    {
         name: "Pornographie",
         author: "Witold Gombrowicz",
-        done: false,
+        done: true,
         year: 1960,
-        short_info: "",
+        short_info: "übersetzt von Renate Schmidgall",
         info: "",
         originator: "alex",
         proposal_date: "Juni 2025",
-        comments: [],
+        comments: [
+            {
+                from: "malte",
+                rating: 4.5,
+                content: "Ein sonderbarer Roman mit ein bis zwei perversen Intellektuellen aus Warschau
+                    in den Hauptrollen, bei dessen Besprechung zu jedem
+                    doppelten noch ein dreifacher Boden entdeckt wurde. Die
+                    Umschreibungen und Ausführungen mäanderten manchmal allzu
+                    grotesk und waren hie und da langweilig.",
+            },
+        ],
     },
     {
         name: "Elefant",
@@ -94,7 +115,7 @@
         done: true,
         year: 1864,
         short_info: "übersetzt von Swetlana Geier",
-        info: "... das wir nicht in einem Kellerloch besprachen.",
+        info: "… das wir nicht in einem Kellerloch besprachen.",
         originator: "malte",
         proposal_date: "April 2025",
         comments: [
@@ -191,7 +212,7 @@
         done: true,
         year: 2022,
         short_info: "",
-        info: "... das »große Erzählkunst« ist?",
+        info: "… das »große Erzählkunst« ist?",
         originator: "jessi",
         proposal_date: "Februar 2025",
         comments: [
@@ -278,7 +299,7 @@
         done: true,
         year: 1989,
         short_info: "übersetzt von Ekkehart Reinke",
-        info: "... das wir auf Deutsch und Englisch lasen!",
+        info: "… das wir auf Deutsch und Englisch lasen!",
         originator: "linus",
         proposal_date: "Januar 2024",
         comments: [
@@ -570,7 +591,7 @@
         done: true,
         year: 1998,
         short_info: "aus dem Französischen von Wolfgang Krege",
-        info: "... bei dem wir uns herrlich uneinig waren.",
+        info: "… bei dem wir uns herrlich uneinig waren.",
         originator: "linus",
         proposal_date: "Juni 2024",
         comments: [
@@ -631,7 +652,7 @@
         done: true,
         year: 1986,
         short_info: "aus dem Englischen von Hartmut Zahn",
-        info: "... bei dem sich alles um die Frage drehte: wie weit dem Erzähler zu trauen
+        info: "… bei dem sich alles um die Frage drehte: wie weit dem Erzähler zu trauen
             sei.",
         originator: "alex",
         proposal_date: "Mai 2024",
@@ -693,7 +714,7 @@
         done: true,
         year: 1969,
         short_info: "aus dem Russischen von Natascha Spitz",
-        info: "... wozu wir uns passenderweise in der Vodkaria trafen.",
+        info: "… wozu wir uns passenderweise in der Vodkaria trafen.",
         originator: "ex",
         proposal_date: "April 2024",
         comments: [
@@ -813,7 +834,7 @@
             {
                 from: "System",
                 rating: "Naturwissenschaft!",
-                content: "Test ... bieb ... bieb ...",
+                content: "Test … bieb … bieb …",
             },
         ],
     },

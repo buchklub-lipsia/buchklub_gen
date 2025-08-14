@@ -1,6 +1,7 @@
 {
     name: "Buchklub Lipsia",
     build_time: "! machine generated !",
+    next_deadline: "22.08.2025",
     header: "! machine generated !",
     book: "! machine generated !",
     footer: "! machine generated !",

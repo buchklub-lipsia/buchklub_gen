@@ -51,6 +51,10 @@ h1 {
     margin-top: .3em;
 }
 
+.navitem:hover {
+    text-decoration: underline;
+}
+
 .hamburger {
     display: block;
     position: absolute;

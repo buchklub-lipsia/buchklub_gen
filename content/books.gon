@@ -29,6 +29,36 @@
                     Umschreibungen und Ausführungen mäanderten manchmal allzu
                     grotesk und waren hie und da langweilig.",
             },
+            {
+                from: "alex",
+                rating: 4.5,
+                content: "„Die Situationen in der Welt sind Chiffren. Unbegreiflich bleibt die
+                    Konstellation der Menschen und überhaupt der Erscheinungen.
+                    Dies hier … war bestürzend vielsagend – aber es war nicht
+                    voll zu verstehen, zu entziffern.“ (S. 64)<br> Gombrowicz
+                    beschreibt mit diesem Satz sein eigenes Werk, welches ein
+                    Buch ist, wie ich es noch nie gelesen habe. Ich habe den
+                    Roman als Abhandlung über das Schreiben selbst gelesen; als
+                    Annäherung an philosophische Fragen über durch den Autor
+                    geschaffene Szenen, welcher diese gewissermaßen aus dem
+                    Buch heraus steuert, da der Autor selbst Figur des Buches
+                    ist. Schwindelerregend und grotesk mit tollem Witz in der
+                    Sprache.",
+            },
+            {
+                from: "helena",
+                rating: 4,
+                content: "Mit Pornographie schafft Gombrowski ein Werk, das den Leser in das altbekannte
+                    Spiel zweier Intelektueller versetzt. Dabei werden Bürger
+                    der polnischen Provinz zu Figuren eines Liebesspiels.
+                    Der Titel führt zunächst in die irre, statt expliziter
+                    Darstellungen erfährt man in dem Werk Gombrowskis die
+                    Pornographie von Alltagshandlungen. Diese werden von den
+                    zwillingsgleichen Hauptcharakteren Witold und Frederik
+                    überspitzt, umgedeutet und so unter anderem aus dem
+                    Zertreten eines Regenwurms eine erotische Situation erzeugt.
+                    Insgesamt ein lesenswertes Buch mit Hang zur Groteske.",
+            },
         ],
     },
     {
@@ -67,6 +97,28 @@
                     handelt es sich um durchschnittliche Literatur für die
                     Massen, die sich in Anbetracht der komplexen Themen zu
                     schnell dahinlesen lässt.",
+            },
+            {
+                from: "helena",
+                rating: 2.5,
+                content: "„Der Elefant“ ist ein märchenhaft geschriebenes Buch von Martin Suter.
+                    Märchenhaft ist hier sehr wörtlich zu nehmen, denn ein
+                    Buch welches an Vielfalt und Komplexität der Themen ein
+                    Frank Schätzing Werk hätte werden können, verläuft sich
+                    im Sand. Besonders der Beginn mit der Schilderung des
+                    Alltags des Obdachlosen Schochs und wie er dem Elefanten
+                    das erste Mal begegnet sind dabei schön ausgeführt und
+                    gut zu lesen. Generell ist aber zu beobachten, dass Surer
+                    viele Handlungsstränge ausführlich beginnt, anstatt daraus
+                    allerdings eine Handlung zu Flechten und sie zu einem
+                    logischen Ende zu bringen, vergisst er einzelne Strähnen und
+                    verbindet die Handlungsstränge nicht gut genug. Eine weitere
+                    Frage meinerseits ist, ob das märchenhafte Ende des Buches
+                    zur Thematik passt: ist es angemessen eine „Wunderheilung“
+                    des Alkoholismus durch Liebe und den Elefanten zu
+                    propagieren, wenn Suchterkrankungen und Obdachlosigkeit in
+                    Realität viel mehr ein auf und ab, als einen geraden Weg
+                    darstellen?",
             },
             {
                 from: "jessi",
@@ -652,8 +704,7 @@
         done: true,
         year: 1986,
         short_info: "aus dem Englischen von Hartmut Zahn",
-        info: "… bei dem sich alles um die Frage drehte: wie weit dem Erzähler zu trauen
-            sei.",
+        info: "… bei dem sich alles um die Frage drehte: wie weit dem Erzähler zu trauen sei.",
         originator: "alex",
         proposal_date: "Mai 2024",
         comments: [

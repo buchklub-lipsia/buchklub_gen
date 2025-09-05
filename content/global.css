@@ -76,6 +76,10 @@ h1 {
     line-height: 1.6;
 }
 
+#mitglieder-main {
+    max-width: var(--content-width-plus);
+}
+
 #books-main {
     max-width: var(--content-width-plus);
 }
@@ -356,7 +360,7 @@ ul li {
 
     #members-container {
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 33.3% 33.3% 33.3%;
         gap: 1em;
     }
 

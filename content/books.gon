@@ -8,7 +8,33 @@
         info: "",
         originator: "jessi",
         proposal_date: "August 2025",
-        comments: [],
+        comments: [
+            {
+                from: "noah",
+                rating: 4,
+                content: "Hassliebe beim Lesen.
+                    <br>
+                    Es war sehr frustrierend dem Potenzial eines Künstlers zuzusehen, wie es in
+                    einem leblosen Körper kreuz und quer durch Tokyo getragen
+                    wurde. Einem Körper, der jeglichen Bezug zum Spielen
+                    verloren hat. Yozo war unfähig einmal zu erweichen und sich
+                    mit anderen Menschen oder einem Handwerk zu verschmelzen.
+                    Keine Hingabe zur Außenwelt.
+                    <br>
+                    Das Lesen war wie Laufen über heißem Sand. Eine Rast war unmöglich, dabei
+                    war der Weg sehr weit. Das schaurige Schicksal war sehr
+                    ausführlich erzählt. Gerade der mittlere Teil hat zeitweise,
+                    wie eine übergroße Düne gewirkt, die mir die Sicht auf das
+                    Ende versperrt hatte.
+                    <br>
+                    Am Ende angelangt kann ich sagen, dass es ein gutes Buch war. Ich bin froh den
+                    Weg gegangen zu sein.
+                    Ich habe versucht Dazais Schilderungen zu nutzen und mich selbst mit ihnen zu
+                    konfrontieren. Ich sehe es als Hilfe, um mich selbst noch
+                    besser mit dem universellen Zentrum der Kunst und Liebe
+                    verbinden zu können.",
+            },
+        ],
     },
     {
         name: "Pornographie",
@@ -58,6 +84,23 @@
                     überspitzt, umgedeutet und so unter anderem aus dem
                     Zertreten eines Regenwurms eine erotische Situation erzeugt.
                     Insgesamt ein lesenswertes Buch mit Hang zur Groteske.",
+            },
+            {
+                from: "noah",
+                rating: 3.5,
+                content: "Isolierte Maskulinität ist unheilig.<br> Männliche Ambition kennt nur
+                    Zielsetzung und die Mittel, um die Ziele zu erfüllen.
+                    Fokussiert sich ein Mann gänzlich auf seine Intelligenz
+                    (Mittel), so wird er zu einem, von Gefühlen losgelöstem,
+                    Regisseur finsterer Werke, für deren Erfüllung das
+                    kollektive Wohlergehen keine Rolle spielen. Ein stumpfes
+                    Getriebe mit festgestelltem Vorwärtsgang. Die Gefühle, die
+                    er zu bewirken versucht, sind recht primitiver Natur. Oben
+                    ist Unten. Aber dennoch ist da diese Wärme in Form von
+                    Unschuld. Dem jugendlichen Paar und wie es zwischen ihnen
+                    knistert. Gombrowicz zeichnet Charaktere, die kauzig und
+                    alt sind, erweckt in ihnen aber kindliche, jugendliche,
+                    ungefilterte Triebe, die in sich nicht schlecht sind.",
             },
         ],
     },

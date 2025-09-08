@@ -2,7 +2,7 @@
     {
         name: "Gezeichnet/No Longer Human",
         author: "Osamu Dazai",
-        done: false,
+        done: true,
         year: 1948,
         short_info: "",
         info: "",

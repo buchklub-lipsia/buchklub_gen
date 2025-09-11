@@ -45,8 +45,44 @@
                 from: "malte",
                 rating: 4,
                 content: "Wenig überraschend ist Japans Nachkriegsklassiker, der von einem durch
-                    Unfreiheit zur Kröte gewordenen Clown erzählt ein sehr gutes
-                    Buch.",
+                    Unfreiheit zur Kröte gewordenen Clown erzählt, ein sehr
+                    gutes Buch.",
+            },
+            {
+                from: "alex",
+                rating: 2.5,
+                content: "Leider habe ich keinen guten Zugang zu „No Longer Human“ gefunden. Natürlich
+                    behandelt der Roman große und schwierige Themen und steigt
+                    mit der Schilderung der Kindheit der Hauptfigur Yozo
+                    auch schön ein… allerdings wird spätestens im Verlauf
+                    des zweiten Heftes der doch sehr nüchterne Erzählstil
+                    anstrengend und repetitiv. Die Handlung frustriert, was
+                    angesichts der Depression, Alkoholsucht und Distanz zur
+                    Menschlichkeit nicht wundert. Es fehlt jedoch das gewisse
+                    Etwas – wie der im Klappentext versprochene Witz – das
+                    den Gegenpol zu all der Tristesse bildet. Bücher wie
+                    Dostojewskis „Aufzeichnungen aus dem Kellerloch“ behandeln
+                    ähnliche Themen und haben mich im Vergleich zu Dazais Werk
+                    literarisch weitaus mehr vergnügt.",
+            },
+            {
+                from: "isa",
+                rating: 2.5,
+                content: "Sich in einer endlosen Schleife aus Nichtstun, Besäufnis und Unwissenheit
+                    wiederzufinden, kann nichts einfaches sein, so tat mir
+                    unser Hauptcharakter die meiste Zeit über doch ziemlich
+                    leid.<br>Zwischen repetitiven Handlungssträngen und
+                    unausstehlichen Nebencharakteren, bietet dieses Buch mir
+                    leider nicht allzu viel.<br>Aller Anfang ist in diesem
+                    fall jedoch leicht, so führen uns die ersten Seiten gut in
+                    die Geschichte ein, bis zur Mitte, wo sich alles nur noch
+                    im Kreise dreht, bis wir schlussendlich zum Ende kommen,
+                    welches mich weder erfüllt, noch unerfüllt gelassen hat.<br>
+                    Alles in Allem, ist ‘No Longer Human’ kein schlechtes Buch,
+                    jedoch auch keine weltbewegende Lektüre für mich. Kein ‘Must
+                    Read’ , aber wenn man es denn doch lesen will, eine gute
+                    Abbildung, wie es ist mit Depressionen und Neurodivergenz
+                    zu leben.",
             },
         ],
     },

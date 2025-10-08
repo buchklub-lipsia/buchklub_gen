@@ -77,24 +77,4 @@
             sehr, sehr mag: The Dharma Bums // Jack Kerouac Irisches Tagebuch //
             Heinrich Böll Do Androids Dream Of Electric Sheep // Philip K. Dick",
     },
-    isa: {
-        name: "Isa",
-        short_info: "Einzelhandelskauffrau",
-        long_info: "Hey! Mein Name ist Isa und ich bin 20 Jahre alt. Ungleich meiner
-            Mitlesenden, studiere ich nicht, sondern habe eine Ausbildung zur
-            Einzelhandelskauffrau abgeschlossen und gehe dem Vollzeit nach.
-            Jedoch teile ich trotzdem die Vorliebe, mich völlig in fremden
-            Welten zu verlieren, sei es in ‘Mittelerde’ aus Tolkiens Feder,
-            oder einer dystopischen Zukunft wie in ‘Tender is the Flesh’. <br>
-            Zu meinem liebsten Werken, zählen unter Anderem, ‘Perks Of Being
-            A Wallflower’, ‘The Secret History’ und ‘If We Were Villains’,
-            Bücher, in welche ich mich stets wieder verliebe. <br> Aufgrund
-            meiner durch die Behinderung beeinträchtigten Aufmerksamkeitsspanne
-            lese ich nur Bücher, die mich von der ersten Seite an überzeugen.
-            Deshalb kann man sicher sein: Wenn ich ein Buch empfehle, dann kommt
-            es von Herzen! <br> Ob Klassiker, Fantasy oder Young Adult, mein
-            Interessenfeld erschließt sich über viele verschiedene Genre. Ich
-            freue mich stets, neue, spannende Bücher zu entdecken! <br> In dem
-            Sinne, <br> Keep reading and stay intellectual!",
-    },
 }

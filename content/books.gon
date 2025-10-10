@@ -1,8 +1,19 @@
 [
     {
+        name: "The Body Snatchers/Die Körperfresser kommen",
+        author: "Jack Finney",
+        done: false,
+        year: 1954,
+        short_info: "",
+        info: "",
+        originator: "noah",
+        proposal_date: "Oktober 2025",
+        comments: [],
+    },
+    {
         name: "Menschenwerk",
         author: "Han Kang",
-        done: false,
+        done: true,
         year: 2014,
         short_info: "",
         info: "",
@@ -255,7 +266,7 @@
                     propagieren, wenn Suchterkrankungen und Obdachlosigkeit in
                     Realität viel mehr ein auf und ab, als einen geraden Weg
                     darstellen?",
-            }
+            },
             {
                 from: "linus",
                 rating: 2,

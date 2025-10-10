@@ -1,4 +1,4 @@
-.PHONY: b build deploy_website content_push verify fmt
+.PHONY: b build deploy_website content_push verify fmt finalize
 
 build:
 	cargo run
@@ -15,7 +15,7 @@ fmt: verify
 	done
 
 preview: build
-	open ../buchklub/index.html | firefox ../buchklub/index.html
+	open ../buchklub/index.html || firefox ../buchklub/index.html
 
 reset_build:
 	cd ../buchklub && git reset --hard
@@ -29,3 +29,5 @@ content_push: fmt
 	git push
 
 b: build
+
+finalize: deploy content_push

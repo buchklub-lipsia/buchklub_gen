@@ -1,14 +1,158 @@
 [
     {
+        name: "Menschenwerk",
+        author: "Han Kang",
+        done: false,
+        year: 2014,
+        short_info: "",
+        info: "",
+        originator: "linus",
+        proposal_date: "September 2025",
+        comments: [],
+    },
+    {
+        name: "Gezeichnet/No Longer Human",
+        author: "Osamu Dazai",
+        done: true,
+        year: 1948,
+        short_info: "",
+        info: "",
+        originator: "jessi",
+        proposal_date: "August 2025",
+        comments: [
+            {
+                from: "noah",
+                rating: 4,
+                content: "Hassliebe beim Lesen. <br> Es war sehr frustrierend dem Potenzial eines
+                    Künstlers zuzusehen, wie es in einem leblosen Körper kreuz
+                    und quer durch Tokyo getragen wurde. Einem Körper, der
+                    jeglichen Bezug zum Spielen verloren hat. Yozo war unfähig
+                    einmal zu erweichen und sich mit anderen Menschen oder
+                    einem Handwerk zu verschmelzen. Keine Hingabe zur Außenwelt.
+                    <br> Das Lesen war wie Laufen über heißem Sand. Eine Rast
+                    war unmöglich, dabei war der Weg sehr weit. Das schaurige
+                    Schicksal war sehr ausführlich erzählt. Gerade der mittlere
+                    Teil hat zeitweise, wie eine übergroße Düne gewirkt, die
+                    mir die Sicht auf das Ende versperrt hatte. <br> Am Ende
+                    angelangt kann ich sagen, dass es ein gutes Buch war.
+                    Ich bin froh den Weg gegangen zu sein. Ich habe versucht
+                    Dazais Schilderungen zu nutzen und mich selbst mit ihnen zu
+                    konfrontieren. Ich sehe es als Hilfe, um mich selbst noch
+                    besser mit dem universellen Zentrum der Kunst und Liebe
+                    verbinden zu können.",
+            },
+            {
+                from: "malte",
+                rating: 4,
+                content: "Wenig überraschend ist Japans Nachkriegsklassiker, der von einem durch
+                    Unfreiheit zur Kröte gewordenen Clown erzählt, ein sehr
+                    gutes Buch.",
+            },
+            {
+                from: "alex",
+                rating: 2.5,
+                content: "Leider habe ich keinen guten Zugang zu „No Longer Human“ gefunden. Natürlich
+                    behandelt der Roman große und schwierige Themen und steigt
+                    mit der Schilderung der Kindheit der Hauptfigur Yozo
+                    auch schön ein… allerdings wird spätestens im Verlauf
+                    des zweiten Heftes der doch sehr nüchterne Erzählstil
+                    anstrengend und repetitiv. Die Handlung frustriert, was
+                    angesichts der Depression, Alkoholsucht und Distanz zur
+                    Menschlichkeit nicht wundert. Es fehlt jedoch das gewisse
+                    Etwas – wie der im Klappentext versprochene Witz – das
+                    den Gegenpol zu all der Tristesse bildet. Bücher wie
+                    Dostojewskis „Aufzeichnungen aus dem Kellerloch“ behandeln
+                    ähnliche Themen und haben mich im Vergleich zu Dazais Werk
+                    literarisch weitaus mehr vergnügt.",
+            },
+            {
+                from: "ehem. Mitglied",
+                rating: 2.5,
+                content: "Sich in einer endlosen Schleife aus Nichtstun, Besäufnis und Unwissenheit
+                    wiederzufinden, kann nichts einfaches sein, so tat mir
+                    unser Hauptcharakter die meiste Zeit über doch ziemlich
+                    leid.<br>Zwischen repetitiven Handlungssträngen und
+                    unausstehlichen Nebencharakteren, bietet dieses Buch mir
+                    leider nicht allzu viel.<br>Aller Anfang ist in diesem
+                    fall jedoch leicht, so führen uns die ersten Seiten gut in
+                    die Geschichte ein, bis zur Mitte, wo sich alles nur noch
+                    im Kreise dreht, bis wir schlussendlich zum Ende kommen,
+                    welches mich weder erfüllt, noch unerfüllt gelassen hat.<br>
+                    Alles in Allem, ist ‘No Longer Human’ kein schlechtes Buch,
+                    jedoch auch keine weltbewegende Lektüre für mich. Kein ‘Must
+                    Read’ , aber wenn man es denn doch lesen will, eine gute
+                    Abbildung, wie es ist mit Depressionen und Neurodivergenz
+                    zu leben.",
+            },
+        ],
+    },
+    {
         name: "Pornographie",
         author: "Witold Gombrowicz",
-        done: false,
+        done: true,
         year: 1960,
-        short_info: "",
+        short_info: "übersetzt von Renate Schmidgall",
         info: "",
         originator: "alex",
         proposal_date: "Juni 2025",
-        comments: [],
+        comments: [
+            {
+                from: "malte",
+                rating: 4.5,
+                content: "Ein sonderbarer Roman mit ein bis zwei perversen Intellektuellen aus Warschau
+                    in den Hauptrollen, bei dessen Besprechung zu jedem
+                    doppelten noch ein dreifacher Boden entdeckt wurde. Die
+                    Umschreibungen und Ausführungen mäanderten manchmal allzu
+                    grotesk und waren hie und da langweilig.",
+            },
+            {
+                from: "alex",
+                rating: 4.5,
+                content: "„Die Situationen in der Welt sind Chiffren. Unbegreiflich bleibt die
+                    Konstellation der Menschen und überhaupt der Erscheinungen.
+                    Dies hier … war bestürzend vielsagend – aber es war nicht
+                    voll zu verstehen, zu entziffern.“ (S. 64)<br> Gombrowicz
+                    beschreibt mit diesem Satz sein eigenes Werk, welches ein
+                    Buch ist, wie ich es noch nie gelesen habe. Ich habe den
+                    Roman als Abhandlung über das Schreiben selbst gelesen; als
+                    Annäherung an philosophische Fragen über durch den Autor
+                    geschaffene Szenen, welcher diese gewissermaßen aus dem
+                    Buch heraus steuert, da der Autor selbst Figur des Buches
+                    ist. Schwindelerregend und grotesk mit tollem Witz in der
+                    Sprache.",
+            },
+            {
+                from: "helena",
+                rating: 4,
+                content: "Mit Pornographie schafft Gombrowski ein Werk, das den Leser in das altbekannte
+                    Spiel zweier Intelektueller versetzt. Dabei werden Bürger
+                    der polnischen Provinz zu Figuren eines Liebesspiels.
+                    Der Titel führt zunächst in die irre, statt expliziter
+                    Darstellungen erfährt man in dem Werk Gombrowskis die
+                    Pornographie von Alltagshandlungen. Diese werden von den
+                    zwillingsgleichen Hauptcharakteren Witold und Frederik
+                    überspitzt, umgedeutet und so unter anderem aus dem
+                    Zertreten eines Regenwurms eine erotische Situation erzeugt.
+                    Insgesamt ein lesenswertes Buch mit Hang zur Groteske.",
+            },
+            {
+                from: "noah",
+                rating: 3.5,
+                content: "Isolierte Maskulinität ist unheilig.<br> Männliche Ambition kennt nur
+                    Zielsetzung und die Mittel, um die Ziele zu erfüllen.
+                    Fokussiert sich ein Mann gänzlich auf seine Intelligenz
+                    (Mittel), so wird er zu einem, von Gefühlen losgelöstem,
+                    Regisseur finsterer Werke, für deren Erfüllung das
+                    kollektive Wohlergehen keine Rolle spielen. Ein stumpfes
+                    Getriebe mit festgestelltem Vorwärtsgang. Die Gefühle, die
+                    er zu bewirken versucht, sind recht primitiver Natur. Oben
+                    ist Unten. Aber dennoch ist da diese Wärme in Form von
+                    Unschuld. Dem jugendlichen Paar und wie es zwischen ihnen
+                    knistert. Gombrowicz zeichnet Charaktere, die kauzig und
+                    alt sind, erweckt in ihnen aber kindliche, jugendliche,
+                    ungefilterte Triebe, die in sich nicht schlecht sind.",
+            },
+        ],
     },
     {
         name: "Elefant",
@@ -46,6 +190,28 @@
                     handelt es sich um durchschnittliche Literatur für die
                     Massen, die sich in Anbetracht der komplexen Themen zu
                     schnell dahinlesen lässt.",
+            },
+            {
+                from: "helena",
+                rating: 2.5,
+                content: "„Der Elefant“ ist ein märchenhaft geschriebenes Buch von Martin Suter.
+                    Märchenhaft ist hier sehr wörtlich zu nehmen, denn ein
+                    Buch welches an Vielfalt und Komplexität der Themen ein
+                    Frank Schätzing Werk hätte werden können, verläuft sich
+                    im Sand. Besonders der Beginn mit der Schilderung des
+                    Alltags des Obdachlosen Schochs und wie er dem Elefanten
+                    das erste Mal begegnet sind dabei schön ausgeführt und
+                    gut zu lesen. Generell ist aber zu beobachten, dass Surer
+                    viele Handlungsstränge ausführlich beginnt, anstatt daraus
+                    allerdings eine Handlung zu Flechten und sie zu einem
+                    logischen Ende zu bringen, vergisst er einzelne Strähnen und
+                    verbindet die Handlungsstränge nicht gut genug. Eine weitere
+                    Frage meinerseits ist, ob das märchenhafte Ende des Buches
+                    zur Thematik passt: ist es angemessen eine „Wunderheilung“
+                    des Alkoholismus durch Liebe und den Elefanten zu
+                    propagieren, wenn Suchterkrankungen und Obdachlosigkeit in
+                    Realität viel mehr ein auf und ab, als einen geraden Weg
+                    darstellen?",
             },
             {
                 from: "jessi",
@@ -89,6 +255,24 @@
                     propagieren, wenn Suchterkrankungen und Obdachlosigkeit in
                     Realität viel mehr ein auf und ab, als einen geraden Weg
                     darstellen?",
+            }
+            {
+                from: "linus",
+                rating: 2,
+                content: "Eine Geschichte über Habgier, Alkoholismus und geprägt von der Frage inwieweit
+                    der Mensch den genetischen Code manipulieren dürfe. Der
+                    Aufbau mittels verschiedener scheinbar unzusammenhängender
+                    Handungsstränge, die sich im großen Finale vereinen und
+                    der naturwissenschaftliche Schwerpunkt erinnern stark an
+                    den Stil von Frank Schätzing. Jedoch blieb beim Lesen der
+                    Eindruck, dass das Buch wie ein Schätzing Roman sein sollte,
+                    aber leider einfach keiner ist. Suter verwendet enorm viele
+                    Seiten die Geschichte aus wissenschaftlicher Betrachtung
+                    plausible erscheinen zu lassen und schafft daneben
+                    eindimensionale und stereotypische Charaktere. Und statt
+                    tiefergehend auf die ethischen Fragen der Genmanipulation
+                    einzugehen, wird Seitenlang die Besamung des Elefanten
+                    ausgeschmückt.",
             },
         ],
     },
@@ -98,7 +282,7 @@
         done: true,
         year: 1864,
         short_info: "übersetzt von Swetlana Geier",
-        info: "... das wir nicht in einem Kellerloch besprachen.",
+        info: "… das wir nicht in einem Kellerloch besprachen.",
         originator: "malte",
         proposal_date: "April 2025",
         comments: [
@@ -195,7 +379,7 @@
         done: true,
         year: 2022,
         short_info: "",
-        info: "... das »große Erzählkunst« ist?",
+        info: "… das »große Erzählkunst« ist?",
         originator: "jessi",
         proposal_date: "Februar 2025",
         comments: [
@@ -282,7 +466,7 @@
         done: true,
         year: 1989,
         short_info: "übersetzt von Ekkehart Reinke",
-        info: "... das wir auf Deutsch und Englisch lasen!",
+        info: "… das wir auf Deutsch und Englisch lasen!",
         originator: "linus",
         proposal_date: "Januar 2024",
         comments: [
@@ -574,7 +758,7 @@
         done: true,
         year: 1998,
         short_info: "aus dem Französischen von Wolfgang Krege",
-        info: "... bei dem wir uns herrlich uneinig waren.",
+        info: "… bei dem wir uns herrlich uneinig waren.",
         originator: "linus",
         proposal_date: "Juni 2024",
         comments: [
@@ -635,8 +819,7 @@
         done: true,
         year: 1986,
         short_info: "aus dem Englischen von Hartmut Zahn",
-        info: "... bei dem sich alles um die Frage drehte: wie weit dem Erzähler zu trauen
-            sei.",
+        info: "… bei dem sich alles um die Frage drehte: wie weit dem Erzähler zu trauen sei.",
         originator: "alex",
         proposal_date: "Mai 2024",
         comments: [
@@ -697,7 +880,7 @@
         done: true,
         year: 1969,
         short_info: "aus dem Russischen von Natascha Spitz",
-        info: "... wozu wir uns passenderweise in der Vodkaria trafen.",
+        info: "… wozu wir uns passenderweise in der Vodkaria trafen.",
         originator: "ex",
         proposal_date: "April 2024",
         comments: [
@@ -817,7 +1000,7 @@
             {
                 from: "System",
                 rating: "Naturwissenschaft!",
-                content: "Test ... bieb ... bieb ...",
+                content: "Test … bieb … bieb …",
             },
         ],
     },

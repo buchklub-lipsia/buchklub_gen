@@ -10,7 +10,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: italic;
+    font-family: serif;
 }
 
 h1 {
@@ -51,6 +51,10 @@ h1 {
     margin-top: .3em;
 }
 
+.navitem:hover {
+    text-decoration: underline;
+}
+
 .hamburger {
     display: block;
     position: absolute;
@@ -70,6 +74,10 @@ h1 {
     padding: .5em;
     text-align: center;
     line-height: 1.6;
+}
+
+#mitglieder-main {
+    max-width: var(--content-width-plus);
 }
 
 #books-main {
@@ -352,7 +360,7 @@ ul li {
 
     #members-container {
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 33.3% 33.3% 33.3%;
         gap: 1em;
     }
 

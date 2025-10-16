@@ -77,4 +77,9 @@
             sehr, sehr mag: The Dharma Bums // Jack Kerouac Irisches Tagebuch //
             Heinrich Böll Do Androids Dream Of Electric Sheep // Philip K. Dick",
     },
+    lysander: {
+        name: "Lysander",
+        short_info: "",
+        long_info: "",
+    },
 }

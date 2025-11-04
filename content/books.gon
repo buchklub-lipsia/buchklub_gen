@@ -17,7 +17,7 @@
         year: 1954,
         short_info: "",
         info: "",
-        originator: "noah",
+        originator: "ehem. Mitglied",
         proposal_date: "Oktober 2025",
         comments: [
             {
@@ -41,7 +41,7 @@
         proposal_date: "September 2025",
         comments: [
             {
-                from: "noah",
+                from: "ehem. Mitglied",
                 rating: 5,
                 content: "Eine völkerrechtliche Katastrophe, die das Land erschütterte und so viele
                     Menschen in Zellen pferchte. Zellen, errichtet aus Traumas
@@ -127,7 +127,7 @@
         proposal_date: "August 2025",
         comments: [
             {
-                from: "noah",
+                from: "ehem. Mitglied",
                 rating: 4,
                 content: "Hassliebe beim Lesen. <br> Es war sehr frustrierend dem Potenzial eines
                     Künstlers zuzusehen, wie es in einem leblosen Körper kreuz
@@ -242,7 +242,7 @@
                     Insgesamt ein lesenswertes Buch mit Hang zur Groteske.",
             },
             {
-                from: "noah",
+                from: "ehem. Mitglied",
                 rating: 3.5,
                 content: "Isolierte Maskulinität ist unheilig.<br> Männliche Ambition kennt nur
                     Zielsetzung und die Mittel, um die Ziele zu erfüllen.

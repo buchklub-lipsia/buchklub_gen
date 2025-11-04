@@ -1,8 +1,19 @@
 [
     {
+        name: "Im Norden ein Berg, im Süden ein See, im Westen Wege, im Osten ein Fluss",
+        author: "László Krasznahorkai",
+        done: false,
+        year: 2005,
+        short_info: "",
+        info: "",
+        originator: "malte",
+        proposal_date: "November 2025",
+        comments: [],
+    },
+    {
         name: "The Body Snatchers/Die Körperfresser kommen",
         author: "Jack Finney",
-        done: false,
+        done: true,
         year: 1954,
         short_info: "",
         info: "",

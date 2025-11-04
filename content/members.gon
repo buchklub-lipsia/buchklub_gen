@@ -65,18 +65,6 @@
             liebe es aktuelle Themen durch den Blick eines Autors zu betrachten
             und daraus meine eigenen Schlüsse zu ziehen.",
     },
-    noah: {
-        name: "Noah",
-        short_info: "",
-        long_info: "Hallo ich bin Noah (23 Jahre alt) Ich bin Schriftsteller aus Leidenschaft, ohne
-            Karriereambitionen. Connaisseur von Folkmusik und Regentagen. Ich
-            arbeite als Aufbauhelfer und Sprinterfahrer für eine Eventfirma u.
-            a. baue ich auch die Buchmesse mit auf :) Der Buchklub fügt sich
-            gut in meinen Alltag ein, da ich über nichts anderes sprechen mag
-            als Film, Literatur oder den Lauf der Zeit. <br> Bücher die ich
-            sehr, sehr mag: The Dharma Bums // Jack Kerouac Irisches Tagebuch //
-            Heinrich Böll Do Androids Dream Of Electric Sheep // Philip K. Dick",
-    },
     lysander: {
         name: "Lysander",
         short_info: "studiert die Rechtswissenschaft",

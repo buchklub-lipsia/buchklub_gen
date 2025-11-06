@@ -3,7 +3,7 @@
         name: "Im Norden ein Berg, im Süden ein See, im Westen Wege, im Osten ein Fluss",
         author: "László Krasznahorkai",
         done: false,
-        year: 2005,
+        year: 2003,
         short_info: "",
         info: "",
         originator: "malte",
@@ -113,6 +113,30 @@
                     selbst tun mussten. Insgesamt eine große Bereicherung und
                     ein tragischer Lesegenuss, der mir zugleich ein mir völlig
                     unbekanntes historisches Ereignis näher gebracht hat. ",
+            },
+            {
+                from: "linus",
+                rating: 5,
+                content: "Han Kangs Roman „Menschenwerk“ ist ein zutiefst bewegendes literarisches Werk,
+                    das die traumatischen Ereignisse des Gwangju-Aufstands
+                    in Südkorea auf eindringliche Weise beleuchtet. Besonders
+                    beeindruckend ist die Vielfalt der Perspektiven, aus denen
+                    die Geschichte erzählt wird. Durch die wechselnden Stimmen
+                    rekonstruiert man das Geschehen Stück für Stück und erlebt,
+                    wie unterschiedlich Menschen Gewalt, Verlust und Erinnerung
+                    verarbeiten. Das Buch hat mir nicht nur neue historische
+                    Einblicke vermittelt, sondern mich auch emotional stark
+                    berührt. Han Kang verbindet dokumentarische Genauigkeit
+                    mit poetischer Sprache, wodurch die Grausamkeit der
+                    Ereignisse ebenso spürbar wird wie die Menschlichkeit der
+                    Figuren. Besonders faszinierend fand ich die übernatürliche
+                    Komponente im zweiten Kapitel, in dem die Stimme eines
+                    Geistes zu Wort kommt. Dieser Perspektivwechsel öffnet
+                    eine unerwartete, fast metaphysische Dimension des Romans
+                    und verdeutlicht, wie tief sich Gewalt in Körper und
+                    Geist einschreibt. „Menschenwerk“ ist ein eindrucksvolles,
+                    vielstimmiges Buch über Erinnerung, Schuld und
+                    Menschlichkeit und eines, das lange nachhallt.",
             },
         ],
     },

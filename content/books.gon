@@ -1,8 +1,19 @@
 [
     {
+        name: "Umlaufbahnen",
+        author: "Samantha Harvey",
+        done: false,
+        year: 2023,
+        short_info: "übersetzt von Julia Wolf",
+        info: "",
+        originator: "helena",
+        proposal_date: "Dezember 2025",
+        comments: [],
+    },
+    {
         name: "Im Norden ein Berg, im Süden ein See, im Westen Wege, im Osten ein Fluss",
         author: "László Krasznahorkai",
-        done: false,
+        done: true,
         year: 2003,
         short_info: "",
         info: "",

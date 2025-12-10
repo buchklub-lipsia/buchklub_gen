@@ -1,3 +1,28 @@
+// compute arity of books and toggle table layout when comments of a books are
+// expanded/retracted
+const booksContainer = document.getElementById("books-container");
+const books = document.getElementsByClassName("book");
+{
+    let even = true;
+    for (const book of books) {
+        book.classList.add("a" + (even ? 1 : 0));
+        let collapser = null;
+        for (const child of book.children) {
+            if (child.classList.contains("collapser")) {
+                collapser = child;
+                break;
+            }
+        }
+        if (collapser == null) continue;
+        collapser.addEventListener("click", function() {
+            booksContainer.style["grid-template-columns"] = book.classList.contains("a1" ? "5% 5%" : "5% 95%");
+        });
+        even = !even;
+    }
+}
+
+
+
 function hamburgerToggle() {
     const nav = document.getElementById("navlinks");
     if (nav.style.display === "grid") {

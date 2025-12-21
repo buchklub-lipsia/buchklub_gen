@@ -65,16 +65,4 @@
             liebe es aktuelle Themen durch den Blick eines Autors zu betrachten
             und daraus meine eigenen Schlüsse zu ziehen.",
     },
-    lysander: {
-        name: "Lysander",
-        short_info: "studiert die Rechtswissenschaft",
-        long_info: "Ich heiße Lysander, bin 18 Jahre alt und studiere Rechtswissenschaften. Ich
-            spiele gern Tennis und mag es, körperlich aktiv zu sein. Auch wenn
-            ich bisher noch nicht viele Bücher gelesen habe, sehe ich das Lesen
-            als guten Ausgleich zum Alltag. Im Buchklub Lipsia finde ich die
-            Möglichkeit, ernsthaft über Dinge zu sprechen, die mich wirklich zum
-            Nachdenken bringen – etwas, das mir im Alltag oft fehlt. Ein Buch
-            passt in jede Jahreszeit, und so habe ich mir mit dem Beitritt zum
-            Klub ganz sicher nichts Falsches vorgenommen.",
-    },
 }

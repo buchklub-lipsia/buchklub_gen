@@ -15,19 +15,52 @@
         author: "László Krasznahorkai",
         done: true,
         year: 2003,
-        short_info: "",
-        info: "",
+        short_info: "übersetzt von Christina Viragh",
+        info: "… das mehr Meditation als Roman ist.",
         originator: "malte",
         proposal_date: "November 2025",
-        comments: [],
+        comments: [
+            {
+                from: "alex",
+                rating: 3.75,
+                content: "Meine Meinung zu diesem Buch, eher Meditation denn Roman, hat sich aufgrund
+                    des Buchklub-Treffens stark zum Positiven verändert. Zwar
+                    hat das eigentliche Lesevergnügen im Verlauf des Werks
+                    nachgelassen und die Ausführungen waren zum Teil langwierig
+                    und voller mir unverständlicher Symbole, dennoch ist „Im
+                    Norden ein Berg, im Süden ein See, im Westen Wege, im Osten
+                    ein Fluss“ eine bedeutungsschwere, kunstvolle Erzählung über
+                    die Sinnsuche des Menschen. Sprachlich schafft Krasznahorkai
+                    ein teils bedrückendes Gefühl des Innehaltens und der
+                    Stille; inhaltlich wird die Vergänglichkeit des Menschen
+                    gegenüber der für ihn unverständlichen Natur eindrucksvoll
+                    dargestellt. Die unerfolgreiche Sinnsuche des Prinzenenkels
+                    hat uns eine tolle Diskussion über große Themen beschert,
+                    die mir geholfen hat, über die anfängliche Unzugänglichkeit
+                    des Werks hinwegzukommen.",
+            },
+            {
+                from: "giulia",
+                rating: 3.5,
+                content: "Ein mystisches kleines Buch, dessen verschlungener Schreibstil gut zum
+                    Inhalt passt. Zwischen den Themen Vergänglichkeit und
+                    Beständigkeit, Endlichkeit und Sein, lebt das Buch von
+                    seinen Beschreibungen, die bei mir aber leider kaum
+                    Bilder hervorgerufen haben. Vielleicht war es die Sprache,
+                    vielleicht die vielen mir fremden japanischen Begriffe.
+                    Es gab viele Szenen, mit denen ich gar nichts anfangen
+                    konnte und trotzdem hat mich das Buch insgesamt in seinen
+                    meditativen Bann gezogen.",
+            },
+        ],
     },
     {
         name: "The Body Snatchers/Die Körperfresser kommen",
         author: "Jack Finney",
         done: true,
         year: 1954,
-        short_info: "",
-        info: "",
+        short_info: "im Original gelesen",
+        info: "… das wenigstens unterhalten hat?",
         originator: "ehem. Mitglied",
         proposal_date: "Oktober 2025",
         comments: [
@@ -39,6 +72,53 @@
                     selbst allerdings in diesem Buch weitgehend zu vermissen
                     bleibt.",
             },
+            {
+                from: "alex",
+                rating: 1,
+                content: "„Bodysnatchers“ ist ein Buch mit einem Konzept, das großes Potenzial hat und
+                    immense Spannung verspricht. Leider konnte mich der Roman
+                    auf keiner Ebene überzeugen. Die Charaktere gleichen in
+                    ihrer Flachheit Pappaufstellern: Nie findet Introspektion
+                    statt und nie werden Gefühle und Schmerz greifbar
+                    dargestellt. Die Dialoge und Verhältnisse sind durchtränkt
+                    von (sexistischen) Klischees. Ein Spannungsbogen wird kaum
+                    aufgebaut: Der Erzähler Miles weiß immer alles („I knew
+                    […], I knew […], I knew […]“) und an den offensichtlichsten
+                    Stellen doch nichts. Dazu kommt, dass die Handlung selbst
+                    an Stellen unlogisch erscheint, was bei einem Sci-Fi-Roman,
+                    dem es in allen übrigen erzählerischen Kategorien mangelt,
+                    umso unglücklicher ist. Statt eine langweilige, repetitive
+                    B-Plot-Romanze auszubreiten, hätte der Autor sich auf die
+                    innere Logik der Handlung konzentrieren sollen.",
+            },
+            {
+                from: "stefan",
+                rating: 3,
+                content: "Das Buch „Die Körperfresser kommen“ ist ein leichter Genuss für den schnellen
+                    Appetit. Zügig wurde ich in die Handlung hineingezogen,
+                    welche jedoch ohne ein sorgfältig aufgebautes Szenario,
+                    tief ausgearbeitete Figuren oder überraschende Wendungen
+                    daherkommt. Entsprechend habe ich den Roman als klassische
+                    Trivialliteratur einsortieren und bewertet. Wer eine größere
+                    erzählerische Tiefe oder literarische Komplexität erwartet,
+                    dürfte entsprechend enttäuscht werden. Inhaltlich bewegt
+                    sich der Roman im Bereich der Science-Fiction und greift
+                    das Motiv einer stillen Alien-Invasion auf. Unauffällig und
+                    schleichend ersetzen die Außerirdischen nach und nach die
+                    Bewohner eines Dorfes. Dabei wird der Hauptprotagonist Miles
+                    Bennell auf diesen Prozess aufmerksam und ein Wettlauf gegen
+                    die Zeit beginnt. Kann er das Dorf (die Welt) retten oder
+                    fällt er selbst zum Opfer der Aliens? Hierbei verliert der
+                    Roman jedoch an erzählerischer Stärke, da die Hauptfigur
+                    durch ihre vermeintliche Allwissenheit und die implizite
+                    Annahme, allein für das Schicksal der Welt verantwortlich
+                    zu sein, zunehmend konstruiert und wenig glaubwürdig wirkt.
+                    Besonders problematisch ist auch das sehr abrupte und für
+                    mich kaum nachvollziehbare Ende, das zugleich den größten
+                    Kritikpunkt des Buches darstellt. Insgesamt handelt es sich
+                    um eine solide Trivialliteratur, die zwar unterhält, dessen
+                    Ende aber nicht befriedigt",
+            },
         ],
     },
     {
@@ -46,8 +126,8 @@
         author: "Han Kang",
         done: true,
         year: 2014,
-        short_info: "",
-        info: "",
+        short_info: "übersetzt von Ki-Hyang Lee",
+        info: "… das Sprache und Inhalt auf einzigartige Weise verbindet.",
         originator: "linus",
         proposal_date: "September 2025",
         comments: [
@@ -156,8 +236,8 @@
         author: "Osamu Dazai",
         done: true,
         year: 1948,
-        short_info: "",
-        info: "",
+        short_info: "übersetzt von Jürgen Stalph",
+        info: "… ein japanischer Klassiker, der unsere Gruppe gespalten hat.",
         originator: "jessi",
         proposal_date: "August 2025",
         comments: [
@@ -233,7 +313,8 @@
         done: true,
         year: 1960,
         short_info: "übersetzt von Renate Schmidgall",
-        info: "",
+        info: "… in dem ein verrücktes Kammerspiel und Realität ununterscheidbar
+            verschmelzen.",
         originator: "alex",
         proposal_date: "Juni 2025",
         comments: [

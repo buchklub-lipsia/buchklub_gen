@@ -65,4 +65,24 @@
             liebe es aktuelle Themen durch den Blick eines Autors zu betrachten
             und daraus meine eigenen Schlüsse zu ziehen.",
     },
+    katharina: {
+        name: "Katharina",
+        short_info: "",
+        long_info: "",
+    },
+    stefan: {
+        name: "Stefan",
+        short_info: "",
+        long_info: "",
+    },
+    edisa: {
+        name: "Edisa",
+        short_info: "",
+        long_info: "",
+    },
+    giulia: {
+        name: "Giulia",
+        short_info: "",
+        long_info: "",
+    },
 }

@@ -275,7 +275,7 @@ tbody > tr:nth-of-type(even) {
     counter-reset: alpha;
 }
 
-li {
+#statute li {
     list-style: none;
     text-indent: -1em;
 }

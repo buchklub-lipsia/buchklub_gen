@@ -95,6 +95,17 @@
     bruno: {
         name: "Bruno",
         short_info: "studiert die Rechtswissenschaft",
-        long_info: "",
+        long_info: "Hey, ich bin Bruno!
+            Ich bin Jurastudent und habe große Freude daran, Musik zu hören und Musik zu
+            machen. Beim Lesen höre ich am liebsten Tom Odell oder Bach. Die
+            Musik vermischt sich dann mit nächtlichen Geräuschen, die durch das
+            offene Fenster meines kleinen Zimmers (an der warmen Tasse Tee auf
+            der Lehne meiner Couch vorbei) von der Straße hineinfliegen. Durch
+            den Buchklub nehme ich mir endlich an Abenden die Zeit, mich einem
+            Buche näher zu widmen und dadurch auch in tiefgründigerer Weise
+            über dessen Inhalt zu reflektieren. In meiner Freizeit schreibe ich
+            selbst, spiele Klavier und reise liebend gern nach Paris, um dort
+            durch nächtliche Straßen zu spazieren, Kaffee zu trinken und meine
+            Französischkenntnisse zu verbessern.",
     },
 }

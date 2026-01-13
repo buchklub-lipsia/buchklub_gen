@@ -17,13 +17,12 @@
     malte: {
         name: "Malte",
         short_info: "studiert die Informatik, Webmaster",
-        long_info: "Obgleich mir die digitale Dekadenz zuwider ist und ich ebenso
-            geisteswissenschaftlich interessiert bin, studiere ich seit
-            2022 die Informatik. Am liebsten ist mir dabei der theoretische
-            Teil und insbesondere die Logik, die Automatentheorie und die
-            Berechenbarkeit. Mein Lieblingsbuch ist der Graf von Monte
-            Christo, mein Lieblingscharakter der kleine Kai Graf Mölln aus
-            »Buddenbrooks«.",
+        long_info: "Obgleich mir die digitale Dekadenz zuwider ist, studiere ich seit 2022 die
+            Informatik, mittlerweile im Master. Dabei belege ich im freien
+            Wahlbereich Module der deutschen Sprach- und Literaturwissenschaft.
+            Zu meinen Lieblingsbüchern gehören »Ansichten eines Clowns«, »Die
+            unerträgliche Leichtigkeit des Seins«, »Unterm Rad«, »Der Graf von
+            Monte Christo« und »Die geheimnisvolle Insel«.",
     },
     jessi: {
         name: "Jessica",
@@ -91,5 +90,10 @@
             mit anderen zu diskutieren. Top Voraussetzungen für einen Buchklub,
             dachte ich mir! Zu meinen Allzeit-Favoriten gehören „Mephisto“ von
             Klaus Mann und „Die Brüder Karamasov“ von Fjodor Dostojewksi.",
+    },
+    bruno: {
+        name: "Bruno",
+        short_info: "studiert die Rechtswissenschaft",
+        long_info: "",
     },
 }

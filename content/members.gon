@@ -83,14 +83,13 @@
     giulia: {
         name: "Giulia",
         short_info: "studiert die Psychologie",
-        long_info: "Ich bin Großstadtkind, Halbitalienerin und Langzeitstudentin.
-            Man könnte sagen, ich habe zu viele Hobbys… muss man aber nicht.
-            Zwischen Bouldern, Swing Tanzen, Doppelkopf Abenden, Beachvolleyball und
-            Eislaufen ist es mir super wichtig, mir auch immer genug Zeit zum
-            Lesen zu nehmen. Beim Lesen habe ich oft ganz viel Meinung und sehr
-            viel Spaß daran, mit anderen zu diskutieren. Top Voraussetzungen für
-            einen Buchklub, dachte ich mir!
-            Zu meinen Allzeit-Favoriten gehören „Mephisto“ von Klaus Mann und „Die Brüder
-            Karamasov“ von Fjodor Dostojewksi.",
+        long_info: "Ich bin Großstadtkind, Halbitalienerin und Langzeitstudentin. Man könnte sagen,
+            ich habe zu viele Hobbys… muss man aber nicht. Zwischen Bouldern,
+            Swing Tanzen, Doppelkopf Abenden, Beachvolleyball und Eislaufen ist
+            es mir super wichtig, mir auch immer genug Zeit zum Lesen zu nehmen.
+            Beim Lesen habe ich oft ganz viel Meinung und sehr viel Spaß daran,
+            mit anderen zu diskutieren. Top Voraussetzungen für einen Buchklub,
+            dachte ich mir! Zu meinen Allzeit-Favoriten gehören „Mephisto“ von
+            Klaus Mann und „Die Brüder Karamasov“ von Fjodor Dostojewksi.",
     },
 }

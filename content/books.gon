@@ -1,14 +1,41 @@
 [
     {
+        name: "Dreckskerl: Eine Antibiographie",
+        author: "Wojciech Kuczok",
+        done: false,
+        year: 2012,
+        short_info: "übersetzt von Gabriele Leupold und Dorota Stroinska",
+        info: "",
+        originator: "alex",
+        proposal_date: "Januar 2025",
+        comments: [],
+    },
+    {
         name: "Umlaufbahnen",
         author: "Samantha Harvey",
-        done: false,
+        done: true,
         year: 2023,
         short_info: "übersetzt von Julia Wolf",
         info: "",
         originator: "helena",
         proposal_date: "Dezember 2025",
-        comments: [],
+        comments: [
+            {
+                from: "giulia",
+                rating: 3.5,
+                content: "“Aber es gibt keine neuen Gedanken. Nur alte, die in neue Momente hinein
+                    geboren werden” (S.19). Dieses Zitat spiegelt den restlichen
+                    Inhalt des Buches sehr gut wieder. Es werden keine
+                    weltbewegenden neuen Gedanken beschrieben. Nur Alte. Diese
+                    aber mit einer unaufgeregten, eleganten Schönheit.<br>
+                    Wenn es allerdings schon keine Handlung gibt, würde ich wenigstens gerne
+                    die Charaktere besser kennenlernen. Tut man aber nicht.
+                    Alles bleibt zwischen völliger Abstraktion und nichtigen
+                    Alltäglichkeiten schweben. Wahrscheinlich genau Harveys
+                    Intention. Für mich persönlich aber insgesamt zu
+                    inhaltsleer.",
+            },
+        ],
     },
     {
         name: "Im Norden ein Berg, im Süden ein See, im Westen Wege, im Osten ein Fluss",

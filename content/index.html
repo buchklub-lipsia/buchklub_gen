@@ -21,7 +21,7 @@
         <div class="main">
             <h1>{{global.name}}</h1>
             <div class="main-content">
-                <p class="box-it">Unser Buchklub besteht derzeit aus
+                <p>Unser Buchklub besteht derzeit aus
                     <a href="members.html">{{(len members)}} Mitgliedern</a> und
                     ist stets <b>auf der Suche nach neuen literaturbegeisterten Leuten</b>.
                     Bei Interesse an unserem Buchklub siehe <a href="contact.html"><i>Kontakt</i></a>.
@@ -31,11 +31,7 @@
                 <p>
                     {{#each books}}
                     {{#if (not done)}}
-                    <b>»{{name}}«</b><br>
-                    ({{author}},&nbsp;{{year}})<br>
-                    vorgeschlagen von
-                    {{lookup (lookup ../members originator) "name"}} im
-                    {{proposal_date}}.
+                    {{> book}}
                     {{/if}}
                     {{/each}}
                 </p>

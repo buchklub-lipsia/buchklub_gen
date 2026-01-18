@@ -10,7 +10,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: serif;
+    font-family: Copernicus,Libre Baskerville,Georgia,serif;
 }
 
 h1 {
@@ -85,7 +85,7 @@ h1 {
 }
 
 #books-main {
-    max-width: var(--content-width-plus);
+    max-width: var(--content-width);
 }
 
 .main-content {
@@ -118,10 +118,10 @@ h1 {
 #currently-reading-div {
     font-size: 1.25em;
     text-align: center;
-    background-color: var(--secondary);
+    /*background-color: var(--secondary);
     border-radius: 1em;
     border: 3px solid var(--theme);
-    padding: 1em;
+    padding: 1em;*/
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -132,18 +132,67 @@ h1 {
 
 .book {
     margin-top: 1.5em;
-    background-color: var(--secondary);
+    text-align: center;
+    /*background-color: var(--secondary);
     border-radius: 1em;
     border: 3px solid var(--theme);
     padding-top: 0.25em;
     padding-bottom: 0.5em;
     padding-left: 1em;
-    padding-right: 1em;
+    padding-right: 1em;*/
 }
+
+.cover-img {
+    border-radius: .75em;
+    height: 15em;
+}
+
 
 .book h2 {
     font-size: 1.25em;
-    line-height: 1.5em;
+    margin-bottom: 0;
+}
+
+.subh {
+    font-size: 1em;
+    margin-top: 0;
+    font-weight: 400;
+    color: gray;
+}
+
+.star-rating {
+    position: relative;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.star-rating::before {
+    content: "★★★★★";
+    color: #ccc;
+}
+
+.star-rating-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.star-rating-fill::before {
+    content: "★★★★★";
+    color: #f5b301;
+}
+
+.avg-rating {
+    font-size: 1.5rem;
+}
+
+.comment-text {
+    text-align: left;
 }
 
 .book-sep {
@@ -372,14 +421,10 @@ ul li {
         display: block;
     }
 
-    .book-sep {
-        display: none;
-    }
-
     #books-container {
-        display: grid;
+        /*display: grid;
         grid-template-columns: 50% 50%;
-        gap: 1em;
+        gap: 1em;*/
     }
 
     #dos-donts-container {

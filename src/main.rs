@@ -204,7 +204,7 @@ fn read_gon_object(content_dir: &PathBuf, path: &str) -> Result<Value, String> {
     let src = std::fs::read_to_string(content_dir.join(path))
         .map_err(|_| format!("missing '{dir}/{path}'!", dir = content_dir.display()))?;
 
-    let gon = gon::parse_str(&src).map_err(|e| format!("ill-formed {path}: {e}"))?.unwrap();
+    let gon = gon::parse_str(&src).map_err(|e| format!("ill-formed {path}: {e}"))?;
     Ok(gon.into())
 }
 

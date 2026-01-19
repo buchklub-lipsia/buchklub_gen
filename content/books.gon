@@ -2,8 +2,7 @@
     {
         name: "Dreckskerl",
         author: "Wojciech Kuczok",
-        cover: "https://res.cloudinary.com/suhrkamp/images/v1742213540/56839/
-            dreckskerl_9783518463147_cover.jpg",
+        cover: r"https://res.cloudinary.com/suhrkamp/images/v1742213540/56839/dreckskerl_9783518463147_cover.jpg",
         done: false,
         year: 2012,
         short_info: "übersetzt von Gabriele Leupold und Dorota Stroinska",
@@ -15,9 +14,7 @@
     {
         name: "Umlaufbahnen",
         author: "Samantha Harvey",
-        cover: "https://www.dtv.de/thumbnail/
-            ea/51/9d/1712822454/9783423284233__COVER_2D%20%28Produktcover%20Web%
-            20klein%29_1920x1920.jpg",
+        cover: r"https://www.dtv.de/thumbnail/ea/51/9d/1712822454/9783423284233__COVER_2D%20%28Produktcover%20Web%20klein%29_1920x1920.jpg",
         done: true,
         year: 2023,
         short_info: "übersetzt von Julia Wolf",
@@ -79,7 +76,7 @@
     {
         name: "Im Norden ein Berg, im Süden ein See, im Westen Wege, im Osten ein Fluss",
         author: "László Krasznahorkai",
-        cover: "https://covers.openlibrary.org/b/isbn/9783596172436-L.jpg",
+        cover: r"https://covers.openlibrary.org/b/isbn/9783596172436-L.jpg",
         done: true,
         year: 2003,
         short_info: "übersetzt von Christina Viragh",
@@ -158,7 +155,7 @@
     {
         name: "The Body Snatchers/Die Körperfresser kommen",
         author: "Jack Finney",
-        cover: "https://media2.hugendubel.de/shop/coverscans/456/45671818_9781399617215_xl.jpg",
+        cover: r"https://media2.hugendubel.de/shop/coverscans/456/45671818_9781399617215_xl.jpg",
         done: true,
         year: 1954,
         short_info: "im Original gelesen",
@@ -226,7 +223,7 @@
     {
         name: "Menschenwerk",
         author: "Han Kang",
-        cover: "https://covers.openlibrary.org/b/isbn/9781101906743-L.jpg",
+        cover: r"https://covers.openlibrary.org/b/isbn/9781101906743-L.jpg",
         done: true,
         year: 2014,
         short_info: "übersetzt von Ki-Hyang Lee",
@@ -337,7 +334,7 @@
     {
         name: "Gezeichnet/No Longer Human",
         author: "Osamu Dazai",
-        cover: "https://covers.openlibrary.org/b/isbn/9783458168713-L.jpg",
+        cover: r"https://covers.openlibrary.org/b/isbn/9783458168713-L.jpg",
         done: true,
         year: 1948,
         short_info: "übersetzt von Jürgen Stalph",
@@ -414,7 +411,7 @@
     {
         name: "Pornographie",
         author: "Witold Gombrowicz",
-        cover: "https://covers.openlibrary.org/b/isbn/9782070393893-L.jpg",
+        cover: r"https://covers.openlibrary.org/b/isbn/9782070393893-L.jpg",
         done: true,
         year: 1960,
         short_info: "übersetzt von Renate Schmidgall",
@@ -484,7 +481,7 @@
     {
         name: "Elefant",
         author: "Martin Suter",
-        cover: "https://covers.openlibrary.org/b/isbn/9783257069709-L.jpg",
+        cover: r"https://covers.openlibrary.org/b/isbn/9783257069709-L.jpg",
         done: true,
         year: 2017,
         short_info: "",
@@ -607,7 +604,7 @@
     {
         name: "Aufzeichnungen aus dem Kellerloch",
         author: "Fjodor Dostojewski",
-        cover: "https://covers.openlibrary.org/b/isbn/9783150080214-L.jpg",
+        cover: r"https://covers.openlibrary.org/b/isbn/9783150080214-L.jpg",
         done: true,
         year: 1864,
         short_info: "übersetzt von Swetlana Geier",
@@ -705,7 +702,7 @@
     {
         name: "Nachmittage",
         author: "Ferdinand von Schirach",
-        cover: "https://media2.hugendubel.de/shop/coverscans/423/42376654_9783630877235_xl.jpg",
+        cover: r"https://media2.hugendubel.de/shop/coverscans/423/42376654_9783630877235_xl.jpg",
         done: true,
         year: 2022,
         short_info: "",
@@ -793,7 +790,7 @@
     {
         name: "Der Club der toten Dichter/Dead Poets Society",
         author: "N. H. Kleinbaum",
-        cover: "https://covers.openlibrary.org/b/isbn/9781401308773-L.jpg",
+        cover: r"https://covers.openlibrary.org/b/isbn/9781401308773-L.jpg",
         done: true,
         year: 1989,
         short_info: "übersetzt von Ekkehart Reinke",
@@ -891,7 +888,7 @@
     {
         name: "Ansichten eines Clowns",
         author: "Heinrich Böll",
-        cover: "https://covers.openlibrary.org/b/isbn/9783462031461-L.jpg",
+        cover: r"https://covers.openlibrary.org/b/isbn/9783462031461-L.jpg",
         done: true,
         year: 1963,
         short_info: "",
@@ -943,7 +940,7 @@
     {
         name: "Picknick am Wegesrand",
         author: "Arkadi & Boris Strugazki",
-        cover: "https://covers.openlibrary.org/b/isbn/3518371703-L.jpg",
+        cover: r"https://covers.openlibrary.org/b/isbn/3518371703-L.jpg",
         done: true,
         year: 1972,
         short_info: "übersetzt u. A. von David Drevs",
@@ -1013,7 +1010,7 @@
     {
         name: "Lushins Verteidigung",
         author: "Vladimir Nabokov",
-        cover: "https://covers.openlibrary.org/b/isbn/9783499225505-L.jpg",
+        cover: r"https://covers.openlibrary.org/b/isbn/9783499225505-L.jpg",
         done: true,
         year: 1930,
         short_info: "übersetzt von Dietmar Schulte",
@@ -1089,7 +1086,7 @@
     {
         name: "Quecksilber",
         author: "Amélie Nothomb",
-        cover: "https://covers.openlibrary.org/b/isbn/9783257062885-L.jpg",
+        cover: r"https://covers.openlibrary.org/b/isbn/9783257062885-L.jpg",
         done: true,
         year: 1998,
         short_info: "aus dem Französischen von Wolfgang Krege",
@@ -1151,7 +1148,7 @@
     {
         name: "Der Maler der fließenden Welt",
         author: "Kazuo Ishiguro",
-        cover: "https://covers.openlibrary.org/b/isbn/9783499133121-L.jpg",
+        cover: r"https://covers.openlibrary.org/b/isbn/9783499133121-L.jpg",
         done: true,
         year: 1986,
         short_info: "aus dem Englischen von Hartmut Zahn",
@@ -1213,7 +1210,7 @@
     {
         name: "Die Reise nach Petuschki",
         author: "Wenedikt Jerofejew",
-        cover: "https://covers.openlibrary.org/b/isbn/9783492206716-L.jpg",
+        cover: r"https://covers.openlibrary.org/b/isbn/9783492206716-L.jpg",
         done: true,
         year: 1969,
         short_info: "aus dem Russischen von Natascha Spitz",
@@ -1262,7 +1259,7 @@
     {
         name: "Das blinde Licht. Irrfahrten der Wissenschaft",
         author: "Benjamin Labatut",
-        cover: "https://media2.hugendubel.de/shop/coverscans/397/39779641_9783518471524_xl.jpg",
+        cover: r"https://media2.hugendubel.de/shop/coverscans/397/39779641_9783518471524_xl.jpg",
         done: true,
         year: 2020,
         short_info: "aus dem Spanischen von Thomas Brovot",

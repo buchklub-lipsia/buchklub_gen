@@ -21,6 +21,7 @@ pub const KEY_COMMENTS: &str = "comments";
 pub const KEY_RATING: &str = "rating";
 pub const KEY_FROM: &str = "from";
 pub const KEY_AVERAGE_RATING: &str = "average-rating";
+pub const KEY_RATING_PERCENT: &str = "rating-percent";
 
 fn main() -> Result<(), String> {
     let content_dir = PathBuf::from(CONTENT_DIR);
@@ -180,7 +181,9 @@ fn extract_ratings(
             ratings.push(rating);
         }
         let ratings_sum: f64 = ratings.iter().sum();
-        book.insert(String::from(KEY_AVERAGE_RATING), json!(to_string_2_dec_places(ratings_sum / ratings.len() as f64)));
+        let avg_rating = ratings_sum / ratings.len() as f64;
+        book.insert(String::from(KEY_AVERAGE_RATING), json!(to_string_2_dec_places(avg_rating)));
+        book.insert(String::from(KEY_RATING_PERCENT), json!(avg_rating * 20.0));
     }
     Ok(member_ratings)
 }

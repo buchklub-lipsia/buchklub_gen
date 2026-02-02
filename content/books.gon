@@ -1,15 +1,41 @@
 [
     {
+        name: "Entscheidung ausstehend",
+        author: "Max Mustermann",
+        cover: r"https://picsum.photos/500/700",
+        done: false,
+        year: 2027,
+        short_info: "…",
+        info: "",
+        originator: "jessi",
+        proposal_date: "Februar 2026",
+        comments: [],
+    },
+    {
         name: "Dreckskerl",
         author: "Wojciech Kuczok",
         cover: r"https://res.cloudinary.com/suhrkamp/images/v1742213540/56839/dreckskerl_9783518463147_cover.jpg",
-        done: false,
+        done: true,
         year: 2012,
         short_info: "übersetzt von Gabriele Leupold und Dorota Stroinska",
         info: "",
         originator: "alex",
-        proposal_date: "Januar 2025",
-        comments: [],
+        proposal_date: "Januar 2026",
+        comments: [
+            {
+                from: "giulia",
+                rating: 4.25,
+                content: "Ein alterndes Haus im Mittelpunkt, eine schlesische Familie im sozialen Abstieg
+                    und ein von seinem Vater mit sehr viel Gewalt terrorisierter
+                    Sohn. Vielleicht eine weit hergeholte Assoziation, aber für
+                    mich hatte das Buch etwas vom südamerikanischen magischen
+                    Realismus. Nur in kalt, grau und polnisch. Eigentlich auch
+                    wenig Magie und viel Realismus. Dafür aber exzentrische
+                    Charaktere und ein surrealistisches Traum-Ende. Und Einiges
+                    an skurriler Absurdität, die Humor in etwas gebracht hat, wo
+                    man keinen Humor erwarten würde.",
+            },
+        ],
     },
     {
         name: "Umlaufbahnen",

@@ -24,6 +24,7 @@ pub const KEY_AVERAGE_RATING: &str = "average-rating";
 pub const KEY_RATING_PERCENT: &str = "rating-percent";
 
 fn main() -> Result<(), String> {
+    env_logger::init();
     let content_dir = PathBuf::from(CONTENT_DIR);
     if !content_dir.is_dir() {
         return Err(format!("missing '{CONTENT_DIR}' sub dir!"));

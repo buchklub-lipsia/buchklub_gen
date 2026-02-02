@@ -1,3 +1,4 @@
+{{log this}}
 <div class="book">
     {{#if cover}}<img src="{{cover}}" class="cover-img"/>{{/if}}
     <h2 {{#if (eq @index 2)}}id="not-first-book"{{/if}}>{{name}}&nbsp;</h2>
@@ -10,8 +11,8 @@
     {{/if}}
     <p class="blue-text">
         vorgeschlagen von:
-        {{#if (lookup (lookup ../members originator) "name")}}
-            {{lookup (lookup ../members originator) "name"}}{{else}}ehemaliges Mitglied{{/if}}, {{proposal_date}}
+        {{#if (lookup (lookup members originator) "name")}}
+            {{lookup (lookup members originator) "name"}}{{else}}ehemaliges Mitglied{{/if}}, {{proposal_date}}
         <br>{{short_info}}
     </p>
     <p>{{info}}</p>
@@ -21,8 +22,8 @@
     <blockquote class="comment">
         <p class="comment-author">
             <span class="blue-text comment-author-text">
-                {{#if (lookup (lookup ../../members from) "name")}}
-                    <a href="members.html#{{from}}">{{lookup (lookup ../../members from) "name"}}</a>
+                {{#if (lookup (lookup ../members from) "name")}}
+                    <a href="members.html#{{from}}">{{lookup (lookup ../members from) "name"}}</a>
                 {{else}}
                     {{from}}
                 {{/if}}

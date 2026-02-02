@@ -51,7 +51,7 @@
                 <div id="books-container">
                     {{#each books}}
                     {{#if done}}
-                        {{> book}}
+                        {{> book members=../members}}
                         <hr class="book-sep">
                     {{/if}}
                     {{/each}}

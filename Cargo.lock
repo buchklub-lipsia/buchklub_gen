@@ -293,7 +293,7 @@ dependencies = [
 [[package]]
 name = "gon"
 version = "0.1.0"
-source = "git+https://www.github.com/sanj0/gon?branch=master#75abe7dad71b319be7872ba89187dd5f1f94b217"
+source = "git+https://www.github.com/speicherwerk/gon?branch=master#af298852bc1503bef937a2e204ded62b80e5d5f3"
 dependencies = [
  "indexmap",
  "klex",
@@ -414,7 +414,7 @@ dependencies = [
 [[package]]
 name = "klex"
 version = "0.1.0"
-source = "git+https://www.github.com/sanj0/klex?branch=main#818f4dbfacef53aae36f316bceda41d3ea77c398"
+source = "git+https://www.github.com/speicherwerk/klex?branch=main#62e0b34b207bd7749dcf0a3c1b838df5cca26301"
 dependencies = [
  "thiserror 1.0.69",
 ]

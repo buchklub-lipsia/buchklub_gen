@@ -422,9 +422,9 @@ ul li {
     }
 
     #books-container {
-        /*display: grid;
+        display: grid;
         grid-template-columns: 50% 50%;
-        gap: 1em;*/
+        gap: 1em;
     }
 
     #dos-donts-container {

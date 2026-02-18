@@ -21,32 +21,27 @@
         <div class="main">
             <h1>{{global.name}}</h1>
             <div class="main-content">
-                <p>Unser Buchklub besteht derzeit aus
-                    <a href="members.html">{{(len members)}} Mitgliedern</a> und
-                    ist stets <b>auf der Suche nach neuen literaturbegeisterten Leuten</b>.
-                    Bei Interesse an unserem Buchklub siehe <a href="contact.html"><i>Kontakt</i></a>.
-                </p>
-                <h2 class="centre-align">Aktuelle Lektüre</h2>
-                <div id="currently-reading-div">
-                <p>
-                    {{#each books}}
-                    {{#if (not done)}}
-                        {{> book members=../members}}
-                    {{/if}}
-                    {{/each}}
-                </p>
-
-                <img src="img/logo-long-transparent.webp" alt="{{global.name}}" id="index-logo">
-                </div>
-
-                <h2 class="centre-align">Über uns</h2>
                 <a href="members.html">Wir</a> haben den {{global.name}} im März
                 2024 in Leipzig gegründet und seitdem <a
                     href="books.html">{{len books}} Bücher</a> gelesen und
                 besprochen. Unsere Treffen finden immer am ersten Wochenende des
                 Monats in einem Café in Leipzig statt.
-                <br>Wir sind basisdemokratisch organisiert; der Titel des
-                Präsidenten und seines Vizes (siehe Mitglieder) sind also hauptsächlich repräsentativ.
+                <img src="img/logo-long-transparent.webp" alt="{{global.name}}" id="index-logo">
+                <h1 class="centre-align">Aktuelle Lektüre</h2>
+                <div id="currently-reading-div">
+                    {{#each books}}
+                    {{#if (not done)}}
+                        {{> book members=../members}}
+                    {{/if}}
+                    {{/each}}
+                </div>
+
+                <h1 class="centre-align">Letzte Lektüre</h2>
+                <p>
+                    {{#with books.1}}
+                        {{> book members=../members showComments=true}}
+                    {{/with}}
+                </p>
             </div>
         </div>
         {{{global.footer}}}

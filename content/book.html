@@ -15,7 +15,11 @@
         <br>{{short_info}}
     </p>
     <p>{{info}}</p>
-    {{#if (gt (len comments) 0)}}<h3 class="collapser">Meinungen der Mitglieder</h3>{{/if}}
+    {{#if (gt (len comments) 0)}}
+        <h3 {{#if showComments}}class="collapser collapser-init-show"{{else}}class="collapser"{{/if}}>
+            Meinungen der Mitglieder
+        </h3>
+    {{/if}}
     <span class="comments">
     {{#each comments}}
     <blockquote class="comment">

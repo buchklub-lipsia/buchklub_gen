@@ -1,15 +1,58 @@
 [
     {
+        name: "Fahrenheit 451",
+        author: "Ray Bradbury",
+        cover: r"https://covers.openlibrary.org/b/isbn/9783257071405-L.jpg",
+        done: false,
+        year: 1953,
+        short_info: "",
+        info: "",
+        originator: "stefan",
+        proposal_date: "März 2026",
+        comments: [],
+    },
+    {
         name: "Malina",
         author: "Ingeborg Bachmann",
         cover: r"https://upload.wikimedia.org/wikipedia/commons/f/f3/Ingeborg_Bachmann%2C_Malina_1971_new.jpg",
-        done: false,
+        done: true,
         year: 1971,
         short_info: "",
         info: "",
         originator: "jessi",
         proposal_date: "Februar 2026",
-        comments: [],
+        comments: [
+            {
+                from: "giulia",
+                rating: 3,
+                content: "Bachmann macht es einem hier wirklich nicht leicht. Ihr Buch muss man sich
+                    erarbeiten, erkämpfen, erleiden. Es war schwer, den
+                    Gedankengängen zu folgen. Es war schwer, die Gefühle
+                    zu ertragen. Es fühlt sich an, als sage sie „Ich wurde
+                    traumatisiert, ich habe Angst, ich leide“, um einen dann
+                    in ihren Kopf einzuladen zum Mitleiden. Ich bin froh, das
+                    Buch gelesen zu haben, angenehm war die Lese-Erfahrung aber
+                    sicherlich nicht.",
+            },
+            {
+                from: "stefan",
+                rating: 3.5,
+                content: "Ich lese die Wörter, ich interpretiere die Sätze, ich verstehe die Sprache,
+                    ich verwirre meine Gedanken, ich strapaziere meine Nerven,
+                    ich erkoche mein Blut, ich ernüchter im Nachtmahr, ich
+                    resigniere die Taten, ich folge dem Schrecken, ich wache dem
+                    Geschehen, ich bezeuge den Mord.<br> Macht mich mein nicht
+                    vollends verstehendes Verstehen zum Komplizen des Mörders?
+                    Verwandelt mich meine analytische und funktionale Wertung
+                    des Romans zum Täter? Ingeborg Bachmann schafft hier eine
+                    interessante zurückbleibende innere Fragestellung, welche
+                    mit dem einmaligen Lesen der Lektüre nicht beantwortet
+                    werden kann.<br> Somit, obwohl ich beim Lesen kein Vergnügen
+                    finden konnte, muss ich dem Roman eine nachwirkende und
+                    positive Bewertung versehen, welche mit zum Nachdenken
+                    bringt.",
+            },
+        ],
     },
     {
         name: "Dreckskerl",

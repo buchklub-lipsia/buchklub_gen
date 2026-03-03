@@ -4,26 +4,26 @@
         short_info: "studiert die Rechtswissenschaft, Präsident",
         long_info: "Mit der Gründung des Buchklubs habe ich mir einen Kindheitstraum erfüllt, denn
             schon immer bin ich durch und durch lesebegeistert und wollte diese
-            Passion in angeregtem Austausch mit anderen teilen. Neben Literatur
-            begeistere ich mich insbesondere für Politik und das Sprachenlernen.
-            Ich studiere die Rechtswissenschaft mit Schwerpunkt in den
-            Kriminalwissenschaften. In meiner Freizeit spiele ich außerdem Golf,
-            höre viel Musik und bin gerne schaffend tätig, wie mit Häkeln oder
-            Zeichnen.<br>Ähnlich Malte ist eines meiner Lieblingsbücher »Der
-            Graf von Monte Christo« von Alexandre Dumas, aber auch »Der Krieg
-            mit den Molchen« von Karel Čapek und »Jane Eyre« von Charlotte
-            Brontë sind mir nachhaltig in Erinnerung geblieben.",
+            Leidenschaft in angeregtem Austausch mit anderen teilen. Neben
+            Literatur begeistere ich mich insbesondere für Politik und das
+            Sprachenlernen. Ich studiere die Rechtswissenschaft mit Schwerpunkt
+            in den Kriminalwissenschaften. In meiner Freizeit spiele ich
+            außerdem Golf und höre gern und viel Musik, sodass man mich oft
+            auf Konzerten antreffen kann.<br>So wie bei Malte ist eines meiner
+            Lieblingsbücher »Der Graf von Monte Christo« von Alexandre Dumas,
+            aber auch »Der Krieg mit den Molchen« von Karel Čapek, »Jane Eyre«
+            von Charlotte Brontë und »Als wir träumten« von Clemens Meyer sind
+            mir nachhaltig in Erinnerung geblieben.",
     },
     malte: {
         name: "Malte",
         short_info: "studiert die Informatik, Webmaster",
-        long_info: "Obgleich mir die digitale Dekadenz zuwider ist und ich ebenso
-            geisteswissenschaftlich interessiert bin, studiere ich seit
-            2022 die Informatik. Am liebsten ist mir dabei der theoretische
-            Teil und insbesondere die Logik, die Automatentheorie und die
-            Berechenbarkeit. Mein Lieblingsbuch ist der Graf von Monte
-            Christo, mein Lieblingscharakter der kleine Kai Graf Mölln aus
-            »Buddenbrooks«.",
+        long_info: "Obgleich mir die digitale Dekadenz zuwider ist, studiere ich seit 2022 die
+            Informatik, mittlerweile im Master. Dabei belege ich im freien
+            Wahlbereich Module der deutschen Sprach- und Literaturwissenschaft.
+            Zu meinen Lieblingsbüchern gehören »Ansichten eines Clowns«, »Die
+            unerträgliche Leichtigkeit des Seins«, »Unterm Rad«, »Der Graf von
+            Monte Christo« und »Die geheimnisvolle Insel«.",
     },
     jessi: {
         name: "Jessica",
@@ -91,5 +91,20 @@
             mit anderen zu diskutieren. Top Voraussetzungen für einen Buchklub,
             dachte ich mir! Zu meinen Allzeit-Favoriten gehören „Mephisto“ von
             Klaus Mann und „Die Brüder Karamasov“ von Fjodor Dostojewksi.",
+    },
+    bruno: {
+        name: "Bruno",
+        short_info: "studiert die Rechtswissenschaft",
+        long_info: "Hey, ich bin Bruno! Ich bin Jurastudent und habe große Freude daran, Musik zu
+            hören und Musik zu machen. Beim Lesen höre ich am liebsten Tom Odell
+            oder Bach. Die Musik vermischt sich dann mit nächtlichen Geräuschen,
+            die durch das offene Fenster meines kleinen Zimmers (an der
+            warmen Tasse Tee auf der Lehne meiner Couch vorbei) von der Straße
+            hineinfliegen. Durch den Buchklub nehme ich mir endlich an Abenden
+            die Zeit, mich einem Buche näher zu widmen und dadurch auch in
+            tiefgründigerer Weise über dessen Inhalt zu reflektieren. In meiner
+            Freizeit schreibe ich selbst, spiele Klavier und reise liebend gern
+            nach Paris, um dort durch nächtliche Straßen zu spazieren, Kaffee zu
+            trinken und meine Französischkenntnisse zu verbessern.",
     },
 }

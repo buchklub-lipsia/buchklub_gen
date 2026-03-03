@@ -1,18 +1,162 @@
 [
     {
+        name: "Malina",
+        author: "Ingeborg Bachmann",
+        cover: r"https://upload.wikimedia.org/wikipedia/commons/f/f3/Ingeborg_Bachmann%2C_Malina_1971_new.jpg",
+        done: false,
+        year: 1971,
+        short_info: "",
+        info: "",
+        originator: "jessi",
+        proposal_date: "Februar 2026",
+        comments: [],
+    },
+    {
+        name: "Dreckskerl",
+        author: "Wojciech Kuczok",
+        cover: r"https://res.cloudinary.com/suhrkamp/images/v1742213540/56839/dreckskerl_9783518463147_cover.jpg",
+        done: true,
+        year: 2003,
+        short_info: "übersetzt von Gabriele Leupold und Dorota Stroinska",
+        info: "",
+        originator: "alex",
+        proposal_date: "Januar 2026",
+        comments: [
+            {
+                from: "giulia",
+                rating: 4.25,
+                content: "Ein alterndes Haus im Mittelpunkt, eine schlesische Familie im sozialen Abstieg
+                    und ein von seinem Vater mit sehr viel Gewalt terrorisierter
+                    Sohn. Vielleicht eine weit hergeholte Assoziation, aber für
+                    mich hatte das Buch etwas vom südamerikanischen magischen
+                    Realismus. Nur in kalt, grau und polnisch. Eigentlich auch
+                    wenig Magie und viel Realismus. Dafür aber exzentrische
+                    Charaktere und ein surrealistisches Traum-Ende. Und Einiges
+                    an skurriler Absurdität, die Humor in etwas gebracht hat, wo
+                    man keinen Humor erwarten würde.",
+            },
+            {
+                from: "malte",
+                rating: 4,
+                content: "»Dreckskerl« ist ein Buch über Gewalt. Der Patriarch »alter K.« terrorisiert
+                    seinen Sohn mit physischer und psychischer Gewalt
+                    schrecklichen Ausmaßes, die Frau mindestens mit
+                    ähnlich brutaler psychischer Gewalt. Gespickt sind die
+                    eindrücklichen Schilderungen dieser Gewalt mit unerwartet
+                    lustigen Absurditäten, wie einer Schule, an der sich nur
+                    durch Spucken unterhalten wird. Das Buch endet mit einer
+                    surrealistischen Katastrophe, alle Fragen sind offen;
+                    vorrangig: Wessen Biographie hat der Leser nun eigentlich
+                    gelesen? und wieso ist das Buch eine (Anti-)Biographie?
+                    Nicht zuletzt darüber konnte der Buchklub ausgiebig
+                    diskutieren. Auffallend ist jedenfalls: Von allen
+                    vorkommenden Figuren erfährt der Leser am wenigsten über den
+                    Ich-Erzähler, der in seiner eigenen Biographie (?) scheinbar
+                    eine Nebenrolle spielt – vielleicht, weil er in seiner von
+                    Gewalt beherrschten Kindheit nicht die Möglichkeit hatte,
+                    vom Objekt zum Subjekt zu werden … wie gesagt: alle Fragen
+                    offen.",
+            },
+            {
+                from: "alex",
+                rating: 4.25,
+                content: "Sprachgewalt – das ist das Wort, welches mir beim Lesen in den Sinn gekommen
+                    ist und immer noch meine Wahrnehmung dieses besonderen
+                    Romans prägt. Die meisterhafte Sprache führte oft dazu,
+                    dass ich angesichts der schier unerträglichen Gewalt
+                    am Erzähler innehalten musste. Andererseits waren immer
+                    wieder Dialoge und ganze Szenen von einer so absurden Komik
+                    geprägt, dass ich mir ein Lachen nicht verkneifen konnte –
+                    dieser Gegensatz zog sich durch das gesamte Buch. Es fällt
+                    mir schwer, auf den Punkt zu bringen, was mir an dieser
+                    thematisch schweren Lektüre so gefallen hat, vielleicht
+                    auch, weil viele Aspekte offen bleiben … jedenfalls möchte
+                    ich K. (uczoks) Antibiographie noch einmal lesen und mir
+                    weitere Gedanken zu ihr machen.",
+            },
+        ],
+    },
+    {
         name: "Umlaufbahnen",
         author: "Samantha Harvey",
-        done: false,
+        cover: r"https://www.dtv.de/thumbnail/ea/51/9d/1712822454/9783423284233__COVER_2D%20%28Produktcover%20Web%20klein%29_1920x1920.jpg",
+        done: true,
         year: 2023,
         short_info: "übersetzt von Julia Wolf",
         info: "",
         originator: "helena",
         proposal_date: "Dezember 2025",
-        comments: [],
+        comments: [
+            {
+                from: "giulia",
+                rating: 3.5,
+                content: "“Aber es gibt keine neuen Gedanken. Nur alte, die in neue Momente hinein
+                    geboren werden” (S.19). Dieses Zitat spiegelt den restlichen
+                    Inhalt des Buches sehr gut wieder. Es werden keine
+                    weltbewegenden neuen Gedanken beschrieben. Nur Alte. Diese
+                    aber mit einer unaufgeregten, eleganten Schönheit.<br>
+                    Wenn es allerdings schon keine Handlung gibt, würde ich
+                    wenigstens gerne die Charaktere besser kennenlernen. Tut
+                    man aber nicht. Alles bleibt zwischen völliger Abstraktion
+                    und nichtigen Alltäglichkeiten schweben. Wahrscheinlich
+                    genau Harveys Intention. Für mich persönlich aber insgesamt
+                    zu inhaltsleer.",
+            },
+            {
+                from: "malte",
+                rating: 2.5,
+                content: "Nervende Dinge:<ul> <li>Bücher, die aus endlosen Listen bestehen</li>
+                    <li>Bücher, die einen ständig duzen</li> <li>endlose
+                    Anthropomorphisierung als faules Stilmittel</li>
+                    <li>mittelprächtige Übersetzungen</li> </ul> Gute Dinge:<ul>
+                    <li>Charaktere mit interessanten Hintergrundgeschichten</
+                    li> <li>erotische Gedanken und Träume in der
+                    Zwangsenthaltsamkeit der Raummission</li> <li>Rätselhafte
+                    Bilder</li> <li>Einblicke in den Alltag auf einer erdnahen
+                    Raumstation</li> </ul>",
+            },
+            {
+                from: "katharina",
+                rating: 3,
+                content: "Der Roman illustriert, dass trotz der großen Differenz im Blickwinkel, die
+                    Perspektive unveränderlich menschlich bleibt. Die großen
+                    Fragen des Lebens und das alltägliche Frühstück. So weit
+                    entfernt vom Erdgeschehen vom Trubel der Menschheit,
+                    mit einem Blick der den wenigsten vergönnt ist und, man
+                    würde meinen, zum philosophieren anregt, können sich die
+                    Protagonisten dennoch nicht vom Menschsein lösen.<br> In
+                    der Idee höchst spannend, bleibt die Umsetzung weit hinter
+                    ihrem Potenzial. Die Figuren, flach und austauschbar, können
+                    diesen Grundgedanken zwar andeuten, aber keinen inhaltlichen
+                    Diskurs dazu anbieten. Ebenso wird auch den einzelnen Szenen
+                    nicht genug Raum zur Entfaltung dieses Themas gegeben.<br>
+                    Meine Empfehlung wäre gewesen die Szenen zu halbieren
+                    und dafür inhaltlich zu erweitern; Dem Leser Zeit zu
+                    geben die Figuren und ihre Entwicklung in der Raumstation
+                    kennenzulernen; Statt den Leser von Szene zu Szene zu
+                    zerren, ihn das Schweben selber versuchen zu lassen.",
+            },
+            {
+                from: "alex",
+                rating: 2.5,
+                content: "Bezeichnend ist für mich, dass meine Lieblingsstelle in einem Buch über den
+                    Weltraum ausgerechnet das Kapitel war, in dem wir uns nicht
+                    auf der ISS, sondern in einem Holzhaus in Japan befanden.
+                    Auch wenn „Umlaufbahnen“ eben ein paar solcher sprachlicher
+                    Lichtblicke hatte, konnte mir Samantha Harvey darüber
+                    hinaus nicht viel mehr bieten. Die repetitive Erzählung
+                    führte zu Langeweile und Frustration – über den Mangel
+                    an Handlung, die doch recht flach bleibenden Charaktere
+                    und die sprachlichen Dopplungen. Der Roman beherbergt
+                    vielversprechende Handlungsansätze, die leider im Sande
+                    verlaufen und nicht ausgeschöpft werden.",
+            },
+        ],
     },
     {
         name: "Im Norden ein Berg, im Süden ein See, im Westen Wege, im Osten ein Fluss",
         author: "László Krasznahorkai",
+        cover: r"https://covers.openlibrary.org/b/isbn/9783596172436-L.jpg",
         done: true,
         year: 2003,
         short_info: "übersetzt von Christina Viragh",
@@ -66,11 +210,32 @@
                     es mir lieb geworden. Die beim Lesen fehlende Unterhaltung
                     heilt das nicht.",
             },
+            {
+                from: "katharina",
+                rating: 1,
+                content: "Nach einem Sinn sucht man in dem Buch wie nach dem ersten Kapitel. Weder
+                    erfreulich zu lesen, noch thematisch anregend. Den
+                    Sinngehalt haben wir in unserem Treffen zu dem Buch
+                    versucht zu finden, teils verworfen und andere haben darin
+                    ihre Freude am Buch gefunden. Dem kann ich mich nicht
+                    anschließen.<br> Das einzige positive, dass ich dem Buch
+                    abgewinnen konnte, ist, dass es zum Mittelteil tatsächlich
+                    eine meditative Wirkung hatte. Zuvor muss man unter
+                    Anstrengung seine Verwirrung überwinden und später werden
+                    Zahlen im Millionenbereich ausgeschrieben! Das hat dann eine
+                    ganz gegenteilige Wirkung als meditativ.<br> Das Buch setzt
+                    möglicherweise einen kulturellen Kontext und Textverständnis
+                    voraus, dessen ich nicht mächtig bin. Deshalb wird das Buch
+                    aber nicht besser, ob es das ist, überlasse ich anderen.
+                    Erwarten sollte man aber wenig und Lesen muss man es meiner
+                    Meinung nach definitiv auch nicht.",
+            },
         ],
     },
     {
         name: "The Body Snatchers/Die Körperfresser kommen",
         author: "Jack Finney",
+        cover: r"https://media2.hugendubel.de/shop/coverscans/456/45671818_9781399617215_xl.jpg",
         done: true,
         year: 1954,
         short_info: "im Original gelesen",
@@ -138,6 +303,7 @@
     {
         name: "Menschenwerk",
         author: "Han Kang",
+        cover: r"https://covers.openlibrary.org/b/isbn/9781101906743-L.jpg",
         done: true,
         year: 2014,
         short_info: "übersetzt von Ki-Hyang Lee",
@@ -248,6 +414,7 @@
     {
         name: "Gezeichnet/No Longer Human",
         author: "Osamu Dazai",
+        cover: r"https://covers.openlibrary.org/b/isbn/9783458168713-L.jpg",
         done: true,
         year: 1948,
         short_info: "übersetzt von Jürgen Stalph",
@@ -324,6 +491,7 @@
     {
         name: "Pornographie",
         author: "Witold Gombrowicz",
+        cover: r"https://covers.openlibrary.org/b/isbn/9782070393893-L.jpg",
         done: true,
         year: 1960,
         short_info: "übersetzt von Renate Schmidgall",
@@ -393,6 +561,7 @@
     {
         name: "Elefant",
         author: "Martin Suter",
+        cover: r"https://covers.openlibrary.org/b/isbn/9783257069709-L.jpg",
         done: true,
         year: 2017,
         short_info: "",
@@ -515,6 +684,7 @@
     {
         name: "Aufzeichnungen aus dem Kellerloch",
         author: "Fjodor Dostojewski",
+        cover: r"https://covers.openlibrary.org/b/isbn/9783150080214-L.jpg",
         done: true,
         year: 1864,
         short_info: "übersetzt von Swetlana Geier",
@@ -612,6 +782,7 @@
     {
         name: "Nachmittage",
         author: "Ferdinand von Schirach",
+        cover: r"https://media2.hugendubel.de/shop/coverscans/423/42376654_9783630877235_xl.jpg",
         done: true,
         year: 2022,
         short_info: "",
@@ -699,6 +870,7 @@
     {
         name: "Der Club der toten Dichter/Dead Poets Society",
         author: "N. H. Kleinbaum",
+        cover: r"https://covers.openlibrary.org/b/isbn/9781401308773-L.jpg",
         done: true,
         year: 1989,
         short_info: "übersetzt von Ekkehart Reinke",
@@ -796,6 +968,7 @@
     {
         name: "Ansichten eines Clowns",
         author: "Heinrich Böll",
+        cover: r"https://covers.openlibrary.org/b/isbn/9783462031461-L.jpg",
         done: true,
         year: 1963,
         short_info: "",
@@ -847,6 +1020,7 @@
     {
         name: "Picknick am Wegesrand",
         author: "Arkadi & Boris Strugazki",
+        cover: r"https://covers.openlibrary.org/b/isbn/3518371703-L.jpg",
         done: true,
         year: 1972,
         short_info: "übersetzt u. A. von David Drevs",
@@ -916,6 +1090,7 @@
     {
         name: "Lushins Verteidigung",
         author: "Vladimir Nabokov",
+        cover: r"https://covers.openlibrary.org/b/isbn/9783499225505-L.jpg",
         done: true,
         year: 1930,
         short_info: "übersetzt von Dietmar Schulte",
@@ -991,6 +1166,7 @@
     {
         name: "Quecksilber",
         author: "Amélie Nothomb",
+        cover: r"https://covers.openlibrary.org/b/isbn/9783257062885-L.jpg",
         done: true,
         year: 1998,
         short_info: "aus dem Französischen von Wolfgang Krege",
@@ -1052,6 +1228,7 @@
     {
         name: "Der Maler der fließenden Welt",
         author: "Kazuo Ishiguro",
+        cover: r"https://covers.openlibrary.org/b/isbn/9783499133121-L.jpg",
         done: true,
         year: 1986,
         short_info: "aus dem Englischen von Hartmut Zahn",
@@ -1113,6 +1290,7 @@
     {
         name: "Die Reise nach Petuschki",
         author: "Wenedikt Jerofejew",
+        cover: r"https://covers.openlibrary.org/b/isbn/9783492206716-L.jpg",
         done: true,
         year: 1969,
         short_info: "aus dem Russischen von Natascha Spitz",
@@ -1161,6 +1339,7 @@
     {
         name: "Das blinde Licht. Irrfahrten der Wissenschaft",
         author: "Benjamin Labatut",
+        cover: r"https://media2.hugendubel.de/shop/coverscans/397/39779641_9783518471524_xl.jpg",
         done: true,
         year: 2020,
         short_info: "aus dem Spanischen von Thomas Brovot",

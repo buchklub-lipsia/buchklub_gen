@@ -21,8 +21,10 @@ pub const KEY_COMMENTS: &str = "comments";
 pub const KEY_RATING: &str = "rating";
 pub const KEY_FROM: &str = "from";
 pub const KEY_AVERAGE_RATING: &str = "average-rating";
+pub const KEY_RATING_PERCENT: &str = "rating-percent";
 
 fn main() -> Result<(), String> {
+    env_logger::init();
     let content_dir = PathBuf::from(CONTENT_DIR);
     if !content_dir.is_dir() {
         return Err(format!("missing '{CONTENT_DIR}' sub dir!"));
@@ -180,7 +182,9 @@ fn extract_ratings(
             ratings.push(rating);
         }
         let ratings_sum: f64 = ratings.iter().sum();
-        book.insert(String::from(KEY_AVERAGE_RATING), json!(to_string_2_dec_places(ratings_sum / ratings.len() as f64)));
+        let avg_rating = ratings_sum / ratings.len() as f64;
+        book.insert(String::from(KEY_AVERAGE_RATING), json!(to_string_2_dec_places(avg_rating)));
+        book.insert(String::from(KEY_RATING_PERCENT), json!(avg_rating * 20.0));
     }
     Ok(member_ratings)
 }
@@ -201,7 +205,7 @@ fn read_gon_object(content_dir: &PathBuf, path: &str) -> Result<Value, String> {
     let src = std::fs::read_to_string(content_dir.join(path))
         .map_err(|_| format!("missing '{dir}/{path}'!", dir = content_dir.display()))?;
 
-    let gon = gon::parse_str(&src).map_err(|e| format!("ill-formed {path}: {e}"))?.unwrap();
+    let gon = gon::parse_str(&src).map_err(|e| format!("ill-formed {path}: {e}"))?;
     Ok(gon.into())
 }
 

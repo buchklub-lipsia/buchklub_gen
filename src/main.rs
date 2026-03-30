@@ -104,7 +104,12 @@ fn main() -> Result<(), String> {
     handlebars.register_template_file("contact", "content/contact.html").map_err(template_err_to_string)?;
     handlebars.register_template_file("misc", "content/misc.html").map_err(template_err_to_string)?;
 
-    let dst_dir = PathBuf::from("../buchklub");
+    let dst_dir = PathBuf::from("static");
+    if dst_dir.exists() && !dst_dir.is_dir() {
+        return Err(format!("`{dst_dir:?}` exists but is not a dir"));
+    } else if !dst_dir.exists() {
+        std::fs::create_dir(&dst_dir).map_err(|e| e.to_string())?;
+    }
     // create index.html
     render_file(&dst_dir, &handlebars, &root, "index", "index.html");
     // create books.html

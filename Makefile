@@ -1,7 +1,10 @@
-.PHONY: b build deploy_website content_push verify fmt finalize
+.PHONY: b build deploy_website content_push verify fmt finalize copy_files
 
 build:
 	cargo run
+
+copy_files:
+	cp -r static/* ../buchklub
 
 verify:
 	for f in $$(find . -name "*.gon"); do \
@@ -14,13 +17,13 @@ fmt: verify
 		gon fmt -w 4 -t -i -m 80 $$f ; \
 	done
 
-preview: build
+preview: build copy_files
 	open ../buchklub/index.html || firefox ../buchklub/index.html
 
 reset_build:
 	cd ../buchklub && git reset --hard
 
-deploy: build
+deploy: build copy_files
 	cd ../buchklub && git add . && (date | xargs -0 git commit -m) ; git push -f
 
 content_push: fmt

@@ -23,7 +23,7 @@ jobs:
       with:
         repository: buchklub-lipsia/buchklub-lipsia.github.io
         path: static
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.DEPLOY_TOKEN }}
     - name: Build
       run: cargo run
     - name: Deploy
@@ -33,4 +33,4 @@ jobs:
         git config user.email "github-actions@github.com"
         git add .
         git commit -m "$(date)"
-        git push https://x-access-token:${{ secrets.DEPLOY_TOKEN }}@github.com/buchklub-lipsia/buchklub-lipsia.github.io.git HEAD:main --force
+        git push --force

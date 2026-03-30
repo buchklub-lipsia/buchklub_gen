@@ -52,6 +52,14 @@
                     positive Bewertung versehen, welche mit zum Nachdenken
                     bringt.",
             },
+            {
+                from: "malte",
+                rating: 3,
+                content: "»Malina« von Bachmann ist sicherlich ein kluges und kulturell bedeutsames Buch,
+                    welches sich allerdings hinter einem sehr schwierigen, teils
+                    langweiligen versteckt. Ich habe es dahinter nur erahnen
+                    können. (3/5)",
+            },
         ],
     },
     {

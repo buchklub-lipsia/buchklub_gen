@@ -33,4 +33,4 @@ jobs:
         git config user.email "github-actions@github.com"
         git add .
         git commit -m "$(date)"
-        git push --force
+        git push https://x-access-token:${GITHUB_TOKEN}@github.com/buchklub-lipsia/buchklub-lipsia.github.io.git HEAD:main --force

@@ -6,22 +6,7 @@ use chrono::Local;
 use serde_json::{json, to_string_pretty, Map, Value};
 use handlebars::Handlebars;
 
-pub const CONTENT_DIR: &str = "content";
-pub const MEMBERS_FILE: &str = "members.gon";
-pub const BOOKS_FILE: &str = "books.gon";
-pub const GLOBAL_FILE: &str = "global.gon";
-pub const HEADER_FILE: &str = "header.html";
-pub const FOOTER_FILE: &str = "footer.html";
-
-pub const DATE_FORMAT: &str = "%d.%m.%Y %H:%M";
-pub const KEY_BUILD_TIME: &str = "build_time";
-pub const KEY_HEADER: &str = "header";
-pub const KEY_FOOTER: &str = "footer";
-pub const KEY_COMMENTS: &str = "comments";
-pub const KEY_RATING: &str = "rating";
-pub const KEY_FROM: &str = "from";
-pub const KEY_AVERAGE_RATING: &str = "average-rating";
-pub const KEY_RATING_PERCENT: &str = "rating-percent";
+use buchklub_gen::*;
 
 fn main() -> Result<(), String> {
     env_logger::init();

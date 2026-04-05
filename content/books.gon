@@ -1,15 +1,41 @@
 [
     {
+        name: "Tschudi",
+        author: "Mariam Kühsel-Hussaini",
+        cover: r"https://covers.openlibrary.org/b/isbn/9783498001377-L.jpg",
+        done: false,
+        year: 2021,
+        short_info: "",
+        info: "",
+        originator: "katharina",
+        proposal_date: "April 2026",
+        comments: [],
+    },
+    {
         name: "Fahrenheit 451",
         author: "Ray Bradbury",
         cover: r"https://covers.openlibrary.org/b/isbn/9783257071405-L.jpg",
-        done: false,
+        done: true,
         year: 1953,
         short_info: "",
         info: "",
         originator: "stefan",
         proposal_date: "März 2026",
-        comments: [],
+        comments: [
+            {
+                from: "giulia",
+                rating: 3,
+                content: "Mein Problem mit Dystopien ist, dass sie meistens so karikaturistisch sind.
+                    Simple überzogene Story, einseitige Charaktere. Und das
+                    gepaart mit ihrer klassischen moralisierenden Arroganz.
+                    Der Fingerzeig auf die Gesellschaft. Fahrenheit 451 ein
+                    wunderbares Beispiel dafür. Passt bloß auf, die Menschheit
+                    ist am Verdummen. Eine Art der Gesellschaftskritik, die mich
+                    einfach nicht so abholt. Wahrscheinlich lässt sich dieses
+                    70 Jahre alte Buch aber aus unserer heutigen Zeit gar nicht
+                    mehr richtig bewerten. Visionär war es damals sicherlich.",
+            },
+        ],
     },
     {
         name: "Malina",

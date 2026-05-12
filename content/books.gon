@@ -1,15 +1,75 @@
 [
     {
+        name: "Das Jahr magischen Denkens",
+        author: "Joan Didion",
+        cover: r"https://images.thalia.media/00/-/dd7bf9b730894525ba4e2401f2b2cce3/das-jahr-magischen-denkens-taschenbuch-joan-didion.jpeg",
+        done: false,
+        year: 2021,
+        short_info: "",
+        info: "",
+        originator: "edisa",
+        proposal_date: "Mai 2026",
+        comments: [],
+    },
+    {
         name: "Tschudi",
         author: "Mariam Kühsel-Hussaini",
         cover: r"https://covers.openlibrary.org/b/isbn/9783498001377-L.jpg",
-        done: false,
+        done: true,
         year: 2021,
         short_info: "",
         info: "",
         originator: "katharina",
         proposal_date: "April 2026",
-        comments: [],
+        comments: [
+            {
+                from: "stefan",
+                rating: 2,
+                content: "Was wollte die Autorin mit Tschudi eigentlich schreiben? Laut Klappentext
+                    ist es ein Roman, manche Bibliotheken wiederum ordnen das
+                    Werk als Biografie ein. Für mich lässt sich das Buch am
+                    ehesten als ein Sprachkunstwerk beschreiben. Und genau
+                    darin liegt schon die große Problematik mit dem Buch. Es
+                    entzieht sich einer klaren Einordnung. Roman, Biografie und
+                    Sprachkunst sind zwar alle vorhanden, doch keiner dieser
+                    Aspekte überwiegt wirklich. Dadurch bleibt das Buch in
+                    einem Zwischenraum zwischen den Genres hängen. <br> Der
+                    Konflikt zwischen Tschudi und dem Kaiser hätte eigentlich
+                    großes Potenzial für eine spannende Handlung geboten.
+                    Die Autorin erzählt diese jedoch nur fragmentarisch, in
+                    teils verwirrenden Ausschnitten und Kapiteln. Auch der
+                    biografische Anteil bleibt oberflächlich. Zwar begleitet man
+                    Hugo während seiner Zeit als Direktor der Nationalgalerie,
+                    tiefere Einblicke in seine Persönlichkeit oder persönliche
+                    Entwicklung fehlen jedoch. Und gerade weil mich weder der
+                    Roman-, noch der Biografieaspekt vollständig überzeugen
+                    konnten, wirkt das Buch für mich am stärksten dort, wo
+                    es sich als Sprachkunstwerk entfaltet. In diesen Kapiteln
+                    werden durch intensive Beschreibungen Szenerien und ihre
+                    Atmosphäre gezeichnet, wodurch Sprache und Darstellung
+                    deutlich in den Vordergrund rücken, während die eigentliche
+                    Handlung eher in den Hintergrund tritt. So gerät die
+                    fehlende Tiefe und Spannung der Handlung zumindest zeitweise
+                    in den Hintergrund. <br> Insgesamt wirkt es für mich so als
+                    habe die Autorin versucht zu viele literarische Ansätze in
+                    einem Werk vereinen zu wollen und ist daran gescheitert.
+                    Dadurch findet das Buch nie zu einer eigenen klaren Form und
+                    kann den Leser eigentlich nur enttäuscht zurücklassen.",
+            },
+            {
+                from: "giulia",
+                rating: 1,
+                content: "Trotz vielversprechender Thematik kam ich einfach nicht über den schwülstigen
+                    inhaltsleeren Schreibstil hinweg, in dem die Autorin es sich
+                    zur Aufgabe gemacht zu haben scheint, so viele Adjektive
+                    wie möglich hinein zu stopfen. Davon abgesehen hat das Buch
+                    aber sonst auch nichts zu bieten. Die Charaktere werden
+                    überhaupt nicht ausgearbeitet und auch die Handlung bleibt
+                    oberflächlich und inkohärent. Ich kam beim Lesen aus dem
+                    Augenrollen gar nicht mehr raus und kann es leider wirklich
+                    niemanden empfehlen.",
+            },
+        ],
     },
     {
         name: "Fahrenheit 451",

@@ -1,15 +1,64 @@
 [
     {
+        name: "Nahe dem wilden Herzen",
+        author: "Clarice Lispector",
+        cover: r"https://covers.openlibrary.org/b/isbn/9783442749065-L.jpg",
+        done: false,
+        year: 1943,
+        short_info: "",
+        info: "",
+        originator: "giulia",
+        proposal_date: "Juni 2026",
+        comments: [],
+    },
+    {
         name: "Das Jahr magischen Denkens",
         author: "Joan Didion",
         cover: r"https://images.thalia.media/00/-/dd7bf9b730894525ba4e2401f2b2cce3/das-jahr-magischen-denkens-taschenbuch-joan-didion.jpeg",
-        done: false,
+        done: true,
         year: 2021,
         short_info: "",
         info: "",
         originator: "edisa",
         proposal_date: "Mai 2026",
-        comments: [],
+        comments: [
+            {
+                from: "bruno",
+                rating: 4.5,
+                content: "Joan Didion nimmt uns in ihrem Buch „Das Jahr des magischen Denkens“ mit auf
+                    ihr gedankliches Boot, das zwischen Eisschollen auf dem
+                    East River in einen Strudel gerät, einen Strudel aus Leben
+                    und gelebten Erlebnissen und Erinnerungen, der uns mit
+                    aller Kraft in die Tiefen des Flusses zieht. Wir finden
+                    Zitate und manchmal nur Fetzen von Zitaten, wir lesen
+                    von medizinischen Gegebenheiten, Häusern, die die kleine
+                    Familie einmal bewohnt hat, Routinen und Restaurants und
+                    von Menschen, Bekannten, Freunden, und alles ordnet sich im
+                    Wasser neu aneinander. Joan Didion versucht ihrem Leben nach
+                    dem abendlichen Tode ihres Mannes John Gregory Dunne einen
+                    Sinn abzugewinnen, Ordnung in den Strudel zu bringen. In
+                    präziser sprachlicher Art und Weise analysiert Didion dazu
+                    ihre Gedanken, beschreibt, nimmt an und verwirft wieder.
+                    Erst nach gut 57 000 Wörtern tauchen wir wieder auf, der
+                    Strudel hat sich gelegt und wir schwimmen auf der glatten
+                    Oberfläche des East River, auf dem wir still zwischen den
+                    Eisschollen umhertreiben.",
+            },
+            {
+                from: "giulia",
+                rating: 4,
+                content: "Es fühlt sich fast falsch an, für dieses Buch Sterne zu verteilen. Und es fühlt
+                    sich definitiv falsch an, eine Bewertung zu schreiben. Es
+                    ist ein herzzerreißender autobiografischer Bericht über die
+                    Trauerverarbeitung der Autorin und wer bin ich schon, dazu
+                    eine Meinung zu haben. Wenn ich es doch versuchen soll,
+                    dann würde ich vielleicht sagen, dass ich mit der Menge an
+                    medizinischen Infos nicht so viel anfangen konnte. Und dass
+                    ich die Relevanz der ganzen Zitate und Ausschnitte anderer
+                    Bücher nicht immer nachvollziehen konnte. Es würde mich aber
+                    wundern, wenn das Buch irgendjemanden kalt lassen würde. ",
+            },
+        ],
     },
     {
         name: "Tschudi",
@@ -319,6 +368,22 @@
                     und die sprachlichen Dopplungen. Der Roman beherbergt
                     vielversprechende Handlungsansätze, die leider im Sande
                     verlaufen und nicht ausgeschöpft werden.",
+            },
+            {
+                from: "bruno",
+                rating: 2.5,
+                content: "Samantha Harveys „Umlaufbahnen“ befindet sich auf einer stabilen Route zwischen
+                    farblosem Roman und bewegendem Sachtext. Das Buch ist
+                    eine Aufzählung von Tatsachen, menschlichen Handlungen und
+                    naturwissenschaftlichen Gegebenheiten. Beim Lesen fühlt
+                    man sich selbst wie in einer Kapsel, von Seite Eins an dazu
+                    verurteilt, um das Raumschiff der sechs zu kreisen. Nie wird
+                    dem Leser die Möglichkeit vergönnt, innezuhalten, genauer
+                    hinzuschauen, sich mit den Charakteren anzufreunden und sie
+                    besser kennenzulernen. Der Text scheint gehastet, gelistet.
+                    Das Buch lebt von Schwingungen, Gegensätzen, Höhepunkten und
+                    Banalitäten und lässt sich dadurch nicht ganz fassen – es
+                    wirkt selbst schwebend, frei und fallend.",
             },
         ],
     },

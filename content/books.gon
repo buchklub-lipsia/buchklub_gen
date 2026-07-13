@@ -1,14 +1,14 @@
 [
     {
-        name: "Nahe dem wilden Herzen",
-        author: "Clarice Lispector",
-        cover: r"https://covers.openlibrary.org/b/isbn/9783442749065-L.jpg",
+        name: "Die Langsamkeit",
+        author: "Milan Kundera",
+        cover: r"https://covers.openlibrary.org/b/isbn/9783596130887-L.jpg",
         done: false,
-        year: 1943,
+        year: 1994,
         short_info: "",
         info: "",
-        originator: "giulia",
-        proposal_date: "Juni 2026",
+        originator: "bruno",
+        proposal_date: "Juli 2026",
         comments: [],
     },
     {

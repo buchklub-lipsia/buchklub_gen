@@ -12,6 +12,44 @@
         comments: [],
     },
     {
+        name: "Nahe dem wilden Herzen",
+        author: "Clarice Lispector",
+        cover: r"https://covers.openlibrary.org/b/isbn/9783442749065-L.jpg",
+        done: true,
+        year: 1943,
+        short_info: "",
+        info: "",
+        originator: "giulia",
+        proposal_date: "Juni 2026",
+        comments: [
+            {
+                from: "giulia",
+                rating: 3.5,
+                content: "Die Autorin als brasilianische Virginia Wolf und das Buch als
+                    Gesellschaftskritik betitelt, war es doch sehr anders
+                    als ich erwartet hatte. Wo Virginia Wolf auch viel auf
+                    externale Wahrnehmungen eingeht, bezieht sich Clarice
+                    Lispector fast ausschließlich auf internale Reflexionen.
+                    Ich hab mich beim Lesen von Szene zu Szene gerettet und bin
+                    zwischendurch im Wirbel des Bewusstseinsstrom umhergeworfen
+                    worden. Verstehen konnte ich hier das meiste nicht. Zwischen
+                    euphorischen Glücksgefühlen und tiefster Traurigkeit folgt
+                    man der Protagonisten bei ihrem Versuchen mit ihrer Kindheit
+                    abzuschließen, sich selbst zu verstehen und ihre Position
+                    in Abgrenzung zu anderen zu finden. Ob es ihr gelungen ist,
+                    hat mich das verwirrende Ende nicht durchblicken lassen. Ich
+                    drück ihr aber die Daumen!",
+            },
+            {
+                from: "malte",
+                rating: 2,
+                content: "Mein Lesevergnügen war bei dieser radikal introspektiven Lektüre durch meine
+                    kulturelle und persönliche Ferne zur Erzählerin stark
+                    eingechränkt.",
+            },
+        ],
+    },
+    {
         name: "Das Jahr magischen Denkens",
         author: "Joan Didion",
         cover: r"https://images.thalia.media/00/-/dd7bf9b730894525ba4e2401f2b2cce3/das-jahr-magischen-denkens-taschenbuch-joan-didion.jpeg",

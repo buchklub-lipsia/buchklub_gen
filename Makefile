@@ -33,4 +33,4 @@ content_push: fmt
 
 b: build
 
-finalize: fmt deploy content_push
+finalize: fmt content_push

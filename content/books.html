@@ -22,6 +22,7 @@
             <table class="sortable">
                 <thead>
                     <tr>
+                        <th scope="col">Bild</th>
                         <th scope="col">Autor</th>
                         <th scope="col">Titel</th>
                         <th scope="col">Erscheinungsjahr</th>
@@ -34,6 +35,7 @@
                     {{#each books}}
                     {{#if done}}
                     <tr>
+                        <td><img src="https://covers.openlibrary.org/b/olid/{{olid}}-S.jpg?default=false"></td>
                         <td>{{author}}</td>
                         <td>{{name}}</td>
                         <td>{{year}}</td>

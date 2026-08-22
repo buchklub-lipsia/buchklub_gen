@@ -3,9 +3,6 @@
 build:
 	cargo run
 
-copy_files:
-	cp -r static/* ../buchklub
-
 verify:
 	for f in $$(find . -name "*.gon"); do \
 		echo -n "$$f " && gon verify $$f ; \
@@ -17,14 +14,8 @@ fmt: verify
 		gon fmt -w 4 -t -i -m 80 $$f ; \
 	done
 
-preview: build copy_files
-	open ../buchklub/index.html || firefox ../buchklub/index.html
-
-reset_build:
-	cd ../buchklub && git reset --hard
-
-deploy: build copy_files
-	cd ../buchklub && git add . && (date | xargs -0 git commit -m) ; git push -f
+preview: build
+	open static/index.html || firefox static/index.html
 
 content_push: fmt
 	git add content

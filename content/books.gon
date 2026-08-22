@@ -2,7 +2,7 @@
     {
         name: "Das Loch",
         author: "Hiroko Oyamada",
-        cover: r"https://covers.openlibrary.org/b/isbn/9780811228879-L.jpg",
+        olid: "OL62457174M",
         done: false,
         year: 2014,
         short_info: "",
@@ -14,7 +14,7 @@
     {
         name: "Die Langsamkeit",
         author: "Milan Kundera",
-        cover: r"https://covers.openlibrary.org/b/isbn/9783596130887-L.jpg",
+        olid: "OL9066122M",
         done: true,
         year: 1994,
         short_info: "",
@@ -34,7 +34,7 @@
     {
         name: "Nahe dem wilden Herzen",
         author: "Clarice Lispector",
-        cover: r"https://covers.openlibrary.org/b/isbn/9783442749065-L.jpg",
+        olid: "OL27421881M",
         done: true,
         year: 1943,
         short_info: "",
@@ -99,7 +99,7 @@
     {
         name: "Das Jahr magischen Denkens",
         author: "Joan Didion",
-        cover: r"https://images.thalia.media/00/-/dd7bf9b730894525ba4e2401f2b2cce3/das-jahr-magischen-denkens-taschenbuch-joan-didion.jpeg",
+        olid: "OL40280140M",
         done: true,
         year: 2021,
         short_info: "",
@@ -148,7 +148,7 @@
     {
         name: "Tschudi",
         author: "Mariam Kühsel-Hussaini",
-        cover: r"https://covers.openlibrary.org/b/isbn/9783498001377-L.jpg",
+        olid: "OL28339937M",
         done: true,
         year: 2021,
         short_info: "",
@@ -208,7 +208,7 @@
     {
         name: "Fahrenheit 451",
         author: "Ray Bradbury",
-        cover: r"https://covers.openlibrary.org/b/isbn/9783257071405-L.jpg",
+        olid: "OL37818146M",
         done: true,
         year: 1953,
         short_info: "",
@@ -266,7 +266,7 @@
     {
         name: "Malina",
         author: "Ingeborg Bachmann",
-        cover: r"https://upload.wikimedia.org/wikipedia/commons/f/f3/Ingeborg_Bachmann%2C_Malina_1971_new.jpg",
+        olid: "OL18564839M",
         done: true,
         year: 1971,
         short_info: "",
@@ -317,7 +317,7 @@
     {
         name: "Dreckskerl",
         author: "Wojciech Kuczok",
-        cover: r"https://res.cloudinary.com/suhrkamp/images/v1742213540/56839/dreckskerl_9783518463147_cover.jpg",
+        olid: "OL62457066M",
         done: true,
         year: 2003,
         short_info: "übersetzt von Gabriele Leupold und Dorota Stroinska",
@@ -382,7 +382,7 @@
     {
         name: "Umlaufbahnen",
         author: "Samantha Harvey",
-        cover: r"https://www.dtv.de/thumbnail/ea/51/9d/1712822454/9783423284233__COVER_2D%20%28Produktcover%20Web%20klein%29_1920x1920.jpg",
+        olid: "OL50632832M",
         done: true,
         year: 2023,
         short_info: "übersetzt von Julia Wolf",
@@ -475,7 +475,7 @@
     {
         name: "Im Norden ein Berg, im Süden ein See, im Westen Wege, im Osten ein Fluss",
         author: "László Krasznahorkai",
-        cover: r"https://covers.openlibrary.org/b/isbn/9783596172436-L.jpg",
+        olid: "OL28305747M",
         done: true,
         year: 2003,
         short_info: "übersetzt von Christina Viragh",
@@ -554,7 +554,7 @@
     {
         name: "The Body Snatchers/Die Körperfresser kommen",
         author: "Jack Finney",
-        cover: r"https://media2.hugendubel.de/shop/coverscans/456/45671818_9781399617215_xl.jpg",
+        olid: "OL2211349M",
         done: true,
         year: 1954,
         short_info: "im Original gelesen",
@@ -622,7 +622,7 @@
     {
         name: "Menschenwerk",
         author: "Han Kang",
-        cover: r"https://covers.openlibrary.org/b/isbn/9781101906743-L.jpg",
+        olid: "OL29554725M",
         done: true,
         year: 2014,
         short_info: "übersetzt von Ki-Hyang Lee",
@@ -733,7 +733,7 @@
     {
         name: "Gezeichnet/No Longer Human",
         author: "Osamu Dazai",
-        cover: r"https://covers.openlibrary.org/b/isbn/9783458168713-L.jpg",
+        olid: "OL9041903M",
         done: true,
         year: 1948,
         short_info: "übersetzt von Jürgen Stalph",
@@ -810,7 +810,7 @@
     {
         name: "Pornographie",
         author: "Witold Gombrowicz",
-        cover: r"https://covers.openlibrary.org/b/isbn/9782070393893-L.jpg",
+        olid: "OL27948535M",
         done: true,
         year: 1960,
         short_info: "übersetzt von Renate Schmidgall",
@@ -880,7 +880,7 @@
     {
         name: "Elefant",
         author: "Martin Suter",
-        cover: r"https://covers.openlibrary.org/b/isbn/9783257069709-L.jpg",
+        olid: "OL27383950M",
         done: true,
         year: 2017,
         short_info: "",
@@ -1003,7 +1003,7 @@
     {
         name: "Aufzeichnungen aus dem Kellerloch",
         author: "Fjodor Dostojewski",
-        cover: r"https://covers.openlibrary.org/b/isbn/9783150080214-L.jpg",
+        olid: "OL9018813M",
         done: true,
         year: 1864,
         short_info: "übersetzt von Swetlana Geier",
@@ -1101,7 +1101,7 @@
     {
         name: "Nachmittage",
         author: "Ferdinand von Schirach",
-        cover: r"https://media2.hugendubel.de/shop/coverscans/423/42376654_9783630877235_xl.jpg",
+        olid: "OL62457000M",
         done: true,
         year: 2022,
         short_info: "",
@@ -1189,7 +1189,7 @@
     {
         name: "Der Club der toten Dichter/Dead Poets Society",
         author: "N. H. Kleinbaum",
-        cover: r"https://covers.openlibrary.org/b/isbn/9781401308773-L.jpg",
+        olid: "OL9025344M",
         done: true,
         year: 1989,
         short_info: "übersetzt von Ekkehart Reinke",
@@ -1287,7 +1287,7 @@
     {
         name: "Ansichten eines Clowns",
         author: "Heinrich Böll",
-        cover: r"https://covers.openlibrary.org/b/isbn/9783462031461-L.jpg",
+        olid: "OL9031953M",
         done: true,
         year: 1963,
         short_info: "",
@@ -1339,7 +1339,7 @@
     {
         name: "Picknick am Wegesrand",
         author: "Arkadi & Boris Strugazki",
-        cover: r"https://covers.openlibrary.org/b/isbn/3518371703-L.jpg",
+        olid: "OL3105734M",
         done: true,
         year: 1972,
         short_info: "übersetzt u. A. von David Drevs",
@@ -1409,7 +1409,7 @@
     {
         name: "Lushins Verteidigung",
         author: "Vladimir Nabokov",
-        cover: r"https://covers.openlibrary.org/b/isbn/9783499225505-L.jpg",
+        olid: "OL9048556M",
         done: true,
         year: 1930,
         short_info: "übersetzt von Dietmar Schulte",
@@ -1485,7 +1485,7 @@
     {
         name: "Quecksilber",
         author: "Amélie Nothomb",
-        cover: r"https://covers.openlibrary.org/b/isbn/9783257062885-L.jpg",
+        olid: "OL9021145M",
         done: true,
         year: 1998,
         short_info: "aus dem Französischen von Wolfgang Krege",
@@ -1547,7 +1547,7 @@
     {
         name: "Der Maler der fließenden Welt",
         author: "Kazuo Ishiguro",
-        cover: r"https://covers.openlibrary.org/b/isbn/9783499133121-L.jpg",
+        olid: "OL33221120M",
         done: true,
         year: 1986,
         short_info: "aus dem Englischen von Hartmut Zahn",
@@ -1609,7 +1609,7 @@
     {
         name: "Die Reise nach Petuschki",
         author: "Wenedikt Jerofejew",
-        cover: r"https://covers.openlibrary.org/b/isbn/9783492206716-L.jpg",
+        olid: "OL9047227M",
         done: true,
         year: 1969,
         short_info: "aus dem Russischen von Natascha Spitz",
@@ -1658,7 +1658,7 @@
     {
         name: "Das blinde Licht. Irrfahrten der Wissenschaft",
         author: "Benjamin Labatut",
-        cover: r"https://media2.hugendubel.de/shop/coverscans/397/39779641_9783518471524_xl.jpg",
+        olid: "OL34678172M",
         done: true,
         year: 2020,
         short_info: "aus dem Spanischen von Thomas Brovot",

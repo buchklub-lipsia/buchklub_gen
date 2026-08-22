@@ -1,6 +1,10 @@
 <div class="book">
-    {{#if cover}}<img src="{{cover}}" class="cover-img"/>{{/if}}
-    <h2 {{#if (eq @index 2)}}id="not-first-book"{{/if}}>{{name}}&nbsp;</h2>
+    <img src="https://covers.openlibrary.org/b/olid/{{olid}}-M.jpg?default=false" class="cover-img"/>
+    <h2 {{#if (eq @index 2)}}id="not-first-book"{{/if}}>
+        <a href="https://openlibrary.org/olid/{{olid}}" class="undecorated-a">
+            {{name}}&thinsp;<sup style="font-size:0.6em">↗</sup>
+        </a>&nbsp;
+    </h2>
     <h3 class="subh">{{author}} ({{year}})</h3>
     {{#if (ne average-rating "NaN")}}
     <div class="star-rating">

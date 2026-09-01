@@ -1,5 +1,7 @@
 <div class="book">
-    <img src="https://covers.openlibrary.org/b/olid/{{olid}}-M.jpg?default=false" class="cover-img"/>
+    <a href="https://openlibrary.org/olid/{{olid}}">
+        <img src="https://covers.openlibrary.org/b/olid/{{olid}}-M.jpg?default=false" class="cover-img"/>
+    </a>
     <h2 {{#if (eq @index 2)}}id="not-first-book"{{/if}}>
         <a href="https://openlibrary.org/olid/{{olid}}" class="undecorated-a">
             {{name}}&thinsp;<sup style="font-size:0.6em">↗</sup>
@@ -15,7 +17,16 @@
     <p class="blue-text">
         vorgeschlagen von:
         {{#if (lookup (lookup members originator) "name")}}
-            {{lookup (lookup members originator) "name"}}{{else}}ehemaliges Mitglied{{/if}}, {{proposal_date}}
+             <a href="members.html#{{originator}}" class="undecorated-a blue">
+                {{#if (lookup (lookup members originator) "retired")}}
+                    {{lookup (lookup members originator) "name"}}. (ehem. Mitglied)<!--
+             -->{{else}}<!--
+                     -->{{lookup (lookup members originator) "name"}}<!--
+             -->{{/if}}<!--
+         --></a><!--
+     -->{{else}}<!--
+         -->ehemaliges Mitglied<!--
+     -->{{/if}}, {{proposal_date}}
         <br>{{short_info}}
     </p>
     <p>{{info}}</p>
@@ -30,9 +41,15 @@
         <p class="comment-author">
             <span class="blue-text comment-author-text">
                 {{#if (lookup (lookup ../members from) "name")}}
-                    <a href="members.html#{{from}}">{{lookup (lookup ../members from) "name"}}</a>
+                    <a href="../members.html#{{from}}" class="undecorated-a blue">
+                        {{#if (lookup (lookup ../members from) "retired")}}
+                            {{lookup (lookup ../members from) "name"}}. (ehem. Mitglied)
+                        {{else}}
+                                {{lookup (lookup ../members from) "name"}}
+                        {{/if}}
+                    </a>
                 {{else}}
-                    {{from}}
+                    ehemaliges Mitglied
                 {{/if}}
             </span>
             {{#if rating}}({{#if rating_display}}{{rating_display}}{{else}}{{rating}}{{/if}}{{else}}n.&nbsp;a.{{/if}}&nbsp;/&nbsp;5)

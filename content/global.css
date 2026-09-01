@@ -114,6 +114,10 @@ h1 {
     color: black;
 }
 
+.blue {
+    color: var(--theme);
+}
+
 .box-it {
     padding: 0.3em;
     border: 2px solid black;
@@ -282,14 +286,13 @@ tbody > tr:nth-of-type(even) {
     margin-bottom: 1em;
 }
 
-.member img {
-    display: block;
-    top: 0;
-    right: 0;
-    width: 4em;
-    height: 4em;
-    border-radius: 50%;
-    vertical-align: middle;
+.retired-member {
+    background-color: darkgray;
+    border-radius: 1em;
+    border: 3px solid black;
+    padding: 0.5em;
+    padding-top: 0.2em;
+    margin-bottom: 1em;
 }
 
 .member h2 {
@@ -304,6 +307,13 @@ tbody > tr:nth-of-type(even) {
 
 .member-long-info {
     text-align: left;
+}
+
+.members-hr {
+    width: 100%;
+    color: var(--theme);
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 #statute {
@@ -416,7 +426,7 @@ ul li {
         margin-bottom: 0em;
     }
 
-    #members-container {
+    .members-container {
         display: grid;
         grid-template-columns: 33.3% 33.3% 33.3%;
         gap: 1em;

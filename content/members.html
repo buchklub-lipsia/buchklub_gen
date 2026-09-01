@@ -17,19 +17,40 @@
         {{{global.header}}}
         <div class="main" id="mitglieder-main">
             <h1>Mitglieder</h1>
-            <div id="members-container">
+            <div class="members-container">
                 {{#each members-list}}
-                {{#if hide}}
-                {{else}}
+                {{#if (not retired)}}
                 <div class="member">
-                    <h2 id="{{id}}" class="collapser collapser-init-show">{{name}}</h2>
+                    <h2 id="{{id}}" class="collapser collapser-init-show">
+                        {{name}}
+                    </h2>
                     <div>
-                        <!-- <img src="{{pic}}", alt="&#11217;{{name}}"> -->
                         <span class="member-short-info">{{short_info}}</span>
                         <div class="left-align">
                             <p class="member-long-info fold">{{{long_info}}}</p>
                         </div>
                     </div>
+                    <p> Durchschnittliche Rezension: {{#if average-rating}}{{average-rating}}{{else}}n. a.{{/if}}&nbsp;/&nbsp;5</p>
+                    <h3 class="collapser">Vorgeschlagene Bücher</h3>
+                    <ul>
+                        {{#each ../books}}
+                        {{#if (eq ../id originator)}}
+                        <li>{{author}}: {{name}}</li>
+                        {{/if}}
+                        {{/each}}
+                    </ul>
+                </div>
+                {{/if}}
+                {{/each}}
+            </div>
+            <hr class="members-hr">
+            <div class="members-container">
+                {{#each members-list}}
+                {{#if retired}}
+                <div class="retired-member">
+                    <h2 id="{{id}}">
+                        {{name}} (ehem. Mitglied)
+                    </h2>
                     <p> Durchschnittliche Rezension: {{#if average-rating}}{{average-rating}}{{else}}n. a.{{/if}}&nbsp;/&nbsp;5</p>
                     <h3 class="collapser">Vorgeschlagene Bücher</h3>
                     <ul>

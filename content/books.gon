@@ -25,8 +25,8 @@
             {
                 from: "malte",
                 rating: 3,
-                content: "Eine kurzweilige Lektüre, nach deren unbefriediegendem Schluss alle Fragen
-                    offen sind.",
+                content: "Eine kurzweilige Lektüre, nach deren unbefriedigendem Schluss alle Fragen offen
+                    sind.",
             },
         ],
     },

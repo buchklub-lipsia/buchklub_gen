@@ -1,15 +1,34 @@
 [
     {
+        name: "Und dann gabs keines mehr",
+        author: "Agatha Christie",
+        olid: "OL39202625M",
+        done: false,
+        year: 1939,
+        short_info: "",
+        info: "",
+        originator: "alex",
+        proposal_date: "September 2026",
+        comments: [],
+    },
+    {
         name: "Das Loch",
         author: "Hiroko Oyamada",
         olid: "OL62457174M",
-        done: false,
+        done: true,
         year: 2014,
-        short_info: "",
+        short_info: "übersetzt von Nora Bierich/David Boyd",
         info: "",
         originator: "malte",
         proposal_date: "August 2026",
-        comments: [],
+        comments: [
+            {
+                from: "malte",
+                rating: 3,
+                content: "Eine kurzweilige Lektüre, nach deren unbefriediegendem Schluss alle Fragen
+                    offen sind.",
+            },
+        ],
     },
     {
         name: "Die Langsamkeit",

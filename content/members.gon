@@ -72,6 +72,12 @@
         short_info: "",
         long_info: "",
     },
+    paulina: {
+        name: "Paulina",
+    },
+    manuel: {
+        name: "Manuel",
+    },
     je: {
         name: "Je",
         retired: true,

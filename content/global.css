@@ -118,10 +118,26 @@ h1 {
     color: var(--theme);
 }
 
-.box-it {
+.call-for-members {
     padding: 0.3em;
-    border: 2px solid black;
-    background-image: linear-gradient(var(--theme), var(--beige));
+    margin-bottom: 2em;
+    background: var(--theme);
+    border: 5px solid;
+    --angle: 0deg;
+    border-image: linear-gradient(var(--angle), var(--theme), var(--secondary)) 1;
+    animation: 5s rotate linear infinite;
+}
+
+@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+}
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
 }
 
 #currently-reading-div {

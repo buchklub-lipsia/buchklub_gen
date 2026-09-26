@@ -15,7 +15,7 @@ fmt: verify
 	done
 
 preview: build
-	open static/index.html || firefox static/index.html
+	open static/index.html || ( firefox static/index.html & )
 
 content_push: fmt
 	git add content

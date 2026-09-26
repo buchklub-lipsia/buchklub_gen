@@ -43,6 +43,19 @@
                           und viele Fragen offen. Nach dem Lesen blieb mir ein
                           etwas unbefriedigendes Gefühl zurück.",
             },
+            {
+                from: "alex",
+                rating: 2.5,
+                content: "Mit seiner kurzen Länge von 122,5 Seiten
+                          schafft es „Das Loch“ leider nicht, sich mit den
+                          angedeuteten Themen in der wünschenswerten Tiefe
+                          auseinanderzusetzen. Obwohl das Lesevergnügen
+                          als solches vorhanden war, überwog zum Ende hin
+                          die Verwirrung und leichte Enttäuschung über die
+                          zahlreich offen gebliebenen Fragen und nur rudimentär
+                          ausgeführten Handlungsstränge, die in einem sehr
+                          abrupten Ende münden.",
+            },
         ],
     },
     {
@@ -100,6 +113,19 @@
                           ist. Ernst nehmen sollte man wahrscheinlich also auch
                           nichts und dann kann man von dem Buch eigentlich ganz
                           wunderbar unterhalten werden.",
+            },
+            {
+                from: "alex",
+                rating: 5,
+                content: "Nachdem mir ein anderer Kundera-Roman nicht besonders
+                          gefallen hat, hatte ich einige Vorbehalte – und
+                          wurde vollkommen von meiner Lesefreude an diesem Buch
+                          überrascht. „Die Langsamkeit“ ist ein meisterhaft
+                          komischer Roman über die Unausweichlichkeit der eigenen
+                          Epoche, ihren Eigenheiten und wie ein jeder seine Rolle
+                          auf ihrer Bühne spielt. Diese Lektüre hat meine Lust
+                          auf Kunderas Gesamtwerk wieder entfacht und ich werde
+                          dem anderen Roman eine zweite Chance geben.",
             },
         ],
     },
@@ -170,6 +196,20 @@
                           Autorin selbst geholfen hat. Von mir gibt es leider
                           keine Leseempfehlung. ",
             },
+            {
+                from: "alex",
+                rating: 2,
+                content: "Ein schwieriges Werk, bei welchem ich bestenfalls
+                          zu einem Drittel nicht das Gefühl hatte, zwischen den
+                          langen Ausführungen und der mit Symbolik aufgeladenen
+                          Sprache verloren zu sein. An einigen Punkten blitzte
+                          eine kurzweilige Erkenntnis auf; bildete ich mir
+                          ein, nun doch etwas verstanden zu haben, nur um
+                          dann auf nächsten Seite wieder im Strom der Wörter
+                          umherzutreiben. Die Verwirrung wird wohl gewollt
+                          gewesen sein, führte bei mir jedoch dazu, dass ich aus
+                          meiner Zeit mit diesem Roman nichts mitnehmen konnte.",
+            },
         ],
     },
     {
@@ -222,6 +262,19 @@
                           Ausschnitte anderer Bücher nicht immer nachvollziehen
                           konnte. Es würde mich aber wundern, wenn das Buch
                           irgendjemanden kalt lassen würde. ",
+            },
+            {
+                from: "alex",
+                rating: 4,
+                content: "Viel kann ich zu diesem sehr persönlichen Buch
+                          nicht schreiben, da es schlicht um das Schicksal und
+                          Leid der Autorin geht. Die fast schon mechanische
+                          Beschreibung der Abläufe und Schicksalsschläge sind
+                          oft schwer zu lesen und bringen einem die komplexen
+                          Emotionen in einer solchen Zeit greifbar nahe. Die mit
+                          der Vergangenheit bildhaft verwobene Erzählung lässt
+                          einen erstaunlich nah an allem, was dieser Familie
+                          widerfahren ist, teilhaben.",
             },
         ],
     },

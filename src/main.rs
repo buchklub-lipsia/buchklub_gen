@@ -3,8 +3,8 @@ use std::fs::{self, File};
 use std::path::{Path, PathBuf};
 
 use chrono::Local;
-use serde_json::{json, to_string_pretty, Map, Value};
 use handlebars::Handlebars;
+use serde_json::{json, to_string_pretty, Map, Value};
 
 use buchklub_gen::*;
 
@@ -57,13 +57,17 @@ fn main() -> Result<(), String> {
         );
     }
 
-    let members_list: Vec<_> = members_map.clone()
+    let members_list: Vec<_> = members_map
+        .clone()
         .iter_mut()
         .map(|(id, member)| {
-            member.as_object_mut().unwrap().insert(String::from("id"), json!(id));
+            member
+                .as_object_mut()
+                .unwrap()
+                .insert(String::from("id"), json!(id));
             member.clone() //?
         })
-    .collect();
+        .collect();
 
     root_map.insert(String::from("members"), members_json);
     root_map.insert(String::from("members-list"), json!(members_list));
@@ -73,21 +77,34 @@ fn main() -> Result<(), String> {
     // TODO \\
     let root = Value::Object(root_map);
     let mut handlebars = Handlebars::new();
-    handlebars.register_partial(
-        "book",
-        std::fs::read_to_string(content_dir.join("book.html")).expect("book.html"),
-    ).map_err(template_err_to_string)?;
+    handlebars
+        .register_partial(
+            "book",
+            std::fs::read_to_string(content_dir.join("book.html")).expect("book.html"),
+        )
+        .map_err(template_err_to_string)?;
     handlebars
         .register_template_file("index", "content/index.html")
         .map_err(|e| {
             println!("{e}");
             e
-        }).map_err(template_err_to_string)?;
-    handlebars.register_template_file("books", "content/books.html").map_err(template_err_to_string)?;
-    handlebars.register_template_file("members", "content/members.html").map_err(template_err_to_string)?;
-    handlebars.register_template_file("statute", "content/statute.html").map_err(template_err_to_string)?;
-    handlebars.register_template_file("contact", "content/contact.html").map_err(template_err_to_string)?;
-    handlebars.register_template_file("misc", "content/misc.html").map_err(template_err_to_string)?;
+        })
+        .map_err(template_err_to_string)?;
+    handlebars
+        .register_template_file("books", "content/books.html")
+        .map_err(template_err_to_string)?;
+    handlebars
+        .register_template_file("members", "content/members.html")
+        .map_err(template_err_to_string)?;
+    handlebars
+        .register_template_file("statute", "content/statute.html")
+        .map_err(template_err_to_string)?;
+    handlebars
+        .register_template_file("contact", "content/contact.html")
+        .map_err(template_err_to_string)?;
+    handlebars
+        .register_template_file("misc", "content/misc.html")
+        .map_err(template_err_to_string)?;
 
     let dst_dir = PathBuf::from("static");
     if dst_dir.exists() && !dst_dir.is_dir() {
@@ -112,11 +129,17 @@ fn main() -> Result<(), String> {
     std::fs::copy(content_dir.join("global.js"), dst_dir.join("global.js"))
         .expect("copying global.js");
     // copy sorttable.js
-    std::fs::copy(content_dir.join("sorttable.js"), dst_dir.join("sorttable.js"))
-        .expect("copying sorttable.js");
+    std::fs::copy(
+        content_dir.join("sorttable.js"),
+        dst_dir.join("sorttable.js"),
+    )
+    .expect("copying sorttable.js");
     // copy collapser.js
-    std::fs::copy(content_dir.join("collapser.js"), dst_dir.join("collapser.js"))
-        .expect("copying collapser.js");
+    std::fs::copy(
+        content_dir.join("collapser.js"),
+        dst_dir.join("collapser.js"),
+    )
+    .expect("copying collapser.js");
     // copy img/
     cp_dir(content_dir.join("img"), dst_dir.join("img")).expect("copying img/");
     // TODO-END \\
@@ -173,7 +196,10 @@ fn extract_ratings(
         }
         let ratings_sum: f64 = ratings.iter().sum();
         let avg_rating = ratings_sum / ratings.len() as f64;
-        book.insert(String::from(KEY_AVERAGE_RATING), json!(to_string_2_dec_places(avg_rating)));
+        book.insert(
+            String::from(KEY_AVERAGE_RATING),
+            json!(to_string_2_dec_places(avg_rating)),
+        );
         book.insert(String::from(KEY_RATING_PERCENT), json!(avg_rating * 20.0));
     }
     Ok(member_ratings)
@@ -183,20 +209,14 @@ fn value_to_f64(value: &Value) -> Option<f64> {
     match value {
         Value::Null | Value::Bool(_) | Value::Array(_) | Value::Object(_) => None,
         Value::Number(_) => value.as_f64(),
-        Value::String(s) => if let Some(f) = s.parse::<f64>().ok() {
-            Some(f)
-        } else {
-            None
+        Value::String(s) => {
+            if let Some(f) = s.parse::<f64>().ok() {
+                Some(f)
+            } else {
+                None
+            }
         }
     }
-}
-
-fn read_gon_object(content_dir: &PathBuf, path: &str) -> Result<Value, String> {
-    let src = std::fs::read_to_string(content_dir.join(path))
-        .map_err(|_| format!("missing '{dir}/{path}'!", dir = content_dir.display()))?;
-
-    let gon = gon::parse_str(&src).map_err(|e| format!("ill-formed {path}: {e}"))?;
-    Ok(gon.into())
 }
 
 fn read_file(content_dir: &PathBuf, path: &str) -> Result<String, String> {

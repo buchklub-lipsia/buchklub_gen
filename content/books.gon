@@ -9,7 +9,19 @@
         info: "",
         originator: "edisa",
         proposal_date: "Oktober 2026",
-        comments: [],
+        comments: [
+            {
+                from: "malte",
+                rating: 4,
+                content: "»Herkunft« ist ein unterhaltsamer moderner Roman,
+                          dessen Besprechung die bisher längste Sitzung des
+                          Klubs war. Wir unterhielten uns zu viert mehr als drei
+                          Stunden lang über »Herkunft« und Herkunft, über Politik
+                          und Geschichte und über unsere eigenen Erfahrungen.
+                          Auch das kann als Verdienst von Stanišić betrachtet
+                          werden.",
+            },
+        ],
     },
     {
         name: "Und dann gabs keines mehr",
